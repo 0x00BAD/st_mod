@@ -1,1 +1,1 @@
-test
+Am adaugat serverul: %s
