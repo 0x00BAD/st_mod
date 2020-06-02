@@ -1,1 +1,1 @@
-Am adaugat serverul: %s
+Am adaugat launcherul pentru serverul: 'M2Vame'
