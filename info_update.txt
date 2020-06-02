@@ -1,1 +1,3 @@
-Am adaugat launcherul pentru serverul: 'M2Vame'
+Am adaugat launcherul pentru serverul: 
+- M2Vame
+- RamsesMetin2
