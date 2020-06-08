@@ -5,8 +5,7 @@ Am adaugat launcherul pentru serverul:
 - Metin2HF
 _________________________________________
 
-Update >>>
-Update ST Mod Launcher:
+Update ST Mod Launcher pentru serverele:
 - Ramses2
 - Escaliburg
 
