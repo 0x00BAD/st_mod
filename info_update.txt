@@ -2,8 +2,12 @@ Am adaugat launcherul pentru serverul:
 - M2Vame
 - RamsesMetin2
 - Metin2GX
+- Metin2HF
 _________________________________________
 
 Update >>>
 Update ST Mod Launcher:
 - Ramses2
+- Escaliburg
+
++ *** Fix-uri minore ***
