@@ -3,10 +3,12 @@ Am adaugat launcherul pentru serverul:
 - RamsesMetin2
 - Metin2GX
 - Metin2HF
+- Metin2Sony
 _________________________________________
 
 Update ST Mod Launcher pentru serverele:
 - Ramses2
 - Escaliburg
+- Rodnia
 
 + *** Fix-uri minore ***
