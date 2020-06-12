@@ -4,6 +4,7 @@ Am adaugat launcherul pentru serverul:
 - Metin2GX
 - Metin2HF
 - Metin2Sony
+- Metin2Europe
 _________________________________________
 
 Update ST Mod Launcher pentru serverele:
