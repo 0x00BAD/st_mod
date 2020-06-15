@@ -6,6 +6,7 @@ Am adaugat launcherul pentru serverul:
 - Metin2Sony
 - Metin2Europe
 - Metin2Zeta
+- Metin2Imperial
 _________________________________________
 
 Update ST Mod Launcher pentru serverele:
