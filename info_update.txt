@@ -1,5 +1,6 @@
 Update Downloader.
 Am adaugat functia "cauta launcher".
+Am remediat eroarea din downloader prin care nu puteai descarca nici un launcher.
 
 _________________________________________
 
