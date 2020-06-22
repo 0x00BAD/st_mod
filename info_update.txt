@@ -1,27 +1,11 @@
 Update Downloader.
-Am adaugat functia "cauta launcher".
-Am remediat eroarea din downloader prin care nu puteai descarca nici un launcher.
+N/A
 
 _________________________________________
 
 Am adaugat launcherul pentru serverul: 
-- M2Vame
-- RamsesMetin2
-- Metin2GX
-- Metin2HF
-- Metin2Sony
-- Metin2Europe
-- Metin2Zeta
-- Metin2Imperial
-- Metin2Navaria
-- Metin2Arena
-- Metin2Prestige
+- Metin2Prestige /// 220620
 _________________________________________
 
 Update ST Mod Launcher pentru serverele:
-- Ramses2
-- Escaliburg
-- Rodnia (Adaugat un nou farmbot, M2kMod & ZAHON Mod)
-- Calliope (Adaugat un nou farmbot, M2kMod & ZAHON Mod)
-
-+ *** Fix-uri minore ***
+N/A
