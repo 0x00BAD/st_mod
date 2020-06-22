@@ -15,6 +15,7 @@ Am adaugat launcherul pentru serverul:
 - Metin2Imperial
 - Metin2Navaria
 - Metin2Arena
+- Metin2Prestige
 _________________________________________
 
 Update ST Mod Launcher pentru serverele:
