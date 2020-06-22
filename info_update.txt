@@ -1,11 +1,4 @@
-Update Downloader.
-N/A
+Launcherul ST Mod a fost implementat pe server(ele) de mai jos:
 
-_________________________________________
-
-Am adaugat launcherul pentru serverul: 
-- Metin2Prestige /// 220620
-_________________________________________
-
-Update ST Mod Launcher pentru serverele:
-N/A
+- Metin2Prestige ---> 220620
+- Metin2Zarkana ---> 220620
