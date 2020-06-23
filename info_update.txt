@@ -2,3 +2,6 @@ Launcherul ST Mod a fost implementat pe server(ele) de mai jos:
 
 - Metin2Prestige ---> 220620
 - Metin2Zarkana ---> 220620
+
+Update ST Mod Launcher ---> 230620
+Rezolvarea unor erori.
