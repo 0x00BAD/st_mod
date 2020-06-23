@@ -4,4 +4,5 @@ Launcherul ST Mod a fost implementat pe server(ele) de mai jos:
 - Metin2Zarkana ---> 220620
 
 Update ST Mod Launcher ---> 230620
-Rezolvarea unor erori.
+Am adaugat rezolvarea problemelor direct in aplicatie.
+Am introdus o noua aplicatie in cazul in care nu va puteti inregistra.
