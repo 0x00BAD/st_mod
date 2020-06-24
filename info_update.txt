@@ -1,3 +1,9 @@
+Update important --->         240620
+Am implementat "ST Mod Universal"
+Prin acest mod, va puteti crea singuri launcherele cu hack pe majoritatea serverelor.
+Daca veti intampina probleme, sau launcherul nu va functiona cum ar trebui, 
+depuneti pe Discord o cerere pentru serverul dorit.
+
 Launcherul ST Mod a fost implementat pe server(ele) de mai jos:
 
 - Metin2Prestige --->     220620
