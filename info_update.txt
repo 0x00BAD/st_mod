@@ -1,16 +1,6 @@
-Update important --->         240620
-Am implementat "ST Mod Universal"
-Prin acest mod, va puteti crea singuri launcherele cu hack pe majoritatea serverelor.
-Daca veti intampina probleme, sau launcherul nu va functiona cum ar trebui, 
-depuneti pe Discord o cerere pentru serverul dorit.
+ST Mod Launcher Universal este acum gratuit!
 
-Launcherul ST Mod a fost implementat pe server(ele) de mai jos:
+Pentru a-l putea descarca, intrati pe link-ul de mai jos:
+https://bit.ly/stmod_univ
 
-- Metin2Prestige --->     220620
-- Metin2Zarkana --->      220620
-- Zorya2 --->             240620
-- Art of Metin2 --->      240620
-
-Update ST Mod Launcher ---> 230620
-Am adaugat rezolvarea problemelor direct in aplicatie.
-Am introdus o noua aplicatie in cazul in care nu va puteti inregistra.
+In viitor, voi reface si launcherele particulare.
