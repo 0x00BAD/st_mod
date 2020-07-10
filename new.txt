@@ -1,5 +1,7 @@
 In this version, v110720
+
 Those are the new improvements:
+
 - randomized title (for memory detection inside of protected clients)
 - added a tray menu, you can control your clients from there (minimized ST Mod)
 - disabled profile system (at the moment add a new server isn't a necessary function, instead of adding a new server, just copy-paste ST Mod into the metin2 folder configure it there)
