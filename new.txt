@@ -1,8 +1,9 @@
-In this version, v140720
+In this version, v140720_rev2
 
 Those are the new improvements:
 
-- added a new method (Age of Menor method) [it may work on different servers as well]
+- added method3 (especially for Age of Menor server, but actually it will work on different servers too)
+- ad system added
 - fixed some bugs.
 
 Happy botting! :)
