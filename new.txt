@@ -3,6 +3,7 @@ In this version, v140720_rev2
 Those are the new improvements:
 
 - added method3 (especially for Age of Menor server, but actually it will work on different servers too)
+- fixed damage hack for Age of Menor (now waithack works, but be careful, you'll get kicked often)
 - ad system added
 - fixed some bugs.
 
