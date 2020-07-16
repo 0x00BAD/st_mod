@@ -1,6 +1,9 @@
-In this version, v150720_rev2
+In this version, v160720
 
 Those are the new improvements:
 
-- fixed again some bugs. (if you find some bugs, please report them via Discord or email: spankteam92@gmail.com)
+- added method4
+- fixed again some bugs. 
+
+(if you find some bugs, please report them via Discord or email: spankteam92@gmail.com)
 Thanks!
