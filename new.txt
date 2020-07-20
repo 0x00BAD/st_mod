@@ -1,6 +1,7 @@
-In this version, v170720
+In this version, v200720
 
 Those are the new improvements:
 
-- bypassed HackTrap - now you can play on servers protected with HackTrap
+- Added a new AntiHack bypass that runs pretty well on most known antihacks, try and see!
+- It now works on Origins2
 - few bugs fixed
