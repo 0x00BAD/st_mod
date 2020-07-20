@@ -2,6 +2,6 @@ In this version, v200720
 
 Those are the new improvements:
 
-- Added a new AntiHack bypass that runs pretty well on most known antihacks, try and see!
-- It now works on Origins2
+- Improved AntiHack bypass that bypasses pretty well most known antihacks
+- ST Mod now works on Origins2
 - few bugs fixed
