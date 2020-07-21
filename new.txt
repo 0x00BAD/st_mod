@@ -1,7 +1,5 @@
-In this version, v200720
+In this version, v210720
 
 Those are the new improvements:
 
-- Improved AntiHack bypass that bypasses pretty well most known antihacks
-- ST Mod now works on Origins2
-- few bugs fixed
+- Improved ad system
