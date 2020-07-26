@@ -1,6 +1,5 @@
-In this version, v260720
+In this version, v260720_rev2
 
 Those are the new improvements:
 
-- Added a new function, you can check now error logs (check stmod_error_log.log)
-- Fixed some bugs
+- Fixed some bugs (errorlog was filled up with unhelpful info)
