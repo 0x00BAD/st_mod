@@ -1,5 +1,6 @@
-In this version, v240720
+In this version, v260720
 
 Those are the new improvements:
 
-- Improved wait hack, now works well on Origins2 (use method4)
+- Fixed some bugs
+- Added a new function, you can check now error logs (check stmod_error_log.log)
