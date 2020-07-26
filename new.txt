@@ -2,6 +2,5 @@ In this version, v260720
 
 Those are the new improvements:
 
-- You can now use ST Mod multiple times (ex: you can open as much clients as you want, or playing simultaneous on different servers.)
 - Added a new function, you can check now error logs (check stmod_error_log.log)
 - Fixed some bugs
