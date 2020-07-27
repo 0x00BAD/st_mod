@@ -1,5 +1,5 @@
-In this version, v260720_rev2
+In this version, v270720
 
 Those are the new improvements:
 
-- Fixed some bugs (errorlog was filled up with unhelpful info)
+- Fixed ad system (now you have to skip ads only once a day)
