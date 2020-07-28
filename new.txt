@@ -1,5 +1,7 @@
-In this version, v270720
+In this version, v280720
 
 Those are the new improvements:
 
-- Fixed ad system (now you have to skip ads only once a day)
+- Improved ad system
+- Added language system (if you want to help us with translations, please send me a PM)
+- Some bugs got fixed
