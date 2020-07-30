@@ -1,7 +1,5 @@
-In this version, v280720
+In this version, v300720
 
 Those are the new improvements:
 
-- Improved ad system
-- Added language system (if you want to help us with translations, please send me a PM)
 - Some bugs got fixed
