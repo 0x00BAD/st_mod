@@ -1,5 +1,6 @@
-In this version, v300720
+In this version, v030820
 
 Those are the new improvements:
 
 - Some bugs got fixed
+- Increased time when ads are showing (about 5 min.)
