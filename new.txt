@@ -5,4 +5,3 @@ Those are the new improvements:
 - Some bugs got fixed
 - Increased time when ads are showing (about 5 min.)
 - Added more languages (ES, HU, PL, PT)
-- Added a new function ("Crash report sender" removal)
