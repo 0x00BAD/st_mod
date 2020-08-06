@@ -1,6 +1,7 @@
-In this version, v050820
+In this version, v060820
 
 Those are the new improvements:
 
-- Some bugs got fixed
-- Added a new function (for those who can't skip ads --> 'add ST Mod to firewall exception')
+- Added a new multimod (check it out, lots of useful functions)
+- Now you don't need to place anymore ST Mod in Metin2 client folder.
+- Fixed some bugs ... again
