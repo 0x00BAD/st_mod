@@ -5,3 +5,7 @@ Those are the new improvements:
 - Added a new multimod (check it out, lots of useful functions)
 - Now you don't need to place anymore ST Mod in Metin2 client folder.
 - Fixed some bugs ... again
+
+In this version, v060820_rev2
+
+- Fixed a bug where non ad-free users couldn't press on 'Next' button.
