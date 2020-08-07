@@ -7,4 +7,4 @@ In this version, v070820_rev2
 
 Those are the new improvements:
 - Fixed some translation bugs
-- Improved auto-updater (when msg with new version pop-ups will download the new version and run it after download)
+- Improved auto-updater (when msg with new version pop-ups will download the new version and run it after download --> you only get this update when new updates will come)
