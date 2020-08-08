@@ -1,4 +1,5 @@
-In this version, v080820
+In this version, v080820_rev2
 
 Those are the new improvements:
 - Some bugs got fixed
+- Added again M2kMod - with few bugfixes (Warning: It may not work on every server!)
