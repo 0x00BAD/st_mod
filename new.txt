@@ -1,5 +1,4 @@
-In this version, v080820_rev2
+In this version, v080820_rev3
 
 Those are the new improvements:
-- Some bugs got fixed
-- Added again M2kMod - with few bugfixes (Warning: It may not work on every server!)
+- Fixed an important bug (clients without arguments won't launch)
