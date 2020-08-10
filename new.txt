@@ -2,4 +2,3 @@ In this version, v100820_rev2
 
 Those are the new improvements:
 - Fixed some bugs
-- Added a new function --> you can switch servers now
