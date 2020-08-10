@@ -1,4 +1,4 @@
-In this version, v080820_rev3
+In this version, v100820
 
 Those are the new improvements:
-- Fixed an important bug (clients without arguments won't launch)
+- Fixed some bugs
