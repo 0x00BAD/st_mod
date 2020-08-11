@@ -1,4 +1,4 @@
-In this version, v100820_rev2
+In this version, v110820
 
 Those are the new improvements:
-- Fixed some bugs
+- Fixed some bugs and some translations
