@@ -1,5 +1,4 @@
-In this version, v160820
+In this version, v170820
 
 Those are the new improvements:
-- Updated bypass for HackTrap
-- Removed 'freeze' function when ads were showing up
+- Fixed some bugs
