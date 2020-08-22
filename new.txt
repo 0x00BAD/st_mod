@@ -1,6 +1,5 @@
-In this version, v210820
+In this version, v220820
 
 Those are the new improvements:
 - Fixed some bugs about ads can't be skiped (if you still can't skip ads, please switch/change your IP)
-- Fixed minimize to tray bug
-- Fixed other minor bugs
+- Added a fix to the main form, if you can't skip ads, just try the fix
