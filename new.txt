@@ -1,6 +1,6 @@
-In this version, v300820
+In this version, v310820
 
 Those are the new improvements:
-- Fixed some bugs about ads can't be skiped (if you still can't skip ads, please switch/change your IP)
-- Fixed bypass for HackTrap (WARNING: It may not work on all servers that are using HackTrap!)
-- Again some bugs got fixed
+- Few users couldn't use keys ingame - fixed
+- Changed the link from the ads
+- Few bugs got fixed
