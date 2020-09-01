@@ -1,6 +1,4 @@
-In this version, v310820
+In this version, v010920
 
 Those are the new improvements:
-- Few users couldn't use keys ingame - fixed
-- Changed the link from the ads
-- Few bugs got fixed
+- Fixed a bug
