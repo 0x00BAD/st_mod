@@ -1,4 +1,5 @@
-In this version, v010920
+In this version, v030920
 
 Those are the new improvements:
-- Fixed a bug
+- Rearranged menu-items > see in 'File' menu
+- Fixed some bugs
