@@ -1,12 +1,7 @@
-In this version, v030920
+In this version, v050920
 
 Those are the new improvements:
-- Rearranged menu-items > see in 'File' menu
-- Fixed some bugs
-
-In this version, v030920_rev2
-
-Those are the new improvements:
-- Added a function -> delete a profile server
-- Added a function at Help->Tutorial (There will be a link that redirects you to YouTube)
-- Fixed some bugs
+- Now ST Mod it is bypassing python protection (The one with > "Blabla file is in plus, please delete it"), but now you can only play on single clients.
+- Added a new function (manual inject)
+- When you're prompted for new versions, it will autodownload this file  to be able to keep the changelog
+- Again, fixed some bugs
