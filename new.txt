@@ -5,3 +5,6 @@ Those are the new improvements:
 - Added a new function (manual inject)
 - When you're prompted for new versions, it will autodownload this file  to be able to keep the changelog
 - Again, fixed some bugs
+
+In this version, v050920_rev2
+- Fixed a bug that couldn't let users manual injecting
