@@ -4,6 +4,19 @@ Those are the new improvements:
 - Fixed a bug that couldn't let paid-users using more than 2 clients
 - Improved manual injecting
 
+
+
 In this version, v070920_rev2
+
+Those are the new improvements:
 - Fixed some bugs
 - Added a new help button for new users (maybe existing users)
+
+
+
+In this version, v070920_rev3
+
+Those are the new improvements:
+- Added 'Already paid' function (Help>Already paid)
+- Improved profile system
+- Fixed some bugs
