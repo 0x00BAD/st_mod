@@ -1,10 +1,4 @@
-In this version, v050920
+In this version, v070920
 
 Those are the new improvements:
-- Now ST Mod it is bypassing python protection (The one with > "Blabla file is in plus, please delete it"), but now you can only play on 1 client (when "Copy lauuncher" function is disabled)
-- Added a new function (manual inject)
-- When you're prompted for new versions, it will autodownload this file  to be able to keep the changelog
-- Again, fixed some bugs
-
-In this version, v050920_rev2
-- Fixed a bug that couldn't let users manual injecting
+- Fixed a bug that couldn't let paid-users using more than 2 clients
