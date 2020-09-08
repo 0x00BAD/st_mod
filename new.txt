@@ -3,3 +3,8 @@ In this version, v080920
 Those are the new improvements:
 - Fixed some bugs
 - Users that paid in the past, please open up ST Mod, go to Help > Already paid, and send me what you got. Thanks!
+
+In this version, v080920_rev2
+
+Those are the new improvements:
+- Forgot to fix something
