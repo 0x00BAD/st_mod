@@ -1,4 +1,6 @@
-In this version, v080920_rev4
+In this version, v110920
 
 Those are the new improvements:
-- Added a new fix for method4
+- Added method5 (you can use this method for RODNIA)
+- Fixed some bugs
+- Added a new potentially fix for HackTrap (alpha phase)
