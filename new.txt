@@ -1,12 +1,4 @@
-In this version, v110920
+In this version, v150920
 
 Those are the new improvements:
-- Added method5 (you can use this method for RODNIA)
-- Fixed some bugs
-- Added a new potentially fix for HackTrap (alpha phase)
-
-
-In this version, v110920_rev2
-
-Those are the new improvements:
-- Fixed something @METHOD5
+- Fixed some bugs at starting clients
