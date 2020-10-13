@@ -1,4 +1,10 @@
-In this version, v150920
+In this version, v131020
 
 Those are the new improvements:
-- Fixed some bugs at starting clients
+- Fixed few bugs
+
+-------------------------------------------------
+NEWS
+-------------------------------------------------
+Starting from 15 of November 2020, we will no longer provide permanent premium ID's.
+Until then, you can enjoy playing with ST Mod.
