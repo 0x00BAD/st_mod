@@ -1,7 +1,10 @@
-In this version, v131020
+In this version, v141020
 
 Those are the new improvements:
-- Fixed few bugs
+- Fixed a bug where Zahon_Mod wasn't installed properly;
+- Premium users can now use up to 12 clients;
+- Added a new multihack >>> "Cycu multihack"
+- Fixed other minor bugs
 
 -------------------------------------------------
 NEWS
