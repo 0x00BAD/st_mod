@@ -1,13 +1,8 @@
-In this version, v141020
+In this version, v211020
 
 Those are the new improvements:
-- Fixed a bug where Zahon_Mod wasn't installed properly;
-- Premium users can now use up to 12 clients;
-- Added a new multihack >>> "Cycu multihack"
+- Added a new plugin: X7 damage hack with high range
+- Fixed some visual bugs
+- Fixed Francoiz_MOD
+- Fixed misspell languages
 - Fixed other minor bugs
-
--------------------------------------------------
-NEWS
--------------------------------------------------
-Starting from 15 of November 2020, we will no longer provide permanent premium ID's.
-Until then, you can enjoy playing with ST Mod.
