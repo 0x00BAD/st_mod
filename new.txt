@@ -1,8 +1,5 @@
-In this version, v211020
+In this version, v231020
 
 Those are the new improvements:
-- Added a new plugin: X7 damage hack with high range
-- Fixed some visual bugs
-- Fixed Francoiz_MOD
-- Fixed misspell languages
-- Fixed other minor bugs
+- Premium users will now see inside the app how many days they have
+- Fixed few bugs
