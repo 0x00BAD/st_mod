@@ -1,5 +1,6 @@
-In this version, v231020
+In this version, v241020
 
 Those are the new improvements:
-- Premium users will now see inside the app how many days they have
+- Added a new plugin >>> Extreme Injector (for clients that ST Mod can't manage to inject)
+- Changed strings (for a better undetection)
 - Fixed few bugs
