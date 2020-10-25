@@ -1,6 +1,6 @@
-In this version, v241020
+In this version, v251020
 
 Those are the new improvements:
-- Added a new plugin >>> Extreme Injector (for clients that ST Mod can't manage to inject)
-- Changed strings (for a better undetection)
-- Fixed few bugs
+- Fixed a bug where premium users couldn't see their remaining time
+- Fixed some bugs
+- Added two new languages: ARABIC & CZECH
