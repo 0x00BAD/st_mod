@@ -1,6 +1,10 @@
-In this version, v251020
+In this version, v281020
 
 Those are the new improvements:
-- Fixed a bug where premium users couldn't see their remaining time
-- Fixed some bugs
-- Added two new languages: ARABIC & CZECH
+- Now ST Mod reads properly AR/CZ languages
+- Fixed some minor bugs
+
+From now on, premium membership paid with PayPal will increase to 6Eur/Month due to PayPal's taxes. 
+PaysafeCard will not be affected!
+
+Thank you for understanding!
