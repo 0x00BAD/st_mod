@@ -1,10 +1,9 @@
-In this version, v281020
+In this version, v041120
 
 Those are the new improvements:
-- Now ST Mod reads properly AR/CZ languages
-- Fixed some minor bugs
+- Changed licencing system
+- Added a new potential anti detector
+- Changed some algorithms
+- Fixed some bugs
 
-From now on, premium membership paid with PayPal will increase to 6Eur/Month due to PayPal's taxes. 
-PaysafeCard will not be affected!
-
-Thank you for understanding!
+NOTICE: EVERY PREMIUM USER, PLEASE SEND ME YOUR NEW ID!
