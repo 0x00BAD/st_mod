@@ -1,9 +1,9 @@
-In this version, v041120
+In this version, v061120
 
 Those are the new improvements:
-- Changed licencing system
-- Added a new potential anti detector
-- Changed some algorithms
 - Fixed some bugs
+- Fixed some visual issues
+- Added a new function (Check servers >>> you can see 2 lists with servers that are working and servers that don't) [File > Check servers]
+- Added a new bot (Switchbot)
 
 NOTICE: EVERY PREMIUM USER, PLEASE SEND ME YOUR NEW ID!
