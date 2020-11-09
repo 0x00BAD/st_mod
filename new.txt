@@ -6,5 +6,12 @@ Those are the new improvements:
 - Added another waithack (Only for Calliope & premium users!)
 - Fixed some bugs
 
+
+In this version, v091120_rev2
+
+Those are the new improvements:
+- Fixed a bug where .bin clients couldn't be opened properly
+
+
 NOTICE: EVERY PREMIUM USER, PLEASE SEND ME YOUR NEW ID!
 NOTICE2: Please report which server does work and which doesn't. So I could update the list.
