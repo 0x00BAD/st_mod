@@ -1,17 +1,10 @@
-In this version, v091120
+In this version, v111120
 
 Those are the new improvements:
-- Added method 6 (Beta phase)
-- Added a new multihack (Which includes wait-hack)
-- Added another waithack (Only for Calliope & premium users!)
+- Added Christmas theme (File>Design)
+- Added a new potential fix for bypassing HackTrap
 - Fixed some bugs
 
-
-In this version, v091120_rev2
-
-Those are the new improvements:
-- Fixed a bug where .bin clients couldn't be opened properly
-
-
-NOTICE: EVERY PREMIUM USER, PLEASE SEND ME YOUR NEW ID!
+NOTICE: Every user that bought in the past the premium membership, please send me your new ID!
 NOTICE2: Please report which server does work and which doesn't. So I could update the list.
+NOTICE3: Every user that can't access the website, please use a proxy.
