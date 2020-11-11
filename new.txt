@@ -8,3 +8,8 @@ Those are the new improvements:
 NOTICE: Every user that bought in the past the premium membership, please send me your new ID!
 NOTICE2: Please report which server does work and which doesn't. So I could update the list.
 NOTICE3: Every user that can't access the website, please use a proxy.
+
+In this version, v111120_rev2
+
+Those are the new improvements:
+- Quick update (Fixed a bug where users couldn't start any client from ST Mod)
