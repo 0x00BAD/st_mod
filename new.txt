@@ -1,9 +1,9 @@
-In this version, v811120
+In this version, v201120
 
 Those are the new improvements:
-- Added a new feature (HWID switcher *Premium only* > If you ever get hwid banned, you can trick that!)
-- Fixed some bugs...
+- Added 4 new languages (BG, DK, HR, NL)
 
 
-NOTICE2: Please report which server does work and which doesn't. So I could update the list.
-NOTICE3: Every user that can't access the website, please use a proxy.
+NOTICE: Please report which server does work and which doesn't. So I could update the list.
+NOTICE2: Every user that can't access the website, please use a proxy.
+NOTEICE3: I'm working on a new HackTrap bypass, stay tuned.
