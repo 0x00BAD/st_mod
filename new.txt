@@ -1,10 +1,7 @@
-In this version, v301120
+In this version, v011220
 
 Those are the new improvements:
-- Added a close button on "MH By Kag"
-- Added a "How to pay" tutorial
-- For Metin2Fun users, now it will get auto updates
-- Fixed some other things I can't remember now
+- Fixed few bugs (Auto-settings for Meitn2Fun didn't download properly & fixed "You're premium" for free users)
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
