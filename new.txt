@@ -1,8 +1,7 @@
-In this version, v011220
+In this version, v031220
 
 Those are the new improvements:
-- Fixed few bugs (Auto-settings for Meitn2Fun didn't download properly & fixed "You're premium" for free users)
+- Fixed language pack
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
-NOTICE3: If you don't get prompted to download the newer version, download it manually.
