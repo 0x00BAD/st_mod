@@ -1,7 +1,8 @@
-In this version, v031220
+In this version, v111220
 
 Those are the new improvements:
-- Fixed language pack
+- Finally, the GF update arrived. That means that you can use now ST Mod for Gameforge servers!
+- Fixed some bugs
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
