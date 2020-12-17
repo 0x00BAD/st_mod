@@ -1,8 +1,9 @@
-In this version, v111220
+In this version, v171220
 
 Those are the new improvements:
-- Finally, the GF update arrived. That means that you can use now ST Mod for Gameforge servers!
-- Fixed some bugs
+- Fixed ZAHON_MOD - now it is installing properly
+- Fixed pickup bot for PServers
+- Fixed other minor bugs
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
