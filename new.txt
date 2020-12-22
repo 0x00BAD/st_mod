@@ -4,6 +4,7 @@ Those are the new improvements:
 - Fixed start/stop function for clients that cannot be used with "copy launcher" function
 - Fixed waithack for Calliope (premium only)
 - Fixed other minor issues
+- Some visual upgrades
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
