@@ -1,8 +1,9 @@
-In this version, v181220
+In this version, v221220
 
 Those are the new improvements:
-- Fixed 'ST Mod is corrupt' bug
-- Multimod translated
+- Fixed start/stop function for clients that cannot be used with "copy launcher" function
+- Fixed waithack for Calliope (premium only)
+- Fixed other minor issues
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
