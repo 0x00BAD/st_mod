@@ -1,11 +1,7 @@
-In this version, v221220
+In this version, v231220
 
 Those are the new improvements:
-- Fixed start/stop function for clients that cannot be used with "copy launcher" function
-- Fixed waithack for Calliope (premium only)
-- Fixed other minor issues
-- Some visual upgrades
-- Auto settings for Calliope
+- Fixed "common language runtime detected an invalid program" bug
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
