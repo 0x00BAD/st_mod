@@ -1,7 +1,9 @@
-In this version, v231220
+In this version, v281220
 
 Those are the new improvements:
-- Fixed "common language runtime detected an invalid program" bug
+- Added auto-settings for Rodnia
+- Added a new button for starting clients without ST Mod
+- Fixed few bugs
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
