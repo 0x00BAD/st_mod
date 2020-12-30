@@ -1,9 +1,8 @@
-In this version, v281220
+In this version, v301220
 
 Those are the new improvements:
-- Added auto-settings for Rodnia
-- Added a new button for starting clients without ST Mod
-- Fixed few bugs
+- Fixed auto settings for 'Metin2Fun'
+- Added a new paying option: 'Duo' >> (2 months for 10Eur / 2 users per month()
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
