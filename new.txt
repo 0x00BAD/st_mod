@@ -1,9 +1,8 @@
-In this version, v301220
+In this version, v040121
 
 Those are the new improvements:
-- Fixed auto settings for 'Metin2Fun'
 - Damage hack fixed for 'Metin2Fun'
-- Added a new paying option: 'Duo' >> (2 months for 10Eur / 2 users per month()
+- Few bugs got fixed
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
 NOTICE2: Every user that can't access the website, please use a proxy.
