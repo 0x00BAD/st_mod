@@ -1,7 +1,8 @@
-In this version, v040121
+In this version, v090121
 
 Those are the new improvements:
-- Damage hack fixed for 'Metin2Fun'
+- Damage hack fixed for 'Calliope'
+- Litle bit of improvement at antihack bypassing
 - Few bugs got fixed
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
