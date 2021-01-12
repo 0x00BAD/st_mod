@@ -1,9 +1,8 @@
-In this version, v090121
+In this version, v120121
 
 Those are the new improvements:
-- Damage hack fixed for 'Calliope'
-- Little bit of improvement at antihack bypassing
-- Few bugs got fixed
+- No more Metin2 client dependency
+- Added energy bot for PServers (may be bugged sometimes)
+- Fixed few bugs
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
-NOTICE2: Every user that can't access the website, please use a proxy.
