@@ -1,8 +1,7 @@
-In this version, v120121
+In this version, v120121_rev2
 
 Those are the new improvements:
-- No more Metin2 client dependency
-- Added energy bot for PServers (may be bugged sometimes)
-- Fixed few bugs
+- Added CHINESE language
+- Now spankteam.dll is saved on ST Mod path, for users that can't load ST Mod via launcher only with Extreme Injector.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
