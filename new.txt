@@ -1,7 +1,7 @@
-In this version, v120121_rev2
+In this version, v160121
 
 Those are the new improvements:
-- Added CHINESE language
-- Now spankteam.dll is saved on ST Mod path, for users that can't load ST Mod via launcher only with Extreme Injector.
+- Free users won't get that annoying pop-up messge every ~5 min
+- Fixed bugs.. again
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
