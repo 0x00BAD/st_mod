@@ -6,4 +6,7 @@ Those are the new improvements:
 - At farmbot module, added a '?' button next to AutoAttack button which is saying which value you should use
 - Fixed bugs.. again
 
+In this version, v160121_rev2
+- Fixed a bug for free users
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
