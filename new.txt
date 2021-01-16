@@ -2,6 +2,8 @@ In this version, v160121
 
 Those are the new improvements:
 - Free users won't get that annoying pop-up messge every ~5 min
+- If ST Mod detects that you don't have the necesary dependency, it will inform you and download.
+- At farmbot module, added a '?' button next to AutoAttack button which is saying which value you should use
 - Fixed bugs.. again
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
