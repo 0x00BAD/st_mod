@@ -1,6 +1,9 @@
-In this version, v210121
+In this version, v220121
 
 Those are the new improvements:
+- Updated mod for HackTrap;
+- Fixed close button for energy bot;
+- Added a new bot: 'Add stone bot';
 - Some bugs got fixed.
 
 
