@@ -7,5 +7,9 @@ Those are the new improvements:
 - Fixed ST Mod for GF servers;
 - Some bugs got fixed.
 
+In this version, v220121_rev2
+
+Those are the new improvements:
+- Fixed for Age of Menor
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
