@@ -4,6 +4,7 @@ Those are the new improvements:
 - Updated mod for HackTrap;
 - Fixed close button for energy bot;
 - Added a new bot: 'Add stone bot';
+- Fixed ST Mod for GF servers;
 - Some bugs got fixed.
 
 
