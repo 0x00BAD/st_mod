@@ -1,15 +1,8 @@
-In this version, v220121
+In this version, v240121
 
 Those are the new improvements:
-- Updated mod for HackTrap;
-- Fixed close button for energy bot;
-- Added a new bot: 'Add stone bot';
-- Fixed ST Mod for GF servers;
-- Some bugs got fixed.
-
-In this version, v220121_rev2
-
-Those are the new improvements:
-- Fixed for Age of Menor
+- Fixed 'cycu' module;
+- Error_log improved;
+- Some bug fixes
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
