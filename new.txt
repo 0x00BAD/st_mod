@@ -3,6 +3,11 @@ In this version, v240121
 Those are the new improvements:
 - Fixed 'cycu' module;
 - Error_log improved;
-- Some bug fixes
+- Some bug fixes.
+
+In this version, v240121_rev2
+
+Those are the new improvements:
+- Fixed for Metin2Fun.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
