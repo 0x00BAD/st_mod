@@ -7,4 +7,11 @@ Those are the new improvements:
 - Fixed fishbot for Metin2Legend;
 - Translated Fishbot.
 
+In this version, v250121_rev2
+
+Those are the new improvements:
+- Removed 'cycu loader';
+- Improved multimod with better functions (better farmbot, shop scanner, etc.);
+- Fixed bugs.
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
