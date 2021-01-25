@@ -1,7 +1,7 @@
 In this version, v250121
 
 Those are the new improvements:
-- Fixed dependecy error;
+- Fixed dependency error;
 - Fixed starting clients with other extensions (now you can open clients as '.exe' even if they are '.txt';
 - Some bug fixes.
 
