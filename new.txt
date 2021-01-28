@@ -1,17 +1,11 @@
-In this version, v250121
+In this version, v280121
 
 Those are the new improvements:
-- Fixed dependency error;
-- Fixed starting clients with other extensions (now you can open clients as '.exe' even if they are '.txt';
-- Some bug fixes;
-- Fixed fishbot for Metin2Legend;
-- Translated Fishbot.
-
-In this version, v250121_rev2
-
-Those are the new improvements:
-- Removed 'cycu loader';
-- Improved multimod with better functions (better farmbot, shop scanner, etc.);
-- Fixed bugs.
+- Disabled function 'copy launcher';
+- Improved multimod for gf servers (including shop scanner);
+- Added a new function (Hide / Show);
+- Now, if clients will crash, it will autodetect (if client1 crashed, stop button will not be visible.) useful so as not to confuse you;
+- Enabled function 'Switch server' (File > Settings > Switch server) >> Now you do not have to close ST Mod to switch to another server;
+- Bug fixes.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
