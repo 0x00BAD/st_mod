@@ -1,11 +1,7 @@
-In this version, v280121
+In this version, v290121
 
 Those are the new improvements:
-- Disabled function 'copy launcher';
-- Improved multimod for gf servers (including shop scanner);
-- Added a new function (Hide / Show);
-- Now, if clients will crash, it will autodetect (if client1 crashed, stop button will not be visible.) useful so as not to confuse you;
-- Enabled function 'Switch server' (File > Settings > Switch server) >> Now you do not have to close ST Mod to switch to another server;
-- Bug fixes.
+- Premium users can use ST Mod at once for multiple servers (Going to 'Switch server' won't close active clients so you can play up to 12 servers at once.);
+- Fixed a bug where free users when clicked on 'Injector' menu, after one click it disables itself.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
