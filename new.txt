@@ -1,12 +1,6 @@
-In this version, v290121
+In this version, v300121
 
 Those are the new improvements:
-- Premium users can use ST Mod at once for multiple servers (Going to 'Switch server' won't close active clients so you can play up to 12 servers at once.);
-- Fixed a bug where free users when clicked on 'Injector' menu, after one click it disables itself.
-
-In this version, v290121_rev2
-
-Those are the new improvements:
-- Added new button on the menu (Help > ST Mod Fix) >> This is for users that can't manage to inject ST Mod.
+- Fixed for RealM2.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
