@@ -1,6 +1,7 @@
-In this version, v300121
+In this version, v310121
 
 Those are the new improvements:
-- Fixed for RealM2.
+- Removed 'Fix for RealM2';
+- Fixed bugs.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
