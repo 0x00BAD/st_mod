@@ -4,4 +4,9 @@ Those are the new improvements:
 - Removed 'Fix for RealM2';
 - Fixed bugs.
 
+In this version, v310121_rev2
+
+Those are the new improvements:
+- Added 'Fix for Venus2'.
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
