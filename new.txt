@@ -11,6 +11,7 @@ Those are the new improvements:
 - Improved design;
 - Improved antihack bypass;
 - Fixes for m2kmod and zahon mod removed;
+- M2kMod, ZAHON MOD, Farmbot by iPUSH got fixed for Calliope;
 - Some bugs got fixed.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
