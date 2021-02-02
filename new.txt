@@ -4,4 +4,13 @@ Those are the new improvements:
 - Fixed damage hack for Calliope;
 - Fixed dependency bug.
 
+
+In this version, v020221_rev3
+
+Those are the new improvements:
+- Improved design;
+- Improved antihack bypass;
+- Fixes for m2kmod and zahon mod removed;
+- Some bugs got fixed.
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
