@@ -1,6 +1,6 @@
-In this version, v010221
+In this version, v020221
 
 Those are the new improvements:
-- Fixed bugs.
+- Fixed damage hack for Calliope.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
