@@ -1,6 +1,7 @@
-In this version, v020221
+In this version, v020221_rev2
 
 Those are the new improvements:
-- Fixed damage hack for Calliope.
+- Fixed damage hack for Calliope;
+- Fixed dependency bug.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
