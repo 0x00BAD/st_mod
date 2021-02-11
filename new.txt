@@ -1,9 +1,8 @@
-In this version, v080221
+In this version, v110221
 
 Those are the new improvements:
-- Fixed a bug at Multimod > Farmbot (Didn't attack stones);
-- Improved fishbot (If you don't have bait, it will autobuy it, make sure you select the Fisherman NPC, st mod will open the shop automatically);
-- Added autologin (Click on 'Autologin' button only after you logged in);
+- Translated Zahon mod;
+- Damage hack will only be available for premium only;
 - Bugs fixed.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
