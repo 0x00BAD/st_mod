@@ -2,7 +2,7 @@ In this version, v110221
 
 Those are the new improvements:
 - Translated Zahon mod;
-- Damage hack will only be available for premium only;
+- Damage hacks will only be available for premium only;
 - Bugs fixed.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
