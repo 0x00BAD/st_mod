@@ -1,8 +1,6 @@
-In this version, v110221
+In this version, v170221
 
 Those are the new improvements:
-- Translated Zahon mod;
-- Damage hacks will only be available for premium only;
-- Bugs fixed.
+- Added a tutorial for new users (will popup if new to STMod)
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
