@@ -3,4 +3,9 @@ In this version, v170221
 Those are the new improvements:
 - Added a tutorial for new users (will popup if new to STMod)
 
+In this version, v170221_rev2
+
+Those are the new improvements:
+- Finally fixed dependecy bug (for users that STMod doesn't load ingame, go to Help > ST Mod Fix)
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
