@@ -5,4 +5,10 @@ Those are the new improvements:
 - Fixed bugs;
 - Made a launcher for STMod (You should run only that launcher for better undetection).
 
+
+In this version, v180221_rev2
+
+Those are the new improvements:
+- Added Inventory sorter.
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
