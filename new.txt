@@ -1,14 +1,7 @@
-In this version, v180221
+In this version, v190221
 
 Those are the new improvements:
-- Added a function for searching servers in the (not) / working list;
-- Fixed bugs;
-- Made a launcher for STMod (You should run only that launcher for better undetection).
-
-
-In this version, v180221_rev2
-
-Those are the new improvements:
-- Added Inventory sorter.
+- Fixed bugs for method 2/5;
+- Fixed bugs from patcher.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
