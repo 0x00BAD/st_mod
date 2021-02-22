@@ -11,4 +11,10 @@ Those are the new improvements:
 - Removed unnecessary things in STMod - now it works smoother;
 - Few other things got fixed.
 
+In this version, v220221_rev2
+
+Those are the new improvements:
+- Added a fix for Metin2Alaska.
+
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
