@@ -8,6 +8,7 @@ Those are the new improvements:
 - Fixed a bug at Farmbot (with method 6 the menu was incomplete);
 - Now if you accidentally close a hack like 'Fishbot' or everything else, you can open it again;
 - Fixed patcher;
+- Removed unnecessary things in STMod - now it works smoother;
 - Few other things got fixed.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
