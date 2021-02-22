@@ -1,7 +1,13 @@
-In this version, v190221
+In this version, v220221
 
 Those are the new improvements:
-- Fixed bugs for method 2/5;
-- Fixed bugs from patcher.
+- Removed Francoiz Mod;
+- Fixed some bugs at method 5;
+- Fixed a bug when you clicked on 'Refresh' button at servers list, the servers were multiplied at every click;
+- Fixed bug at Farmbot > if char got stuck in something didn't avoid it;
+- Fixed a bug at Farmbot (with method 6 the menu was incomplete);
+- Now if you accidentally close a hack like 'Fishbot' or everything else, you can open it again;
+- Fixed patcher;
+- Few other things got fixed.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
