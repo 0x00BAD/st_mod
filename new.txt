@@ -1,20 +1,6 @@
-In this version, v220221
+In this version, v230221
 
 Those are the new improvements:
-- Removed Francoiz Mod;
-- Fixed some bugs at method 5;
-- Fixed a bug when you clicked on 'Refresh' button at servers list, the servers were multiplied at every click;
-- Fixed bug at Farmbot > if char got stuck in something didn't avoid it;
-- Fixed a bug at Farmbot (with method 6 the menu was incomplete);
-- Now if you accidentally close a hack like 'Fishbot' or everything else, you can open it again;
-- Fixed patcher;
-- Removed unnecessary things in STMod - now it works smoother;
-- Few other things got fixed.
-
-In this version, v220221_rev2
-
-Those are the new improvements:
-- Added a fix for Metin2Alaska.
-
+- Fixed autopatcher (it will only take effect in the next updates, if you have problems when new version prompting, just go to https://stmod.net/download and get the newer version)
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
