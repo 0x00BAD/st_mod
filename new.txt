@@ -1,6 +1,6 @@
-In this version, v230221
+In this version, v240221
 
 Those are the new improvements:
-- Fixed autopatcher (it will only take effect in the next updates, if you have problems when new version prompting, just go to https://stmod.net/download and get the newer version)
+- Fixed some bugs.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
