@@ -1,6 +1,7 @@
-In this version, v240221
+In this version, v020321
 
 Those are the new improvements:
-- Fixed some bugs.
+- Fixed some bugs;
+- Added greek translation.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
