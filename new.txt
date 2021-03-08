@@ -1,7 +1,6 @@
-In this version, v020321
+In this version, v080321
 
 Those are the new improvements:
-- Fixed some bugs;
-- Added greek translation.
+- Added a new function: auto/manual injection (when your metin2client popped up, and 'auto' box isn't checked, you'll be prompted with a message to inject stmod manually into your metin2 client)
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
