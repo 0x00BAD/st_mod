@@ -1,6 +1,6 @@
-In this version, v080321
+In this version, v140321
 
 Those are the new improvements:
-- Added a new function: auto/manual injection (when your metin2client popped up, and 'auto' box isn't checked, you'll be prompted with a message to inject stmod manually into your metin2 client)
+- Fixed some bugs.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
