@@ -1,6 +1,7 @@
-In this version, v150321
+In this version, v270321
 
 Those are the new improvements:
-- Fixed a bug at manual injection with hotkey.
+- Added senpaiex's unX Mini Bot;
+- Fixed some issues.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
