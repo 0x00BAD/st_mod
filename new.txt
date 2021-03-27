@@ -1,7 +1,7 @@
 In this version, v270321
 
 Those are the new improvements:
-- Added senpaiex's unX Mini Bot;
+- Added senpaiex's unX Mini Bot for GF servers;
 - Fixed some issues.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
