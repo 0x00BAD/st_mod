@@ -1,7 +1,8 @@
-In this version, v270321
+In this version, v080421
 
 Those are the new improvements:
-- Added senpaiex's unX Mini Bot for GF servers;
+- Added Self script (with this function, STMod will load your own python scripts);
+- Removed some unnecesary code;
 - Fixed some issues.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
