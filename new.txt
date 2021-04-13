@@ -1,8 +1,6 @@
-In this version, v080421
+In this version, v130421
 
 Those are the new improvements:
-- Added Self script (with this function, STMod will load your own python scripts);
-- Removed some unnecesary code;
-- Fixed some issues.
+- Fixed a bug at unX (STMod didn't download the correct files for it).
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
