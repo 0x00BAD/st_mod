@@ -1,6 +1,6 @@
-In this version, v130421
+In this version, v230421
 
 Those are the new improvements:
-- Fixed a bug at unX (STMod didn't download the correct files for it).
+- Fixed some bugs.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
