@@ -8,4 +8,9 @@ Those are the new improvements:
 - Improved bypassing;
 - Fixed some bugs.
 
+In this version, v010521_rev2
+
+Those are the new improvements:
+- Fixed STMod for GF servers.
+
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
