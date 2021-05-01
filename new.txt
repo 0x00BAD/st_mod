@@ -1,16 +1,6 @@
-In this version, v010521
+In this version, v010521_rev3
 
 Those are the new improvements:
-- Added a new function: minimize stmod when new client launching;
-- STMod now works along with M2Protect;
-- If a new user is using for first time STMod, will autodownload dependencies correctly;
-- Removed function: auto-closing opened clients when switching damage hack on/off or switching between plugins;
-- Improved bypassing;
-- Fixed some bugs.
-
-In this version, v010521_rev2
-
-Those are the new improvements:
-- Fixed STMod for GF servers.
+- Fixed "Unknown error occured".
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
