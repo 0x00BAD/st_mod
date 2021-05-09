@@ -1,6 +1,6 @@
-In this version, v010521_rev3
+In this version, v090521
 
 Those are the new improvements:
-- Fixed "Unknown error occured".
+- Fixed for Nexus2.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
