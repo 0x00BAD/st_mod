@@ -1,6 +1,10 @@
 In this version, v090521
 
 Those are the new improvements:
-- Fixed for Nexus2.
+- Replaced DaRealFreak's fishbot with Kamer's fishbot (more simple);
+- Added Switchbot II;
+- Added a new function: 'Attack as ninja' (you'll attack a little bit faster, eg. being an warrior + antifly) [Damage hacks are not be compatible with this!];
+- Were made some improvements;
+- Bugs fixed.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
