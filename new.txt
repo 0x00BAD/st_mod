@@ -1,8 +1,6 @@
-In this version, v250521
+In this version, v310521
 
 Those are the new improvements:
-- Removed Methods 1/2/3 > Now Method 4 = 1, 5 = 2, 6 = 3;
-- Added a new function to check how many days you have left if premium;
 - Fixed patcher;
 - Fixed some bugs.
 
