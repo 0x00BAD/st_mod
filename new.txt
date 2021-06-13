@@ -1,9 +1,7 @@
 In this version, v130621
 
 Those are the new improvements:
-- Added martinx1's OpenBot (Only for GameForge);
-- Added an Alchemy refine button (will auto upgrade your alchemy);
-- Fixed language pack;
-- Fixed some visuals.
+- Fixed bug that STMOD won't open.
+
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
