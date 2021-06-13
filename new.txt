@@ -1,7 +1,9 @@
-In this version, v310521
+In this version, v130621
 
 Those are the new improvements:
-- Fixed patcher;
-- Fixed some bugs.
+- Added martinx1's OpenBot (Only for GameForge);
+- Added an Alchemy refine button (will auto upgrade your alchemy);
+- Fixed language pack;
+- Fixed some visuals.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
