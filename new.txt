@@ -1,7 +1,8 @@
-In this version, v130621
+In this version, v150621
 
 Those are the new improvements:
-- Fixed bug that STMOD won't open.
+- Fixed some bugs;
+- Remade injection for GF servers.
 
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
