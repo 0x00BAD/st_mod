@@ -1,8 +1,8 @@
-In this version, v150621
+In this version, v180621
 
 Those are the new improvements:
+- Added SpamBot (by .United) for both (GF / Pservers)
 - Fixed some bugs;
-- Remade injection for GF servers.
 
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
