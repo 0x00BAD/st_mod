@@ -1,8 +1,6 @@
-In this version, v180621
+In this version, v190621
 
 Those are the new improvements:
-- Added SpamBot (by .United) for both (GF / Pservers)
-- Fixed some bugs;
-
+- Fixed some bugs at GF method.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
