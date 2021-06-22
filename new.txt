@@ -1,6 +1,8 @@
-In this version, v190621
+In this version, v220621
 
 Those are the new improvements:
-- Fixed some bugs at GF method.
+- Added Fishbot by .United (Easy Fishing);
+- Fixed 'Switchbot II';
+- Fixed some issues.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
