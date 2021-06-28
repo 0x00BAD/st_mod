@@ -1,8 +1,8 @@
-In this version, v220621
+In this version, v280621
 
 Those are the new improvements:
-- Added Fishbot by .United (Easy Fishing);
-- Fixed 'Switchbot II';
+- Added booster (Press Shift + W);
+- Remade Inventory sorter (Now Item tools, it now contains: Item stacker & item sorter);
 - Fixed some issues.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
