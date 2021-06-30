@@ -1,6 +1,6 @@
-In this version, v290621
+In this version, v300621
 
 Those are the new improvements:
-- Fixed Multimod.
+- Fixed 'com' bug.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
