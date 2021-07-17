@@ -1,8 +1,6 @@
-In this version, v020721
+In this version, v170721
 
 Those are the new improvements:
-- Improved autologin function (Now works for Calliope);
-- Added a new function (Under methods injection, you'll find now 'Patcher' option, this is similar to GF method);
-- Fixed some issues.
+- Small bugfixes.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
