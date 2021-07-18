@@ -1,6 +1,6 @@
-In this version, v170721
+In this version, v180721
 
 Those are the new improvements:
-- Small bugfixes.
+- Added OpenBot ver 2.0 (If you're already using it [ver 1.x] just uncheck and check again 'OpenBot' from the main window.)
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
