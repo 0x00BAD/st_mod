@@ -1,6 +1,8 @@
-In this version, v180721
+In this version, v200721
 
 Those are the new improvements:
-- Added OpenBot ver 2.0 (If you're already using it [ver 1.x] just uncheck and check again 'OpenBot' from the main window.)
+- Fixed 'Use Horse' bug at first Farmbot from the list (iPush) -->> Thanks to: seedlord;
+- Fixed 'Attacking' issues at both farmbots: iPush & MH + WH;
+- Fixed saving settings at Zahon_Mod.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
