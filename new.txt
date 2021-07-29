@@ -1,8 +1,8 @@
-In this version, v200721
+In this version, v290721
 
 Those are the new improvements:
-- Fixed 'Use Horse' bug at first Farmbot from the list (iPush) -->> Thanks to: seedlord;
-- Fixed 'Attacking' issues at both farmbots: iPush & MH + WH;
-- Fixed saving settings at Zahon_Mod.
+- Fixed some issues;
+- Added back WaitHack to MH + WH;
+- Fixed a bug at Zahon_Mod.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
