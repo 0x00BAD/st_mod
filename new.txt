@@ -1,9 +1,7 @@
-In this version, v290721
+In this version, v050821
 
 Those are the new improvements:
-- Fixed some issues;
-- Added back WaitHack to MH + WH;
-- Fixed a bug at Zahon_Mod;
-- Fixed a bug where OpenBot won't install properly at GF method.
+- Added 'Attack speed' bonus at Switchbot;
+- Some small fixes.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
