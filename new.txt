@@ -1,7 +1,6 @@
-In this version, v050821
+In this version, v060821
 
 Those are the new improvements:
-- Added 'Attack speed' bonus at Switchbot;
-- Some small fixes.
+- Added 'Shout' mode at Spambot.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
