@@ -1,6 +1,6 @@
-In this version, v060821
+In this version, v070821
 
 Those are the new improvements:
-- Added 'Shout' mode at Spambot.
+- Fixed a bug where 'Plugins' menu won't show up.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
