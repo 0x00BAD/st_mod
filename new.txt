@@ -1,6 +1,7 @@
-In this version, v070821
+In this version, v100821
 
 Those are the new improvements:
-- Fixed a bug where 'Plugins' menu won't show up.
+- Fixed a bug where if at methods was checked 'Patcher' option, on the second menu won't appear correctly;
+- Fixed vital issues.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
