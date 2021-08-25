@@ -1,6 +1,7 @@
-In this version, v110821
+In this version, v250821
 
 Those are the new improvements:
-- Fixed the bug where 'Servers' folder wasn't saved and readed correctly.
+- Fixed some bugs;
+- Now all files will be stored inside 'Resources' folder.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
