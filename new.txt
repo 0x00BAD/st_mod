@@ -1,7 +1,8 @@
-In this version, v250821
+In this version, v270821
 
 Those are the new improvements:
+- Added at 'Become premium' form all three payment methods: PayPal, Skrill, Coinbase (Crypto);
+- Added a better switchbot (replaced switchbot 2);
 - Fixed some bugs;
-- Now all files will be stored inside 'Resources' folder.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
