@@ -1,8 +1,7 @@
-In this version, v270821
+In this version, v290821
 
 Those are the new improvements:
-- Added at 'Become premium' form all three payment methods: PayPal, Skrill, Coinbase (Crypto);
-- Added a better switchbot (replaced switchbot 2);
-- Fixed some bugs;
+- Added newest version of OpenBot (to get the latest update, just uncheck and check again 'OpenBot' checkbox);
+- Fixed some bugs.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
