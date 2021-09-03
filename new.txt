@@ -1,7 +1,7 @@
-In this version, v290821
+In this version, v030921
 
 Those are the new improvements:
-- Added newest version of OpenBot (to get the latest update, just uncheck and check again 'OpenBot' checkbox);
-- Fixed some bugs.
+- Fixed the bug at Multimod where char was bouncing back and forth;
+- Fixed some other minor bugs.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
