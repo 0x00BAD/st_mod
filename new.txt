@@ -1,7 +1,6 @@
-In this version, v030921
+In this version, v060921
 
 Those are the new improvements:
-- Fixed the bug at Multimod where char was bouncing back and forth;
-- Fixed some other minor bugs.
+- Fixed some issues.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
