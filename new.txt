@@ -1,6 +1,6 @@
-In this version, v060921
+In this version, v080921
 
 Those are the new improvements:
-- Fixed some issues.
+- Added newest OpenBot version.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
