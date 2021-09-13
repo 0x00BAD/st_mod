@@ -1,6 +1,7 @@
-In this version, v080921
+In this version, v130921
 
 Those are the new improvements:
-- Added newest OpenBot version.
+- Added newest OpenBot version;
+- Fixed a bug at saving settings.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
