@@ -1,7 +1,6 @@
-In this version, v130921
+In this version, v130921_rev2
 
 Those are the new improvements:
-- Added newest OpenBot version;
-- Fixed a bug at saving settings.
+- Now every user can see how long their licence will last (Days, hours, minutes) clicking / mouse hovering over the Premium star.
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
