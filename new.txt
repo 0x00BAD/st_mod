@@ -1,6 +1,5 @@
-In this version, v130921_rev2
-
+In this version, v210921
 Those are the new improvements:
-- Now every user can see how long their licence will last (Days, hours, minutes) clicking / mouse hovering over the Premium star.
+- Fixed some issues (fixed more, in those days since the latest update and forgot to add them into a list).
 
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
