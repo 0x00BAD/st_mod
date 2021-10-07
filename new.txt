@@ -1,7 +1,27 @@
-In this version, v051021
+In this version, v071021
 
 Those are the new improvements:
-- Fixed bug related to date conversion (worked only on english Windows versions)
+News:
+
+- Added:
+
+● Use item after relog;
+● Load/Save settings;
+● Farmbot II (Works on Kimetsu); >> Thanks to 
+● Pickupbot II (Works on Kimetsu);
+● Added at Fishbot tab: 'Buy bait' function;
+● Added a new tab: Shop Manager, which includes: 
+● - > Shop Search bot;
+● - > Shop creator bot;
+● - > Buy & sell bot;
+● - > Buy & use bot.
+
+
+Fixes:
+
+● Fixed Farmbot I;
+● Fixed Map Teleport;
+● Fixed Fishbot.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
