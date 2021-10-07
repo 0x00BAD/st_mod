@@ -7,7 +7,7 @@ News:
 
 ● Use item after relog;
 ● Load/Save settings;
-● Farmbot II (Works on Kimetsu); >> Thanks to 
+● Farmbot II (Works on Kimetsu); >> Thanks to ugofoscol
 ● Pickupbot II (Works on Kimetsu);
 ● Added at Fishbot tab: 'Buy bait' function;
 ● Added a new tab: Shop Manager, which includes: 
