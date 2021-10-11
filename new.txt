@@ -1,27 +1,15 @@
-In this version, v071021
+In this version, v111021
 
 Those are the new improvements:
-News:
 
-- Added:
+● Fixed 'Use item from slot 44';
+● Fixed 'Skill / status' (when kicked, this function didn't stop);
+● Fixed Skill & BuffBot;
+● Fixed 'Buy bait' function;
 
-● Use item after relog;
-● Load/Save settings;
-● Farmbot II (Works on Kimetsu); >> Thanks to ugofoscol
-● Pickupbot II (Works on Kimetsu);
-● Added at Fishbot tab: 'Buy bait' function;
-● Added a new tab: Shop Manager, which includes: 
-● - > Shop Search bot;
-● - > Shop creator bot;
-● - > Buy & sell bot;
-● - > Buy & use bot.
-
-
-Fixes:
-
-● Fixed Farmbot I;
-● Fixed Map Teleport;
-● Fixed Fishbot.
+Added at Farmbot tab:
+● 'Use horse' function;
+● 'Moblock' function.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
