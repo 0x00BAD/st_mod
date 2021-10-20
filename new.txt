@@ -1,10 +1,9 @@
-In this version, v181021
+In this version, v201021
 
 Those are the new improvements:
 
-● Fixed method 2 for some Pservers;
-● Improved Farmbot II;
-● Removed unnecesary code inside STMod.
+● Fixed few major bugs (can't remember all);
+● Added new STMod design for GF servers as well;
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
