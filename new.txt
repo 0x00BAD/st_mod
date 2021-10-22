@@ -1,9 +1,10 @@
-In this version, v201021
+In this version, v221021
 
 Those are the new improvements:
 
-● Fixed few major bugs (can't remember all);
-● Added new STMod design for GF servers as well;
+● Added a checkbox to disable/enable 'stop farmbot if player near';
+● Added changeable range at farmbot;
+● Added changeable type and names for metins that aren't detected (on some pservers).
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
