@@ -1,10 +1,11 @@
-In this version, v221021
+In this version, v251021
 
 Those are the new improvements:
 
-● Added a checkbox to disable/enable 'stop farmbot if player near';
-● Added changeable range at farmbot;
-● Added changeable type and names for metins that aren't detected (on some pservers).
+● Fixed a bug at Farmbot II;
+● Added Mining bot (Farm range is available for mining bot too) [Also works for GF servers too];
+● Removed '< ^ > v' buttons for teleporting (Added hotkeys instead: left, up, down, right);
+● Fixed STMod for Wonder2.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
