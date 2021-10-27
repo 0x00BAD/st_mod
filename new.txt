@@ -1,10 +1,12 @@
-In this version, v261021
+In this version, v271021
 
 Those are the new improvements:
 
-● Added levelbot;
-● Remade spambot (now you can spam with different colors);
-● At Farmbot tab at Attack function added 'Attack with rotation' method;
+● Added at Shop Manager tab: 
+    - Move items to storehouse;
+    - Move all items from storehouse;
+    - Move all items from itemshop;
+● Fixed few bugs;
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
