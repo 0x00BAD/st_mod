@@ -1,12 +1,12 @@
-In this version, v271021
+In this version, v021121
 
 Those are the new improvements:
 
-● Added at Shop Manager tab: 
-    - Move items to storehouse;
-    - Move all items from storehouse;
-    - Move all items from itemshop;
-● Fixed few bugs;
+● Added 'Clear text' at spambot;
+● Remade Farmbot I (Now farm range is available for it too, also way to 'go to ore' Listbox is also available for Farmbot I);
+● Added 'Insert' hotkey for those clients where the STMod logo won't show after hiding window;
+● Added AutoLogin on client start;
+● Fixed other things;
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
