@@ -1,12 +1,9 @@
-In this version, v021121_rev2
+In this version, v031121
 
 Those are the new improvements:
 
-● Added 'Farmbot Fix' (Available for Farmbot I only);
-● When your character dies, and you have 'Restart' function on, at restart will auto use the first 5 slots of your inventory and the 44th one (thinking as being a pet);
-● Added a second method to Move your items into storage;
-● Added Checkboxes for every On / Off functions instead of those buttons (some servers couldn't load those images);
-● Fixed other things.
+● Reorganized Farmbot tab;
+● Bug fixes.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
