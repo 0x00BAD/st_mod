@@ -1,13 +1,12 @@
-In this version, v051121
+In this version, v091121
 
 Those are the new improvements:
 
-● Added quick add Status (+10);
-● Added One hit function;
-● Added at Shop manager tab 'Item user' function;
-● Added at Farmbot tab 'Metin / boss detector' function;
-● Fixed Farmbot I;
-● Small bug fixes.
+● Added quick add Skill points (+17);
+● Fixed fishbot bugs (if 'buy bait' was checked, the client froze, and now the bait it will use first will be the minnow);
+● Made some custom buttons (for '?');
+● Removed some unnecesary code;
+● Bug fixes.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
