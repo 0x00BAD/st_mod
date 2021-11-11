@@ -1,12 +1,9 @@
-In this version, v091121
+In this version, v111121
 
 Those are the new improvements:
 
-● Added quick add Skill points (+17);
-● Fixed fishbot bugs (if 'buy bait' was checked, the client froze, and now the bait it will use first will be the minnow);
-● Made some custom buttons (for '?');
-● Removed some unnecesary code;
-● Bug fixes.
+● Added Farmbot III (Available with route option);
+● Fixed few bugs (can't remember all).
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
