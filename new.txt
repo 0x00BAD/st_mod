@@ -1,13 +1,9 @@
-In this version, v121121
+In this version, v131121
 
 Those are the new improvements:
 
-● Fixed Farmbot III (Now 'Walking' method is available too);
+● Fixed Farmbot III;
 ● Fixed 'Map Teleport';
-● Fixed the bug where if stmod was opened you cannot throw items from inventory;
-● Fixed the bug where you cannot send / receive PM's;
-● Added 'Strong body' function (only you can see it, also this is useful because chars or other mobs / bosses cannot throw you);
-● Fixed minor issues.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
