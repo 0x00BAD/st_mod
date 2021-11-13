@@ -1,9 +1,8 @@
-In this version, v131121
+In this version, v131121_rev2
 
 Those are the new improvements:
 
-● Fixed Farmbot III;
-● Fixed 'Map Teleport';
+● Fixed bug where STMod won't show properly;
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
