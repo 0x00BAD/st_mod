@@ -1,10 +1,9 @@
-In this version, v241121
+In this version, v251121
 
 Those are the new improvements:
 
-● Fixed mining bot for Celestial World 2;
-● Fixed the bug where fishbot was spamming 'fishing rod is ready to upgrade';
-● Now the mod will auto read the right values for skills cooldown.
+● Fixed fishbot for Metin2 Legend;
+● At fishbot it will now auto skip the animation.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
