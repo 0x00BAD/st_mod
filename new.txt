@@ -1,9 +1,11 @@
-In this version, v251121
+In this version, v261121
 
 Those are the new improvements:
 
-● Fixed fishbot for Metin2 Legend;
-● At fishbot it will now auto skip the animation.
+● Aded at Fishbot settings: 
+- Auto sell crap (Gold Ring, Lucy's Ring, Sage King's Symbol, Sage King's Glove, Fugitives Cape)
+- Option to sell Minnow (some servers set high value on this fish)
+● Added at plugins: Svside captcha solver.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
