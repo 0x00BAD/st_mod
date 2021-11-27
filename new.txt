@@ -1,11 +1,14 @@
-In this version, v261121
+In this version, v271121
 
 Those are the new improvements:
 
-● Aded at Fishbot settings: 
-- Auto sell crap (Gold Ring, Lucy's Ring, Sage King's Symbol, Sage King's Glove, Fugitives Cape)
-- Option to sell Minnow (some servers set high value on this fish)
-● Added at plugins: Svside captcha solver.
+● Aded at Farmbot III: 
+     - Farm ores;
+● Added at Shop tab:
+     - Switch 1 won to 1kkk and viceversa;
+● Fixed bug at Captcha;
+● Now you can use STMod for Metin2Tim;
+● Fixed some other small things.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
