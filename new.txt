@@ -1,13 +1,9 @@
-In this version, v271121
+In this version, v291121
 
 Those are the new improvements:
 
-● Aded at Farmbot III: 
-     - Farm ores;
-● Added at Shop tab:
-     - Switch 1 won to 1kkk and viceversa;
-● Fixed bug at Captcha;
-● Now you can use STMod for Metin2Tim;
+● Added 'Rotate camera' function;
+● Fixed a bug at Levelbot;
 ● Fixed some other small things.
 
 Please report if there are some bugs / issues, thanks!
