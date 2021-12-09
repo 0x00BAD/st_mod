@@ -1,12 +1,8 @@
-In this version, v081221
+In this version, v091221
 
 Those are the new improvements:
 
-
-● Fixed 'Stack function';
-● Changes at Fishbot tab:
- -> Removed 'Buy bait from X slot' > now will auto buy the bait depending of what you've chose;
-● Fixed minor issues.
+● Fixed STMod for Voria2.
 
 
 Please report if there are some bugs / issues, thanks!
