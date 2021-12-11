@@ -1,10 +1,11 @@
-In this version, v101221
+In this version, v111221
 
 Those are the new improvements:
 
-● Added Hotkeys;
-● Added '?' buttons instead of '+';
-● Fixed a bug at retrieving the right value at skills cooltime;
+● Added newest STMod to GF servers (including the latest updates);
+● Fixed P-Servers:
+- Legend2;
+- Polaris2;
 ● Fixed some other small issues.
 
 Please report if there are some bugs / issues, thanks!
