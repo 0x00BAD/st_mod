@@ -1,11 +1,11 @@
-In this version, v121221
+In this version, v131221
 
 Those are the new improvements:
 
-● Added the remaining licence time under the 'star' icon (will now refreshing automatically in real-time);
-● Removed unnecessary code >> STMod will now work smoother;
-● STMod will now have a dark theme as default;
-● Fixed some other small issues.
+● Remade from scratch the starting & loading STMod logic;
+● Fixed 'STMod' freezing issue;
+● Every premium user got +2 days.
+
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
