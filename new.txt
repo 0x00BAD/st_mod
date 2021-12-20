@@ -4,6 +4,7 @@ Those are the new improvements:
 
 ● Remade from scratch 'Dependecy checker';
 ● Added 'Use dews' function (It will auto use dews, grilled fishes, piercing hit etc);
+● Fixed STMod for Ninjeye protected servers;
 ● Hotkeys added:
    - CTRL + M > Toggle map teleport;
    - CTRL + ALT > Use dews;
