@@ -1,14 +1,13 @@
-In this version, v201221
+In this version, v231221
 
 Those are the new improvements:
 
-● Remade from scratch 'Dependecy checker';
-● Added 'Use dews' function (It will auto use dews, grilled fishes, piercing hit etc);
-● Fixed STMod for Ninjeye protected servers;
-● Hotkeys added:
-   - CTRL + M > Toggle map teleport;
-   - CTRL + ALT > Use dews;
-● Some bugs got fixed.
+● Fixed a bug where STMod was not loaded into GF servers;
+● Now the non-premium users can use:
+  > Waithack;
+  > x7 attack;
+
+● Some other small issues got fixed.
 
 
 Please report if there are some bugs / issues, thanks!
