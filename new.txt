@@ -1,13 +1,11 @@
-In this version, v231221
+In this version, v281221
 
 Those are the new improvements:
 
-● Fixed a bug where STMod was not loaded into GF servers;
-● Now the non-premium users can use:
-  > Waithack;
-  > x7 attack;
-
-● Some other small issues got fixed.
+● Fixed the bug where STMod window (ingame) wasn't loaded correctly;
+● Added at fishbot 'Bot delay' (including a random tolerance);
+● Fixed bypass for Ninjeye;
+● Fixed other bugs.
 
 
 Please report if there are some bugs / issues, thanks!
