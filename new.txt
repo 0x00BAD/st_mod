@@ -1,11 +1,13 @@
-In this version, v281221
+In this version, v291221
 
 Those are the new improvements:
 
-● Fixed the bug where STMod window (ingame) wasn't loaded correctly;
-● Added at fishbot 'Bot delay' (including a random tolerance);
-● Fixed bypass for Ninjeye;
-● Fixed other bugs.
+● Fixed Levelbot;
+● Fixed some UI bugs;
+● Added at Shop manager tab:
+-> Buy & sell (also option to drop / destroy item>> it will auto check if server has 'Destroy' function) > This function should be useful when buying weapons from NPC with average damage / skill damage;
+-> Now at item user you will be allowed to insert a delay up to 6 characters (0.0001);
+● Fixed other small issues.
 
 
 Please report if there are some bugs / issues, thanks!
