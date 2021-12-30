@@ -1,12 +1,10 @@
-In this version, v291221
+In this version, v301221
 
 Those are the new improvements:
 
-● Fixed Levelbot;
-● Fixed some UI bugs;
 ● Added at Shop manager tab:
--> Buy & sell (also option to drop / destroy item>> it will auto check if server has 'Destroy' function) > This function should be useful when buying weapons from NPC with average damage / skill damage;
--> Now at item user you will be allowed to insert a delay up to 6 characters (0.0001);
+-> 'Fix sell function' > this is useful for servers which modified the base selling function;
+-> Added 'Destroy' items function (from slot x to y);
 ● Fixed other small issues.
 
 
