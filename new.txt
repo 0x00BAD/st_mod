@@ -1,11 +1,11 @@
-In this version, v301221
+In this version, v020122
 
 Those are the new improvements:
 
-● Added at Shop manager tab:
--> 'Fix sell function' > this is useful for servers which modified the base selling function;
--> Added 'Destroy' items function (from slot x to y);
-● Fixed other small issues.
+● Remade 'Use item from slot 44' function, now you can move anywhere your item;
+● Added 'F12' hotkey for Hide/Show STMod in-game;
+● Fixed STMod for Metin2ETH;
+● Fixed other bugs.
 
 
 Please report if there are some bugs / issues, thanks!
