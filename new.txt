@@ -1,11 +1,9 @@
-In this version, v020122
+In this version, v040122
 
 Those are the new improvements:
 
-● Remade 'Use item from slot 44' function, now you can move anywhere your item;
-● Added 'F12' hotkey for Hide/Show STMod in-game;
-● Fixed STMod for Metin2ETH;
-● Fixed other bugs.
+● STMod will now detect more bosses;
+● Fixed other small issues.
 
 
 Please report if there are some bugs / issues, thanks!
