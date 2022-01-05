@@ -1,9 +1,8 @@
-In this version, v040122
+In this version, v050122
 
 Those are the new improvements:
 
-● STMod will now detect more bosses;
-● Fixed other small issues.
+● Fixed STMod for TheraGame;
 
 
 Please report if there are some bugs / issues, thanks!
