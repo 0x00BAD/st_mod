@@ -1,9 +1,15 @@
-In this version, v050122
+In this version, v090122
 
 Those are the new improvements:
 
-● Fixed STMod for TheraGame;
-
+● Made a new plugin > Community scripts (everyone can send their scripts and everybody can use them);
+● Added at General tab:
+ --> Use red elixir;
+ --> Use blue elixir;
+ --> Load community scripts;
+● Added at Farming tab:
+ --> Remade 'Metin / boss detector' > now you can also select which boss you want to detect (checking 'Custom bosses');
+● Fixed bugs.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
