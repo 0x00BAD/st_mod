@@ -1,10 +1,8 @@
-In this version, v120122
+In this version, v150122
 
 Those are the new improvements:
 
-● Added at Shop search bot
- --> Instead of seeing values like 100000000, you will now see 100KK;
-● Fixed Stack function.
+● Bugs fixed.
 
 Please report if there are some bugs / issues, thanks!
 NOTICE: Please report which server does work and which doesn't. So I could update the list.
