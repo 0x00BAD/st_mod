@@ -1,13 +1,8 @@
-In this version, v180122
+In this version, v190122
 
 Those are the new improvements:
 
-● Now at Farmbot III when clicking on 'refresh' button, the map name will show like this, instead of 'metin2_map_a1' will be: 'map1_red';
-● Fixed a bug at Loading settings;
-● Added 'Mount' checkbox near 'Use horse' function;
-● Using Farmbot III will now wait more after destroying a metin / killing a boss;
-● Added 'Refresh' button near Community scripts function;
-● Fixed 'Yang <> Won' function;
+● Fixed fishbot for Legend2Global;
 ● Fixed some issues.
 
 Please report if there are some bugs / issues, thanks!
