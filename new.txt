@@ -1,8 +1,9 @@
-In this version, v190122
+In this version, v210122
 
 Those are the new improvements:
 
-● Fixed fishbot for Legend2Global;
+● Remade from scratch Energy bot;
+● Added an instant Logout button;
 ● Fixed some issues.
 
 Please report if there are some bugs / issues, thanks!
