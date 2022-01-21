@@ -1,9 +1,8 @@
-In this version, v210122
+In this version, v210122_rev2
 
 Those are the new improvements:
 
-● Remade from scratch Energy bot;
-● Added an instant Logout button;
-● Fixed some issues.
+● Fixed bug where STMod window didn't load correctly;
+● Added a 'Fix' checkbox for Yang <> Won functions;
 
 Please report if there are some bugs / issues, thanks!
