@@ -1,8 +1,12 @@
-In this version, v210122_rev2
+In this version, v230122
 
 Those are the new improvements:
 
-● Fixed bug where STMod window didn't load correctly;
-● Added a 'Fix' checkbox for Yang <> Won functions;
+● Fixed STMod for Metin2Helion;
+● Added a new tab: Inventory which includes:
+  -> Refine item (totally remade);
+  -> Add stone bot (totally remade, it now supports Special inventory);
+  -> Items from inventory listbox >>> Drop, sell, destroy.
+● Fixed bugs.
 
 Please report if there are some bugs / issues, thanks!
