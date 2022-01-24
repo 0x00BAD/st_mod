@@ -1,12 +1,9 @@
-In this version, v230122
+In this version, v240122
 
 Those are the new improvements:
 
-● Fixed STMod for Metin2Helion;
-● Added a new tab: Inventory which includes:
-  -> Refine item (totally remade);
-  -> Add stone bot (totally remade, it now supports Special inventory);
-  -> Items from inventory listbox >>> Drop, sell, destroy.
+● Added a customisable quest option for Yang <> Won function;
+● Remade 'Read SS' and 'Read book' functions;
 ● Fixed bugs.
 
 Please report if there are some bugs / issues, thanks!
