@@ -4,6 +4,7 @@ Those are the new improvements:
 
 ● Added a customisable quest option for Yang <> Won function;
 ● Remade 'Read SS' and 'Read book' functions;
+● Fixed metin & boss detector for Metin2Legend;
 ● Fixed bugs.
 
 Please report if there are some bugs / issues, thanks!
