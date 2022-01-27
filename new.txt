@@ -2,9 +2,6 @@ In this version, v270122
 
 Those are the new improvements:
 
-● Added 6/7 bonuses on switchbot;
-● Fixed STMod for GF servers;
-● When you'll start a new client, will show the client's PID;
-● Fixed bugs.
+● Fixed STMod for GF servers.
 
 Please report if there are some bugs / issues, thanks!
