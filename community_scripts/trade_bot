@@ -1,0 +1,340 @@
+﻿import sys, os, time
+
+class Util:
+	class File:
+		@staticmethod
+		def read(path):
+			try:
+				f = open(path, 'r')
+				lines = f.readlines()
+				f.close()
+				return lines
+			except:
+				pass
+
+		@staticmethod
+		def write(path, name, id, time):
+			f = open(path, 'a+')
+			f.write("Name=%s\n" % (name))
+			f.write("ID=%i\n" % (id))
+			f.write("Time=%i\n\n" % (time))
+			f.close()
+
+		@classmethod
+		def removeLastLines(cls, path, num):
+			allLines = cls.read(path)
+			f = open(path, "w+")
+			f.writelines(allLines[:-num])
+			f.close()
+
+	class Module:
+		@classmethod
+		def find(cls, name, atr):
+			for module_name in sys.modules:
+				if name == '*' or name in module_name:
+					try:
+						module = __import__(module_name)
+						getattr(module, atr)
+						return module
+					except:
+						pass
+
+		@staticmethod
+		def dump(path):
+			for m in sys.modules:
+				f = open(path, 'a+')
+				
+				try:
+					module = __import__(m)
+
+					f.write("\n# %s\nimport %s\n" % (m, m))
+
+					for atr in dir(module):
+						atr_name = atr
+						atr = getattr(module, atr)
+
+						if callable(atr):
+							f.write("%s.%s() # %s\n" % (m, atr_name, type(atr)))
+							for sub_atr in ['__code__', '__defaults__', '__kwdefaults__']:
+								if sub_atr == '__code__':
+									for co_atr in ['co_argcount', 'co_varnames', 'co_nlocals', 'co_names', 'co_cellvars', 'co_consts', 'co_freevars', 'co_posonlyargcount', 'co_kwonlyargcount']:
+										try:
+											f.write("%s.%s.%s.%s = %s\n" % (m, atr_name, sub_atr, co_atr, getattr(getattr(atr, sub_atr), co_atr)))
+										except:
+											pass
+								else:
+									try:
+										f.write("%s.%s.%s = %s\n" % (m, atr_name, sub_atr, getattr(atr, sub_atr)))
+									except:
+										pass
+						else:
+							f.write("%s.%s # %s\n" % (m, atr_name, type(atr)))
+				except:
+					f.write("\n# ImportError: No module named %s\n" % (m))
+
+				f.close()
+
+
+net = Util.Module.find('net', 'SendChatPacket')
+ui = Util.Module.find('ui', 'ThinBoard')
+chat = Util.Module.find('chat', 'AppendChat')
+wndMgr = Util.Module.find('wndMgr', 'GetScreenWidth')
+chr = Util.Module.find('chr', 'SetRotation')
+player = Util.Module.find('player', 'SetAttackKeyState')
+start = 0
+end = 200000
+exslot = 0
+class loader(ui.Window):
+	def __init__(self):
+		ui.Window.__init__(self)
+		self.BuildWindow()
+
+	def __del__(self):
+		ui.Window.__del__(self)
+
+	def BuildWindow(self):
+		self.stmod = ui.BoardWithTitleBar()
+		self.stmod.SetSize(240,160)
+		self.stmod.SetCenterPosition()
+		self.stmod.AddFlag('movable')
+		self.stmod.AddFlag('float')
+		self.stmod.SetTitleName('STMod - Trade bot')
+		self.stmod.Show()
+		self.comp = Component()
+
+
+
+		self.slotbar_name, self.player_name = self.comp.EditLine(self.stmod, '', 80, 35, 80, 15, 20)
+		self.getName = self.comp.Button(self.stmod, 'Get name', '', 170, 35, self.getname, 'd:/ymir work/ui/public/middle_button_01.sub', 'd:/ymir work/ui/public/middle_button_02.sub', 'd:/ymir work/ui/public/middle_button_03.sub')
+
+		self.lblWho = self.comp.TextLine(self.stmod, 'Player name:', 5,35, self.comp.RGB(255, 255, 255))
+		self.lblTrade = self.comp.TextLine(self.stmod, 'Trade yang:', 5,60, self.comp.RGB(255, 255, 255))
+		self.give = self.comp.Button(self.stmod, 'Give', '', 65, 60, self.give, 'd:/ymir work/ui/public/middle_button_01.sub', 'd:/ymir work/ui/public/middle_button_02.sub', 'd:/ymir work/ui/public/middle_button_03.sub')
+		self.giveAuto = self.comp.ToggleButton(self.stmod, 'Auto give yang', '', 130, 83, (self.give_off), (self.give_on), 'd:/ymir work/ui/public/large_button_01.sub', 'd:/ymir work/ui/public/large_button_02.sub', 'd:/ymir work/ui/public/large_button_03.sub')
+		self.autoTrade = self.comp.ToggleButton(self.stmod, 'Auto accept', '', 130, 60, (self.accept_off), (self.accept_on), 'd:/ymir work/ui/public/large_button_01.sub', 'd:/ymir work/ui/public/large_button_02.sub', 'd:/ymir work/ui/public/large_button_03.sub')
+		self.lblAuto = self.comp.TextLine(self.stmod, 'Auto give delay:', 5,83, self.comp.RGB(255, 255, 255))
+		self.slotDel, self.delay = self.comp.EditLine(self.stmod, '3', 100, 83, 20, 15, 3)
+		self.lblYang = self.comp.TextLine(self.stmod, 'Yang to give:', 5,108, self.comp.RGB(255, 255, 255))
+		self.slotYang, self.yangs = self.comp.EditLine(self.stmod, '10000000', 100, 108, 100, 15, 15)
+		self.giveItemsLbl = self.comp.TextLine(self.stmod, 'Give items, from slot:', 5,130, self.comp.RGB(255,255,255))
+		self.itemGiveFromTxt, self.fromVal = self.comp.EditLine(self.stmod, '0', 110, 130, 25, 15, 3)
+		self.giveItemsTo = self.comp.TextLine(self.stmod, 'to:', 140,130, self.comp.RGB(255,255,255))
+		self.itemGiveToTxt, self.toVal = self.comp.EditLine(self.stmod, '12', 160, 130, 25, 15, 3)
+		self.giveItems = self.comp.Button(self.stmod, 'Give', '', 190, 128, self.giveItemFunc, 'd:/ymir work/ui/public/small_button_01.sub', 'd:/ymir work/ui/public/small_button_02.sub', 'd:/ymir work/ui/public/small_button_03.sub')
+
+
+	def accept_off(self):
+		self.acceptx=XX()
+		self.acceptx.XX1(9999999999)
+		self.acceptx.XX2(self.accept_off)
+
+
+	def accept_on(self):
+		self.acceptx=XX()
+		self.acceptx.XX1(0.1)
+		self.acceptx.XX2(self.accept_on)
+		net.SendExchangeAcceptPacket()
+
+	def give_off(self):
+		self.acceptx=XX()
+		self.acceptx.XX1(9999999999)
+		self.acceptx.XX2(self.accept_off)
+	def getname(self):
+		vid = player.GetTargetVID()
+		name = chr.GetNameByVID(vid)
+		self.player_name.SetText(str(name))
+
+
+	def give_on(self):
+		self.acceptx=XX()
+		self.acceptx.XX1(float(self.delay.GetText()))
+		self.acceptx.XX2(self.give_on)
+		name_to_trade=self.player_name.GetText()
+		yang = self.yangs.GetText()
+		if name_to_trade == "" or name_to_trade == "None" or name_to_trade == "0":
+			chat.AppendChat(3, "[STMOD] |cffFFFF00|H|h Please enter a player name before starting.")
+			
+		else:
+
+			for vid in xrange(100000):
+				if chr.GetNameByVID(vid) == name_to_trade:
+					player_vid = vid
+					net.SendExchangeStartPacket(player_vid)
+					net.SendExchangeElkAddPacket(int(yang))
+					net.SendExchangeAcceptPacket()
+					chat.AppendChat(3, "[STMOD] |cffFFFF00|H|h Succesfully gived " + str(yang) + " yang to: " + str(name_to_trade))
+
+	def give(self):
+		name_to_trade=self.player_name.GetText()
+
+		yang = self.yangs.GetText()
+		if name_to_trade == "" or name_to_trade == "None" or name_to_trade == "0":
+			chat.AppendChat(3, "[STMOD] |cffFFFF00|H|h Please enter a player name before starting.")
+			
+		else:
+
+			for vid in xrange(100000):
+				if chr.GetNameByVID(vid) == name_to_trade:
+					player_vid = vid
+					net.SendExchangeStartPacket(player_vid)
+					net.SendExchangeElkAddPacket(int(yang))
+					net.SendExchangeAcceptPacket()
+					chat.AppendChat(3, "[STMOD] |cffFFFF00|H|h Succesfully gived " + str(yang) + " yang to: " + str(name_to_trade))
+
+
+	def giveItemFunc(self):
+		name_to_trade=self.player_name.GetText()
+		giveFrom=self.fromVal.GetText()
+		giveTo=self.toVal.GetText()
+		exslot = 0
+		if name_to_trade == "" or name_to_trade == "None" or name_to_trade == "0":
+			chat.AppendChat(3, "[STMOD] |cffFFFF00|H|h Please enter a player name before starting.")
+			
+		else:
+
+			for vid in xrange(100000):
+				if chr.GetNameByVID(vid) == name_to_trade:
+					player_vid = vid
+					
+					net.SendExchangeStartPacket(player_vid)
+					for i in range(player.INVENTORY_PAGE_SIZE * 5):
+
+						attachedSlotType = player.INVENTORY
+						attachedInvenType = player.SlotTypeToInvenType(attachedSlotType)
+						
+						for n in range(int(giveFrom), int(giveTo)):
+							net.SendExchangeItemAddPacket(attachedInvenType, n, exslot)
+							exslot += 1
+
+						#exslot += 1
+					
+							net.SendExchangeAcceptPacket()
+					chat.AppendChat(3, "[STMOD] |cffFFFF00|H|h Succesfully gived items to: " + str(name_to_trade))
+
+
+	def OpenWindow(self):
+		if self.stmod.IsShow():
+			self.stmod.Hide()
+		else:
+			self.stmod.Show()
+	
+	def Close(self):
+		self.stmod.Hide()
+		
+class XX(ui.ScriptWindow):
+
+	def __init__(self):
+		ui.ScriptWindow.__init__(self)
+		self.eventTimeOver = lambda *arg: None
+		self.eventExit = lambda *arg: None
+
+	def __del__(self):
+		ui.ScriptWindow.__del__(self)
+
+	def XX1(self, waitTime):
+		curTime = time.clock()
+		self.endTime = curTime + waitTime
+
+		self.Show()
+
+	def Close(self):
+		self.Hide()
+
+	def Destroy(self):
+		self.Hide()
+
+	def XX2(self, event):
+		self.eventTimeOver = ui.__mem_func__(event)
+
+	def SAFE_SetExitEvent(self, event):
+		self.eventExit = ui.__mem_func__(event)
+
+
+	def OnUpdate(self):
+		lastTime = max(0, self.endTime - time.clock())
+		if 0 == lastTime:
+			self.Close()
+			self.eventTimeOver()
+		
+		
+		else:
+			return
+class Component:
+	def Button(self, parent, buttonName, tooltipText, x, y, func, UpVisual, OverVisual, DownVisual):
+		button = ui.Button()
+		if parent != None:
+			button.SetParent(parent)
+		button.SetPosition(x, y)
+		button.SetUpVisual(UpVisual)
+		button.SetOverVisual(OverVisual)
+		button.SetDownVisual(DownVisual)
+		button.SetText(buttonName)
+		button.SetToolTipText(tooltipText)
+		button.Show()
+		button.SetEvent(func)
+		return button
+
+
+	def ToggleButton(self, parent, buttonName, tooltipText, x, y, funcUp, funcDown, UpVisual, OverVisual, DownVisual):
+		button = ui.ToggleButton()
+		if parent != None:
+			button.SetParent(parent)
+		button.SetPosition(x, y)
+		button.SetUpVisual(UpVisual)
+		button.SetOverVisual(OverVisual)
+		button.SetDownVisual(DownVisual)
+		button.SetText(buttonName)
+		button.SetToolTipText(tooltipText)
+		button.Show()
+		button.SetToggleUpEvent(funcUp)
+		button.SetToggleDownEvent(funcDown)
+		return button
+
+	def EditLine(self, parent, editlineText, x, y, width, heigh, max):
+		SlotBar = ui.SlotBar()
+		if parent != None:
+			SlotBar.SetParent(parent)
+		SlotBar.SetSize(width, heigh)
+		SlotBar.SetPosition(x, y)
+		SlotBar.Show()
+		Value = ui.EditLine()
+		Value.SetParent(SlotBar)
+		Value.SetSize(width, heigh)
+		Value.SetPosition(1, 1)
+		Value.SetMax(max)
+		Value.SetLimitWidth(width)
+		Value.SetMultiLine()
+		Value.SetText(editlineText)
+		Value.Show()
+		return SlotBar, Value
+
+	def TextLine(self, parent, textlineText, x, y, color):
+		textline = ui.TextLine()
+		if parent != None:
+			textline.SetParent(parent)
+		textline.SetPosition(x, y)
+		if color != None:
+			textline.SetFontColor(color[0], color[1], color[2])
+		textline.SetText(textlineText)
+		textline.Show()
+		return textline
+
+	def RGB(self, r, g, b):
+		return (r*255, g*255, b*255)
+	def ThinBoard(self, parent, moveable, x, y, width, heigh, center):
+		thin = ui.ThinBoard()
+		if parent != None:
+			thin.SetParent(parent)
+		if moveable == TRUE:
+			thin.AddFlag('movable')
+			thin.AddFlag('float')
+		thin.SetSize(width, heigh)
+		thin.SetPosition(x, y)
+		if center == TRUE:
+			thin.SetCenterPosition()
+		thin.Show()
+		return thin
+
+		
+start = loader()
+start.Show()
