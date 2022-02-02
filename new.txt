@@ -1,11 +1,5 @@
-In this version, v010222
+In this version, v020222
 
 Those are the new improvements:
 
-● Fixed STMod for Special;
-● Minor editing at Mining bot;
-● At fishbot > buy bait you can make it customisable;
-● Remade metin/boss detector;
-● Now farmbot III will check if you have 'custom bosses' > into metin/boss detector window;
-● Some GUI improvements;
-● Fixed some small issues.
+● Fixed 'You need an active licence is order to work' bug.
