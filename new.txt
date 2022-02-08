@@ -1,5 +1,6 @@
-In this version, v020222
+In this version, v080222
 
 Those are the new improvements:
 
-● Fixed 'You need an active licence is order to work' bug.
+● Fixed STMod for GF servers (in order to work, only press Insert key after your character showed up, while you're in game. After pressing Insert, click on 'Switch character' > login back);
+● Fixed some bugs at 'Ads system'.
