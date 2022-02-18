@@ -1,6 +1,7 @@
-In this version, v080222
+In this version, v180222
 
 Those are the new improvements:
 
-● Fixed STMod for GF servers (in order to work, only press Insert key after your character showed up, while you're in game. After pressing Insert, click on 'Switch character' > login back);
-● Fixed some bugs at 'Ads system'.
+● Small Farmbot (I, II, III) improvements;
+● Added at Fishbot tab > 'Get fisherman VNUM' (that's because some servers modified the default fishermans vnum);
+● Fixed some small bugs.
