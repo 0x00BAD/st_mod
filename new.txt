@@ -1,7 +1,5 @@
-In this version, v180222
+In this version, v190222
 
 Those are the new improvements:
 
-● Small Farmbot (I, II, III) improvements;
-● Added at Fishbot tab > 'Get fisherman VNUM' (that's because some servers modified the default fishermans vnum);
-● Fixed some small bugs.
+● Fixed some issues.
