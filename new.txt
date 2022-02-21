@@ -1,6 +1,6 @@
-In this version, v200222
+In this version, v200222_rev2
 
 Those are the new improvements:
 
-● Fixed STMod for Gameforge servers (Now you don't have to login firstly in order to load STMod. After the metin2 client started, just focus on it and press Insert);
-● Fixed a bug when trying to load OpenBot (while trying to inject it, it was giving an error).
+● Fixed mining bot (Now it will farm selected ore, so if you select to only farm Ebony ore, just ebony ore will be attacked);
+● Added fix for ROP2.
