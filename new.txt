@@ -1,6 +1,5 @@
-In this version, v200222_rev2
+In this version, v260222
 
 Those are the new improvements:
 
-● Fixed mining bot (Now it will farm selected ore, so if you select to only farm Ebony ore, just ebony ore will be attacked);
-● Added fix for ROP2.
+● Added a checking STMod availability tool (drag / open metin2client into that tool, and will tell you if STMod / STLite can work on that server).
