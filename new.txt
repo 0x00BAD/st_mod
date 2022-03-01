@@ -1,5 +1,6 @@
-In this version, v260222
+In this version, v010322
 
 Those are the new improvements:
 
-● Added a checking STMod availability tool (drag / open metin2client into that tool, and will tell you if STMod / STLite can work on that server).
+● Added fix for Wom2Global;
+● Fixed some bugs.
