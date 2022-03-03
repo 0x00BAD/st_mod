@@ -1,6 +1,5 @@
-In this version, v010322
+In this version, v030322
 
 Those are the new improvements:
 
-● Added fix for Wom2Global;
-● Fixed some bugs.
+● Fixed bug that STMod won't load for free users on certain servers.
