@@ -1,5 +1,7 @@
-In this version, v030322
+In this version, v070322
 
 Those are the new improvements:
 
-● Fixed bug that STMod won't load for free users on certain servers.
+● Added 'Import settings' option >> This means that there will be some predefined settings for certain servers;
+● Now STMod will store the last server used;
+● Fixed some small issues.
