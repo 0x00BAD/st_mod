@@ -1,5 +1,7 @@
-In this version, v070322_rev2
+In this version, v100322
 
 Those are the new improvements:
 
-● Fixed the bug causing 'frm_module' error.
+● Added Energy bot for GF servers;
+● Fixed STMod for GF servers;
+● Fixed some bugs.
