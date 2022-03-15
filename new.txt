@@ -1,7 +1,5 @@
-In this version, v100322
+In this version, v150322
 
 Those are the new improvements:
 
-● Added Energy bot for GF servers;
-● Fixed STMod for GF servers;
 ● Fixed some bugs.
