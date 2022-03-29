@@ -1,6 +1,8 @@
-In this version, v250322
+In this version, v290322
 
 Those are the new improvements:
 
-● Added logging (In Resources folder > Logs > you'll find the servers you're playing and the char name, ex: Resources\Logs\Metin2\0x00bad.log)
+● Added Metin2NB Fix;
+● Added newest STMod version for Metin2SG;
+● Now every single server (.\Resources\Servers) will have independent settings;
 ● Fixed some bugs.
