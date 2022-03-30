@@ -1,8 +1,6 @@
-In this version, v290322
+In this version, v300322
 
 Those are the new improvements:
 
-● Added Metin2NB Fix;
-● Added newest STMod version for Metin2SG;
-● Now every single server (.\Resources\Servers) will have independent settings;
+● Fixed for Mester2 (In order to work, make sure you have the pre-made config for it >> Import Settings > Mester2, also before opening STMod, run their patcher);
 ● Fixed some bugs.
