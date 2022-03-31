@@ -1,6 +1,5 @@
-In this version, v300322
+In this version, v310322
 
 Those are the new improvements:
 
-● Fixed for Mester2 (In order to work, make sure you have the pre-made config for it >> Import Settings > Mester2, also before opening STMod, run their patcher);
-● Fixed some bugs.
+● Added in-game translations (Languages like Arabic, Chinese, Russian >> that are using special characters, were translated with ASCII characters [normal letters])
