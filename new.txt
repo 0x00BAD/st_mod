@@ -1,5 +1,5 @@
-In this version, v310322
+In this version, v010422
 
 Those are the new improvements:
 
-● Added in-game translations (Languages like Arabic, Chinese, Russian >> that are using special characters, were translated with ASCII characters [normal letters])
+● Fixed STMod for Omega2.
