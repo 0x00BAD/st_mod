@@ -1,5 +1,6 @@
-In this version, v010422
+In this version, v020422
 
 Those are the new improvements:
 
-● Fixed STMod for Omega2.
+● Fixed STMod for Omega2 for free users;
+● Fixed some bugs.
