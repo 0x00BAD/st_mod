@@ -442,3 +442,5 @@ InSane
 SuFix
 Atlantic
 Seli
+Boris
+Denis
