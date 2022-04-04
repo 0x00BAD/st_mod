@@ -1,6 +1,5 @@
-In this version, v020422
+In this version, v040422
 
 Those are the new improvements:
 
-● Fixed STMod for Omega2 for free users;
-● Fixed some bugs.
+● Added 'Search bar' on import-settings window.
