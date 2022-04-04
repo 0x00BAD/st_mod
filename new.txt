@@ -2,4 +2,5 @@ In this version, v040422
 
 Those are the new improvements:
 
+● Added Celestial World 2 and Nanika2 config on import-settings;
 ● Added 'Search bar' on import-settings window.
