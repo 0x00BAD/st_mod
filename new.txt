@@ -1,6 +1,6 @@
-In this version, v040422
+In this version, v090422
 
 Those are the new improvements:
 
-● Added Celestial World 2 and Nanika2 config on import-settings;
-● Added 'Search bar' on import-settings window.
+● Added fix for Mt2Classic (In order to use it there, use the premade config > Import settings > Mt2Classic, also, you need to have premium);
+● Fixed some issues.
