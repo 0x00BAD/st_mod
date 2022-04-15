@@ -1,6 +1,5 @@
-In this version, v090422
+In this version, v150422
 
 Those are the new improvements:
 
-● Added fix for Mt2Classic (In order to use it there, use the premade config > Import settings > Mt2Classic, also, you need to have premium);
-● Fixed some issues.
+● Fixed some bugs.
