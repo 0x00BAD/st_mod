@@ -1,5 +1,5 @@
-In this version, v150422
+In this version, v160422
 
 Those are the new improvements:
 
-● Fixed some bugs.
+● Fixed bug that kept freezing STMod.
