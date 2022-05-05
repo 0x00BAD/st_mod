@@ -2,4 +2,4 @@ In this version, v050522
 
 Those are the new improvements:
 
-● Fixed bug was causing STMod random crashes.
+● Fixed a bug that was causing STMod random crashes.
