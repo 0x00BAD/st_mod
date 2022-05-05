@@ -1,6 +1,5 @@
-In this version, v160422
+In this version, v050522
 
 Those are the new improvements:
 
-● Fixed bug that kept freezing STMod;
-● Every premium user got +1 day.
+● Fixed bug was causing STMod random crashes.
