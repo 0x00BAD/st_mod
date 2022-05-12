@@ -1,5 +1,5 @@
-In this version, v050522
+In this version, v120522
 
 Those are the new improvements:
 
-● Fixed a bug that was causing STMod random crashes.
+● Fixed the bug where premium users got 'Your licence expired' message.
