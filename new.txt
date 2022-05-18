@@ -1,5 +1,5 @@
-In this version, v120522
+In this version, v180522
 
 Those are the new improvements:
 
-● Fixed the bug where premium users got 'Your licence expired' message.
+● Fixed a bug where STMod wasn't loaded correctly on some PServers.
