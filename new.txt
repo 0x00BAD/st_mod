@@ -1,5 +1,9 @@
-In this version, v180522
+In this version, v210522
 
 Those are the new improvements:
 
-● Fixed a bug where STMod wasn't loaded correctly on some PServers.
+● Added '+' & '-' buttons (This will allow you to resize Metin2 window to 200/100);
+● Fixed Hide & Show functions from STMod window;
+● Added a second method on Energy bot (Using method 2 with teleporting the bot will auto-give all selected items to alchemist);
+● Added at Energy bot window premade configs (Map1 blue, yellow, red: alchemist & npc to buy locations);
+● Added at Energy bot window 'Shop index' function (this will be useful just in case you have a mission at NPC to buy items and the shop can't be opened as index 0).
