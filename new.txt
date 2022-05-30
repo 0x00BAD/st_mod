@@ -1,6 +1,6 @@
-In this version, v280522
+In this version, v300522
 
 Those are the new improvements:
 
-● Added at fishbot tab 'Switch armor' function;
+● Added 'Copy settings' function (useful for certain servers);
 ● Fixed some issues.
