@@ -1,5 +1,5 @@
-In this version, v310522
+In this version, v010622
 
 Those are the new improvements:
 
-● Fixed STMod for Sepehrion2.
+● Fixed a bug caused by 'Copy settings' function.
