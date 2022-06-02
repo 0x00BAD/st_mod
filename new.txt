@@ -7,4 +7,5 @@ In this version, v020622
 ---> Metin2Legend Global
 ---> Tian2
 ---> Metin2GoodTimes
+● Added more configs to Import settings;
 ● Fixed some issues.
