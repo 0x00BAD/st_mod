@@ -1,7 +1,10 @@
-In this version, v010622
+In this version, v020622
 
-Those are the new improvements:
+**Those are the new improvements:
 
-● Fixed a bug caused by 'Copy settings' function;
-● Fixed config for Sepherion2 (In order to get it, remove your current Sepherion config and redownload it from Import settings);
-● Added more configs to Import settings.
+● Fixed STMod for those servers:
+---> Kronius2 (Added a fix box for it, also, use the premade config from Import settings);
+---> Metin2Legend Global
+---> Tian2
+---> Metin2GoodTimes
+● Fixed some issues.
