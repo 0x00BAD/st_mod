@@ -1,11 +1,7 @@
-In this version, v020622
+In this version, v080622
 
-**Those are the new improvements:
+Those are the new improvements:
 
-● Fixed STMod for those servers:
----> Kronius2 (Added a fix box for it, also, use the premade config from Import settings);
----> Metin2Legend Global
----> Tian2
----> Metin2GoodTimes
-● Added more configs to Import settings;
-● Fixed some issues.
+● Fixed follow target function;
+● Added option to 'Walking' or 'Teleport' at follow target function;
+● Added 'Freeze location' on farming tab.
