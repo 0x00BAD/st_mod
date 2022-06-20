@@ -1,7 +1,6 @@
-In this version, v080622
+In this version, v200622
 
 Those are the new improvements:
 
-● Fixed follow target function;
-● Added option to 'Walking' or 'Teleport' at follow target function;
-● Added 'Freeze location' on farming tab.
+● Fixed STMod for Kimetsu2 (Use the premade config from import settings);
+● Fixed STMod for GF servers for free users.
