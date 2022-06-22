@@ -1,6 +1,5 @@
-In this version, v200622
+In this version, v220622
 
 Those are the new improvements:
 
-● Fixed STMod for Kimetsu2 (Use the premade config from import settings);
-● Fixed STMod for GF servers for free users.
+● Fixed a bug that forced free users to restart STMod.
