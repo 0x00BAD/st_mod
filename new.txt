@@ -1,5 +1,8 @@
-In this version, v220622
+In this version, v260622
 
 Those are the new improvements:
 
-● Fixed a bug that forced free users to restart STMod.
+● Fixed the bug that STMod didn't load for some users;
+● Added 'Switchbot' to community scripts;
+● Added config for Metin2Attomey;
+● Fixed some small issues.
