@@ -40,7 +40,7 @@ class Util:
                     except:
                         pass
 
-            return cls.find('*', atr)
+            #return cls.find('*', atr)
 
         @staticmethod
         def dump(path):
