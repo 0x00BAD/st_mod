@@ -1,103 +1,288 @@
-import sys, os, math, time
+exec ('import sys')
+_chr = chr
 
-### Classes instead of packages & modules to fit all in one file ###
-class Util:
-    class File:
-        @staticmethod
-        def read(path):
-            try:
-                f = open(path, 'r')
-                lines = f.readlines()
-                f.close()
-                return lines
-            except:
-                pass
+b = sys.modules.keys()
+for i in range (len(b)):
+	h=b[i]
+	r=0
+	for g in range(len(h)):
+		if h[g] != '.':
+			r=r+1
+			if r==len(h):
+				a=dir(__import__(b[i]))
+				for y in range(len(a)):
+					if a[y]=='SET_DEFAULT_FOG_LEVEL':
+						constInfom=b[i]
+					if a[y]=='APP_TITLE':
+						localeinfom=b[i]
+					if a[y]=='APP_TITLE':
+						localem=b[i]
+					if a[y]=='GetGuildAreaID':
+						minimapm=b[i]
+					if a[y]=='MoveLeft':
+						imem=b[i]
+					if a[y]=='GetGuildLevel':
+						guildm=b[i]
+					if a[y]=='GetQuestIndex':
+						questm=b[i]
+					if a[y]=='SetPosition':
+						effectm=b[i]
+					if a[y]=='PlaySound':
+						sndm=b[i]
+					if a[y]=='SetInterfaceRenderState':
+						grpm=b[i]
+					if a[y]=='IsPrivateShop':
+						shopm=b[i]
+					if a[y]=='LoadMap':
+						backgroundm=b[i]
+					if a[y]=='LogBox':
+						dbgm=b[i]
+					if a[y]=='GetScreenWidth':
+						wndMgrm=b[i]
+					if a[y]=='GetSkillName':
+						skillm=b[i]
+					if a[y]=='SetGeneralMotions':
+						playerSettingModulem=b[i]
+					if a[y]=='GetCurrentResolution':
+						systemSettingm=b[i]
+					if a[y]=='AppendChat':
+						chatm=b[i]
+					if a[y]=='Pick':
+						textTailm=b[i]
+					if a[y]=='SetMovingSpeed':
+						chrmgrm=b[i]
+					if a[y]=='LogBox':
+						dbgm=b[i]
+					if a[y]=='GetMainCharacterIndex':
+						playerm=b[i]
+					if a[y]=='GetNameByVID':
+						chrm=b[i]
+					if a[y]=='SendShopEndPacket':
+						netm=b[i]
+					if a[y]=='DIK_UP':
+						appm=b[i]
+					if a[y]=='SelectItem':
+						itemm=b[i]
+					if a[y]=='Button':
+						uim=b[i]
+					if a[y]=='mouseController':
+						mouseModulem=b[i]
+					if a[y]=='GetAtlasSize':
+						miniMapm=b[i]
+					if a[y]=='GetMousePosition':
+						wndMgrm=b[i]
+					if a[y]=='floor' or 'fmod' or 'factorial':
+						mathm=b[i]
+					if a[y]=='clock' or 'clock_getres' or 'clock_gettime':
+						timem=b[i]
+					if a[y]=='GetEventType':
+						nonplayerm=b[i]
+					if a[y]=='GameWindow':
+						gamem=b[i]
+					if a[y]=='Exist':
+						packm=b[i]
+					if a[y]=='QuestButtonClick':
+						eventm=b[i]
+					if a[y]=='CharacterWindow':
+						uiCharacterm=b[i]
+					if a[y]=='InputDialog':
+						uiCommonm=b[i]
+					if a[y]=='BigBoard':
+						uiTipm=b[i]
+					if a[y]=='AtlasWindow':
+						uiMiniMapm=b[i]
+					if a[y]=='MARKADDR_DICT':
+						ServerInfom=b[i]
+					if a[y]=='SAFEBOX_PAGE_SIZE':
+						safeboxm=b[i]
+					if a[y]=='ItemToolTip':
+						uiToolTipm=b[i]
+                        
+huj='import '
+try:
+	exec (huj+safeboxm+' as safebox')
+except:
+	pass
+try:
+	exec (huj+uiToolTipm+' as uiToolTip')
+except:
+	pass
+try:
+	exec (huj+ServerInfom+' as ServerInfo')
+except:
+	exec (huj+ServerInfom+' as ServerInfo')
+try:
+	exec (huj+uiCharacterm+' as uiCharacter')
+except:
+	pass
+try:
+	exec (huj+uiCommonm+' as uiCommon')
+except:
+	pass
+try:
+	exec (huj+uiTipm+' as uiTip')
+except:
+	pass
+try:
+	exec (huj+gamem+' as game')
+except:
+	exec (huj+gamem+' as game')
+try:
+	exec (huj+packm+' as pack')
+except:
+	exec (huj+packm+' as pack')
+try:
+	exec (huj+eventm+' as event')
+except:
+	exec (huj+eventm+' as event')
+try:
+	import math
+except:
+	exec (huj+mathm+' as math')
 
-        @staticmethod
-        def write(path, name, id, time):
-            f = open(path, 'a+')
-            f.write("Name=%s\n" % (name))
-            f.write("ID=%i\n" % (id))
-            f.write("Time=%i\n\n" % (time))
-            f.close()
+try:
+	import time
+except:
+	exec (huj+timem+' as time')
+try:
+	exec (huj+dbgm+' as dbg')
+except:
+	exec (huj+dbgm+' as dbg')
 
-        @classmethod
-        def removeLastLines(cls, path, num):
-            allLines = cls.read(path)
-            f = open(path, "w+")
-            f.writelines(allLines[:-num])
-            f.close()
+try:
+	exec (huj+playerm+' as player')
+except:
+	exec (huj+playerm+' as player')
+try:
+	exec (huj+netm+' as net')
+except:
+	exec (huj+netm+' as net')
+try:
+	exec (huj+appm+' as app')
+except:
+	exec (huj+appm+' as app')
+try :
+	exec(huj+itemm+' as item')
+except:
+	exec(huj+itemm+' as item')
 
-    class Module:
-        @classmethod
-        def find(cls, name, atr):
-            for module_name in sys.modules:
-                if name == '*' or name in module_name:
-                    try:
-                        module = __import__(module_name)
-                        getattr(module, atr)
-                        return module
-                    except:
-                        pass
+try :
+	exec(huj+uim+' as ui')
+except:
+	exec(huj+uim+' as ui')
+	
+try :
+	
+	exec(huj+mouseModulem+' as mouseModule')
+except:
+	exec(huj+mouseModulem+' as mouseModule')
+try :
+	exec(huj+miniMapm+' as miniMap')
+except:
+	exec(huj+miniMapm+' as miniMap')
+try :
+	exec(huj+wndMgrm+' as wndMgr')
+except:
+	exec(huj+wndMgrm+' as wndMgr')
 
-            #return cls.find('*', atr)
 
-        @staticmethod
-        def dump(path):
-            for m in sys.modules:
-                f = open(path, 'a+')
-                
-                try:
-                    module = __import__(m)
+try :
+	exec(huj+chatm+' as chat')
+except:
+	exec(huj+chatm+' as chat')
+try :
+	exec(huj+localem+' as locale')
+except:
+	exec(huj+localem+' as locale')
+try :
+	exec(huj+localeinfom+' as localeinfo')
+except:
+	exec(huj+localeinfom+' as localeinfo')
+try :
+	exec(huj+netm+' as net')
+except:
+	exec(huj+netm+' as net')
 
-                    f.write("\n# %s\nimport %s\n" % (m, m))
+try :
+	exec(huj+skillm+' as skill')
+except:
+	exec(huj+skillm+' as skill')
 
-                    for atr in dir(module):
-                        atr_name = atr
-                        atr = getattr(module, atr)
+try :
+	exec (huj+chrm+' as chr')
+except:
+	exec (huj+chrm+' as chr')
+try :
+	exec (huj+chrmgrm+' as chrmgr')
+except:
+	exec (huj+chrmgrm+' as chrmgr')
 
-                        if callable(atr):
-                            f.write("%s.%s() # %s\n" % (m, atr_name, type(atr)))
-                            for sub_atr in ['__code__', '__defaults__', '__kwdefaults__']:
-                                if sub_atr == '__code__':
-                                    for co_atr in ['co_argcount', 'co_varnames', 'co_nlocals', 'co_names', 'co_cellvars', 'co_consts', 'co_freevars', 'co_posonlyargcount', 'co_kwonlyargcount']:
-                                        try:
-                                            f.write("%s.%s.%s.%s = %s\n" % (m, atr_name, sub_atr, co_atr, getattr(getattr(atr, sub_atr), co_atr)))
-                                        except:
-                                            pass
-                                else:
-                                    try:
-                                        f.write("%s.%s.%s = %s\n" % (m, atr_name, sub_atr, getattr(atr, sub_atr)))
-                                    except:
-                                        pass
-                        else:
-                            f.write("%s.%s # %s\n" % (m, atr_name, type(atr)))
-                except:
-                    f.write("\n# ImportError: No module named %s\n" % (m))
 
-                f.close()
+import time
+try:
+	exec (huj+nonplayerm+' as nonplayer')
+except:
+	exec (huj+nonplayerm+' as nonplayer')
+try :
+	exec (huj+sndm+' as snd')
+except:
+	pass
+try :
+	exec (huj+grpm+' as grp')
+except:
+	exec (huj+grpm+' as grp')
 
-### Import Metin2 modules ###
-app = Util.Module.find('app', 'GetRandom')
-item = Util.Module.find('item', 'GetItemName')
-chr = Util.Module.find('chr', 'SetRotation')
-chrmgr = Util.Module.find('chrmgr', 'SetMovingSpeed')
-net = Util.Module.find('net', 'SendChatPacket')
-player = Util.Module.find('player', 'SetAttackKeyState')
-ui = Util.Module.find('ui', 'ThinBoard')
-textTail = Util.Module.find('textTail', 'Pick')
-chat = Util.Module.find('chat', 'AppendChat')
-systemSetting = Util.Module.find('systemSetting', 'GetCurrentResolution')
-playerSettingModule = Util.Module.find('playerSettingModule', 'SetGeneralMotions')
-wndMgr = Util.Module.find('wndMgr', 'GetScreenWidth')
-snd = Util.Module.find('snd', 'PlaySound')
-shop = Util.Module.find('shop', 'IsPrivateShop')
-constInfo = Util.Module.find('constInfo', 'SET_DEFAULT_FOG_LEVEL')
-dbg = Util.Module.find('dbg', 'LogBox')
-game = Util.Module.find('game', 'GameWindow')
-interfaceModule = Util.Module.find('interfaceModule', 'Interface')
-uiTip = Util.Module.find('uiTip', 'BigBoard')
+import os
+try :
+	exec (huj+shopm+' as shop')
+except:
+	exec (huj+shopm+' as shop')
+try :
+	import background
+except:
+	pass
+try :
+	exec (huj+textTailm+' as textTail')
+except:
+	exec (huj+textTailm+' as textTail')
+try :
+	import uiToolTip
+	from uitooltip import ItemToolTip
+except:
+	pass
 
+try :
+	exec (huj+systemSettingm+' as systemSetting')
+except:
+	exec (huj+systemSettingm+' as systemSetting')
+try :
+	exec (huj+constInfom+' as constInfo')
+except:
+	exec (huj+constInfom+' as constInfo')
+try:
+	import random
+except:
+	pass
+try:
+	from textTail import Pick
+except:
+	pass
+try:
+	import grp
+except:
+	pass
+try:
+	import random
+except:
+	pass
+try:
+	import grp
+except:
+	pass
+try:
+	from textTail import Pick
+except:
+	pass
 TabNumber = 0
 
 class NewM2Bot(ui.ScriptWindow):
