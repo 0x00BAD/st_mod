@@ -99,7 +99,7 @@ for i in range (len(b)):
 						uiToolTipm=b[i]
 					if a[y]=='Interface':
 						interfaceModulem=b[i]
-                        
+						
 huj='import '
 try:
 	exec (huj+interfaceModulem+' as interfaceModule')
@@ -291,3804 +291,963 @@ try:
 	from textTail import Pick
 except:
 	pass
-TabNumber = 0
 
-class NewM2Bot(ui.ScriptWindow):
-    Gui = []
-    BoniGui = []
-    BoniGui2 = []
-    BoniGui3 = []
-    BoniGui4 = []
-    BoniGui5 = []
-    Delay = 1.0
-    BonusIDListe = [
-        [
-            'Nothing',
-            0],
-        [
-            'Max HP.',
-            1],
-        [
-            'Max SP.',
-            2],
-        [
-            'VIT',
-            3],
-        [
-            'INT',
-            4],
-        [
-            'STR',
-            5],
-        [
-            'DEX',
-            6],
-        [
-            'Attack speed',
-            7],
-        [
-            'Movement speed',
-            8],
-        [
-            'Spell speed',
-            9],
-        [
-            'Hp Regen',
-            10],
-        [
-            'SP Regen',
-            11],
-        [
-            'Poisoning chance',
-            12],
-        [
-            'Stunning chance',
-            13],
-        [
-            'Slowing chance',
-            14],
-        [
-            'Critical chance',
-            15],
-        [
-            'Penetration chance',
-            16],
-        [
-            'Strong against Half Humans',
-            17],
-        [
-            'Strong against Animals',
-            18],
-        [
-            'Strong against Orks',
-            19],
-        [
-            'Strong against Mistics',
-            20],
-        [
-            'Strong against Vampires',
-            21],
-        [
-            'Strong against Devils',
-            22],
-        [
-            'HP Absorbtion',
-            23],
-        [
-            'SP Absorbtion',
-            24],
-        [
-            'SP Robbing',
-            25],
-        [
-            'Chance to get back SP',
-            26],
-        [
-            'Block phisycal attack',
-            27],
-        [
-            'Avoid arrows',
-            28],
-        [
-            'Sword defence',
-            29],
-        [
-            'Dual hand defence',
-            30],
-        [
-            'Dagger defence',
-            31],
-        [
-            'Bell defence',
-            32],
-        [
-            'Fan defence',
-            33],
-        [
-            'Arrow defence',
-            34],
-        [
-            'Fire defence',
-            35],
-        [
-            'Lightning defence',
-            36],
-        [
-            'Magic resistance',
-            37],
-        [
-            'Wind defence',
-            38],
-        [
-            'Chance to reflect hits',
-            39],
-        [
-            'Chance to reflect a curse',
-            40],
-        [
-            'Poisoning resistance',
-            41],
-        [
-            'Restore MP',
-            42],
-        [
-            'Exp-Bonus',
-            43],
-        [
-            'Yang chance',
-            44],
-        [
-            'Drop chance',
-            45],
-        [
-            'Chance of increace potions bonuses',
-            46],
-        [
-            'Chance of HP restoring',
-            47],
-        [
-            'Immune against faint',
-            48],
-        [
-            'Immune against slowing',
-            49],
-        [
-            'Immune against falling',
-            50],
-        [
-            'Attack value',
-            53],
-        [
-            'Skill Damage',
-            71],
-        [
-            'Average damage',
-            72]]
-    State = 'Stop'
-    State2 = 'Stop'
-    State3 = 'Stop'
-    State4 = 'Stop'
-    State5 = 'Stop'
-    SearchBoni = []
-    SearchBoniValues = [
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0]]
-    SearchBoni2 = []
-    SearchBoniValues2 = [
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0]]
-    SearchBoni3 = []
-    SearchBoniValues3 = [
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0]]
-    SearchBoni4 = []
-    SearchBoniValues4 = [
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0]]
-    SearchBoni5 = []
-    SearchBoniValues5 = [
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0],
-        [
-            0,
-            0]]
-    Values = []
-    Boni = []
-    Count = 0
-    Slot = 0
-    Startmode = 0
-    Values2 = []
-    Boni2 = []
-    Count2 = 0
-    Slot2 = 0
-    Startmode2 = 0
-    Values3 = []
-    Boni3 = []
-    Count3 = 0
-    Slot3 = 0
-    Startmode3 = 0
-    Values4 = []
-    Boni4 = []
-    Count4 = 0
-    Slot4 = 0
-    Startmode4 = 0
-    Values5 = []
-    Boni5 = []
-    Count5 = 0
-    Slot5 = 0
-    Startmode5 = 0
-    LastProcessTimeStamp = 0
-    SlotStack = [
-        0,
-        0]
-    SwitchValue = 71084
-    LastProcessTimeStamp2 = 0
-    SlotStack2 = [
-        0,
-        0]
-    LastProcessTimeStamp3 = 0
-    SlotStack3 = [
-        0,
-        0]
-    LastProcessTimeStamp4 = 0
-    SlotStack4 = [
-        0,
-        0]
-    LastProcessTimeStamp5 = 0
-    SlotStack5 = [
-        0,
-        0]
-    
-    def __init__(self):
-        self.Gui = []
-        ui.ScriptWindow.__init__(self)
-        self.AddGui()
-        self.BoardMessage = uiTip.BigBoard()
-        chat.AppendChat(7, 'Loaded succesfully!')
 
-    
-    def __del__(self):
-        self.Gui[0].Hide()
-        ui.ScriptWindow.__del__(self)
-        if 1 == interfaceModule.Botacik:
-            interfaceModule.Botacik = 0
-        
 
-    
-    def AddGui(self):
-        Gui = [
-            [
-                [
-                    ui.ThinBoard,
-                    ''],
-                [
-                    500,
-                    330],
-                [
-                    0,
-                    0],
-                [
-                    [
-                        'SetCenterPosition',
-                        [
-                            '']]],
-                [
-                    'movable',
-                    'float']],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    475,
-                    15],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_03.sub']],
-                    [
-                        'SetToolTipText',
-                        [
-                            'Exit',
-                            0,
-                            -23]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.__del__()]]],
-                []],
-            [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    465,
-                    230],
-                [
-                    15,
-                    80],
-                [],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    20],
-                [
-                    [
-                        'SetText',
-                        [
-                            'STMod - Switchbot']],
-                    [
-                        'SetFontColor',
-                        [
-                            0.40000000000000002,
-                            0.80000000000000004,
-                            0.10000000000000001]]],
-                []],
-            [
-                [
-                    ui.Line,
-                    0],
-                [
-                    435,
-                    0],
-                [
-                    30,
-                    260],
-                [
-                    [
-                        'SetColor',
-                        [
-                            -8947849]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    240,
-                    160],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'S\xfdf\xfdrla']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.DeleteAll(TabNumber)]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    179 - 20,
-                    280],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Start']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.ChangeState('Start')]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    272 - 20,
-                    280],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Stop']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.ChangeState('Stop')]]],
-                []]]
-        GuiParser(Gui, self.Gui)
-        self.Gui[6].Hide()
-        self.Gui[7].Hide()
-        self.Gui[5].Hide()
-        tmp = []
-        x = 20
-        for i in xrange(5):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    x,
-                    50],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Slot ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectTab(Index)]]],
-                []]
-            tmp.append(button)
-            x += 65
-        
-        y = 100
-        texty = 200
-        for i in xrange(3):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    40,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    140,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    14 + i * 4],
-                [
-                    35,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    45,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3, 5):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    240,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    340,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    26 + (i - 3) * 4],
-                [
-                    235,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    245,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    40,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus2(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    140,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    34 + i * 4],
-                [
-                    35,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    45,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3, 5):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    240,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus2(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    340,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    46 + (i - 3) * 4],
-                [
-                    235,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    245,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    40,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus3(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    140,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    54 + i * 4],
-                [
-                    35,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    45,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3, 5):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    240,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus3(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    340,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    66 + (i - 3) * 4],
-                [
-                    235,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    245,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    40,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus4(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    140,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    74 + i * 4],
-                [
-                    35,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    45,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3, 5):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    240,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus4(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    340,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    86 + (i - 3) * 4],
-                [
-                    235,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    245,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    40,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus5(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    140,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    94 + i * 4],
-                [
-                    35,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    45,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        y = 100
-        texty = 200
-        for i in xrange(3, 5):
-            button = [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    240,
-                    y],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Bonus ' + str(i + 1)]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda Index = i: self.SelectBonus5(Index)]]],
-                []]
-            slotbar = [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    35,
-                    18],
-                [
-                    340,
-                    y],
-                [],
-                []]
-            editline = [
-                [
-                    ui.EditLine,
-                    106 + (i - 3) * 4],
-                [
-                    235,
-                    17],
-                [
-                    6,
-                    2],
-                [
-                    [
-                        'SetMax',
-                        [
-                            4]],
-                    [
-                        'SetNumberMode',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            '0']]],
-                []]
-            textline = [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    245,
-                    texty],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Nothing']]],
-                []]
-            tmp.append(button)
-            tmp.append(slotbar)
-            tmp.append(textline)
-            tmp.append(editline)
-            y += 30
-            texty += 20
-        
-        GuiParser(tmp, self.Gui)
-        for i in xrange(33, 113):
-            self.Gui[int(i)].Hide()
-        
-        self.StartOrStop(0)
-
-    
-    def StartOrStop(self, Index):
-        tmpstarter = [
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    179 - 20,
-                    280],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Start']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.WhichOneWillStart(Index)]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    272 - 20,
-                    280],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/Middle_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Stop']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.WhichOneWillStop(Index)]]],
-                []]]
-        GuiParser(tmpstarter, self.Gui)
-
-    
-    def SelectTab(self, Index):
-        global TabNumber
-        TabNumber = Index
-        self.StartOrStop(Index)
-        if Index == 0:
-            for iy in xrange(33, 113):
-                self.Gui[int(iy)].Hide()
-            
-            for iy in xrange(12, 33):
-                self.Gui[int(iy)].Show()
-            
-        elif Index == 1:
-            for iy in xrange(13, 113):
-                self.Gui[int(iy)].Hide()
-            
-            for iy in xrange(33, 53):
-                self.Gui[int(iy)].Show()
-            
-        elif Index == 2:
-            for iy in xrange(13, 113):
-                self.Gui[int(iy)].Hide()
-            
-            for iy in xrange(53, 73):
-                self.Gui[int(iy)].Show()
-            
-        elif Index == 3:
-            for iy in xrange(13, 113):
-                self.Gui[int(iy)].Hide()
-            
-            for iy in xrange(73, 93):
-                self.Gui[int(iy)].Show()
-            
-        elif Index == 4:
-            for iy in xrange(13, 113):
-                self.Gui[int(iy)].Hide()
-            
-            for iy in xrange(93, 113):
-                self.Gui[int(iy)].Show()
-            
-        
-
-    
-    def WhichOneWillStart(self, Index):
-        if Index == 0:
-            self.ChangeState('Start')
-            chat.AppendChat(7, 'Slot: ' + str(int(Index + 1)) + '. switching started.')
-        elif Index == 1:
-            self.ChangeState2('Start')
-            chat.AppendChat(7, 'Slot: ' + str(int(Index + 1)) + '. switching started.')
-        elif Index == 2:
-            self.ChangeState3('Start')
-            chat.AppendChat(7, 'Slot: ' + str(int(Index + 1)) + '. switching started.')
-        elif Index == 3:
-            self.ChangeState4('Start')
-            chat.AppendChat(7, 'Slot: ' + str(int(Index + 1)) + '. switching started.')
-        elif Index == 4:
-            self.ChangeState5('Start')
-            chat.AppendChat(7, 'Slot: ' + str(int(Index + 1)) + '. switching started.')
-        
-
-    
-    def WhichOneWillStop(self, Index):
-        if Index == 0:
-            self.ChangeState('Stop')
-        elif Index == 1:
-            self.ChangeState2('Stop')
-        elif Index == 2:
-            self.ChangeState3('Stop')
-        elif Index == 3:
-            self.ChangeState4('Stop')
-        elif Index == 4:
-            self.ChangeState5('Stop')
-        
-
-    
-    def DeleteAll(self, tabnumber):
-        if tabnumber == 0:
-            del self.SearchBoni[0]
-        
-
-    
-    def SelectBonus(self, Index):
-        self.BoniGui = []
-        Gui = [
-            [
-                [
-                    ui.ThinBoard,
-                    ''],
-                [
-                    223,
-                    323],
-                [
-                    0,
-                    0],
-                [
-                    [
-                        'SetCenterPosition',
-                        [
-                            '']]],
-                [
-                    'movable',
-                    'float']],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    183,
-                    18],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_03.sub']],
-                    [
-                        'SetToolTipText',
-                        [
-                            'Exit',
-                            0,
-                            -23]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList()]]],
-                []],
-            [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    190,
-                    227],
-                [
-                    15,
-                    35],
-                [],
-                []],
-            [
-                [
-                    ui.ListBoxEx,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    60],
-                [],
-                []],
-            [
-                [
-                    ui.ScrollBar,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    185,
-                    50],
-                [
-                    [
-                        'SetScrollBarSize',
-                        [
-                            200]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    39],
-                [
-                    [
-                        'SetDefaultFontName',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            'ID:\t\t\tBonus:']],
-                    [
-                        'SetFontColor',
-                        [
-                            0.20000000000000001,
-                            0.59999999999999998,
-                            1.0]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    15],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Switching slot ' + str(Index + 1)]],
-                    [
-                        'SetFontColor',
-                        [
-                            0.80000000000000004,
-                            0.5,
-                            0.10000000000000001]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Select']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda index = Index: self.AddBonus(Index)]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    113,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Exit']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList()]]],
-                []]]
-        GuiParser(Gui, self.BoniGui)
-        self.BoniGui[3].SetScrollBar(self.BoniGui[4])
-        self.SetBonusList()
-
-    
-    def SelectBonus2(self, Index):
-        self.BoniGui2 = []
-        Gui = [
-            [
-                [
-                    ui.ThinBoard,
-                    ''],
-                [
-                    223,
-                    323],
-                [
-                    0,
-                    0],
-                [
-                    [
-                        'SetCenterPosition',
-                        [
-                            '']]],
-                [
-                    'movable',
-                    'float']],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    183,
-                    18],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_03.sub']],
-                    [
-                        'SetToolTipText',
-                        [
-                            'Exit',
-                            0,
-                            -23]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList2()]]],
-                []],
-            [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    190,
-                    227],
-                [
-                    15,
-                    35],
-                [],
-                []],
-            [
-                [
-                    ui.ListBoxEx,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    60],
-                [],
-                []],
-            [
-                [
-                    ui.ScrollBar,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    185,
-                    50],
-                [
-                    [
-                        'SetScrollBarSize',
-                        [
-                            200]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    39],
-                [
-                    [
-                        'SetDefaultFontName',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            'ID:\t\t\tBonus:']],
-                    [
-                        'SetFontColor',
-                        [
-                            0.20000000000000001,
-                            0.59999999999999998,
-                            1.0]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    15],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Switching slot ' + str(Index + 1)]],
-                    [
-                        'SetFontColor',
-                        [
-                            0.80000000000000004,
-                            0.5,
-                            0.10000000000000001]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Select']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda index = Index: self.AddBonus2(Index)]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    113,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Exit']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList2()]]],
-                []]]
-        GuiParser(Gui, self.BoniGui2)
-        self.BoniGui2[3].SetScrollBar(self.BoniGui2[4])
-        self.SetBonusList2()
-
-    
-    def SelectBonus3(self, Index):
-        self.BoniGui3 = []
-        Gui = [
-            [
-                [
-                    ui.ThinBoard,
-                    ''],
-                [
-                    223,
-                    323],
-                [
-                    0,
-                    0],
-                [
-                    [
-                        'SetCenterPosition',
-                        [
-                            '']]],
-                [
-                    'movable',
-                    'float']],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    183,
-                    18],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_03.sub']],
-                    [
-                        'SetToolTipText',
-                        [
-                            'Exit',
-                            0,
-                            -23]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList3()]]],
-                []],
-            [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    190,
-                    227],
-                [
-                    15,
-                    35],
-                [],
-                []],
-            [
-                [
-                    ui.ListBoxEx,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    60],
-                [],
-                []],
-            [
-                [
-                    ui.ScrollBar,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    185,
-                    50],
-                [
-                    [
-                        'SetScrollBarSize',
-                        [
-                            200]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    39],
-                [
-                    [
-                        'SetDefaultFontName',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            'ID:\t\t\tBonus:']],
-                    [
-                        'SetFontColor',
-                        [
-                            0.20000000000000001,
-                            0.59999999999999998,
-                            1.0]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    15],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Switching slot ' + str(Index + 1)]],
-                    [
-                        'SetFontColor',
-                        [
-                            0.80000000000000004,
-                            0.5,
-                            0.10000000000000001]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Select']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda index = Index: self.AddBonus3(Index)]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    113,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Exit']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList3()]]],
-                []]]
-        GuiParser(Gui, self.BoniGui3)
-        self.BoniGui3[3].SetScrollBar(self.BoniGui3[4])
-        self.SetBonusList3()
-
-    
-    def SelectBonus4(self, Index):
-        self.BoniGui4 = []
-        Gui = [
-            [
-                [
-                    ui.ThinBoard,
-                    ''],
-                [
-                    223,
-                    323],
-                [
-                    0,
-                    0],
-                [
-                    [
-                        'SetCenterPosition',
-                        [
-                            '']]],
-                [
-                    'movable',
-                    'float']],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    183,
-                    18],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_03.sub']],
-                    [
-                        'SetToolTipText',
-                        [
-                            'Exit',
-                            0,
-                            -23]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList4()]]],
-                []],
-            [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    190,
-                    227],
-                [
-                    15,
-                    35],
-                [],
-                []],
-            [
-                [
-                    ui.ListBoxEx,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    60],
-                [],
-                []],
-            [
-                [
-                    ui.ScrollBar,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    185,
-                    50],
-                [
-                    [
-                        'SetScrollBarSize',
-                        [
-                            200]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    39],
-                [
-                    [
-                        'SetDefaultFontName',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            'ID:\t\t\tBonus:']],
-                    [
-                        'SetFontColor',
-                        [
-                            0.20000000000000001,
-                            0.59999999999999998,
-                            1.0]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    15],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Switching slot ' + str(Index + 1)]],
-                    [
-                        'SetFontColor',
-                        [
-                            0.80000000000000004,
-                            0.5,
-                            0.10000000000000001]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Select']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda index = Index: self.AddBonus4(Index)]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    113,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Exit']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList4()]]],
-                []]]
-        GuiParser(Gui, self.BoniGui4)
-        self.BoniGui4[3].SetScrollBar(self.BoniGui4[4])
-        self.SetBonusList4()
-
-    
-    def SelectBonus5(self, Index):
-        self.BoniGui5 = []
-        Gui = [
-            [
-                [
-                    ui.ThinBoard,
-                    ''],
-                [
-                    223,
-                    323],
-                [
-                    0,
-                    0],
-                [
-                    [
-                        'SetCenterPosition',
-                        [
-                            '']]],
-                [
-                    'movable',
-                    'float']],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    183,
-                    18],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/close_button_03.sub']],
-                    [
-                        'SetToolTipText',
-                        [
-                            'Exit',
-                            0,
-                            -23]],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList5()]]],
-                []],
-            [
-                [
-                    ui.SlotBar,
-                    0],
-                [
-                    190,
-                    227],
-                [
-                    15,
-                    35],
-                [],
-                []],
-            [
-                [
-                    ui.ListBoxEx,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    60],
-                [],
-                []],
-            [
-                [
-                    ui.ScrollBar,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    185,
-                    50],
-                [
-                    [
-                        'SetScrollBarSize',
-                        [
-                            200]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    39],
-                [
-                    [
-                        'SetDefaultFontName',
-                        [
-                            '']],
-                    [
-                        'SetText',
-                        [
-                            'ID:\t\t\tBonus:']],
-                    [
-                        'SetFontColor',
-                        [
-                            0.20000000000000001,
-                            0.59999999999999998,
-                            1.0]]],
-                []],
-            [
-                [
-                    ui.TextLine,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    15],
-                [
-                    [
-                        'SetText',
-                        [
-                            'Switching slot ' + str(Index + 1)]],
-                    [
-                        'SetFontColor',
-                        [
-                            0.80000000000000004,
-                            0.5,
-                            0.10000000000000001]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    20,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Select']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda index = Index: self.AddBonus5(Index)]]],
-                []],
-            [
-                [
-                    ui.Button,
-                    0],
-                [
-                    0,
-                    0],
-                [
-                    113,
-                    275],
-                [
-                    [
-                        'SetUpVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_01.sub']],
-                    [
-                        'SetOverVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_02.sub']],
-                    [
-                        'SetDownVisual',
-                        [
-                            'd:/ymir work/ui/public/large_button_03.sub']],
-                    [
-                        'SetText',
-                        [
-                            'Exit']],
-                    [
-                        'SetEvent',
-                        [
-                            lambda : self.HideBonusList5()]]],
-                []]]
-        GuiParser(Gui, self.BoniGui5)
-        self.BoniGui5[3].SetScrollBar(self.BoniGui5[4])
-        self.SetBonusList5()
-
-    
-    def SetBonusList(self):
-        self.BoniGui[3].RemoveAllItems()
-        for Bonus in self.BonusIDListe:
-            self.BoniGui[3].AppendItem(Item(str(Bonus[1]) + '\t\t\t' + Bonus[0]))
-        
-
-    
-    def SetBonusList2(self):
-        self.BoniGui2[3].RemoveAllItems()
-        for Bonus in self.BonusIDListe:
-            self.BoniGui2[3].AppendItem(Item(str(Bonus[1]) + '\t\t\t' + Bonus[0]))
-        
-
-    
-    def SetBonusList3(self):
-        self.BoniGui3[3].RemoveAllItems()
-        for Bonus in self.BonusIDListe:
-            self.BoniGui3[3].AppendItem(Item(str(Bonus[1]) + '\t\t\t' + Bonus[0]))
-        
-
-    
-    def SetBonusList4(self):
-        self.BoniGui4[3].RemoveAllItems()
-        for Bonus in self.BonusIDListe:
-            self.BoniGui4[3].AppendItem(Item(str(Bonus[1]) + '\t\t\t' + Bonus[0]))
-        
-
-    
-    def SetBonusList5(self):
-        self.BoniGui5[3].RemoveAllItems()
-        for Bonus in self.BonusIDListe:
-            self.BoniGui5[3].AppendItem(Item(str(Bonus[1]) + '\t\t\t' + Bonus[0]))
-        
-
-    
-    def HideBonusList(self):
-        self.BoniGui[0].Hide()
-
-    
-    def HideBonusList2(self):
-        self.BoniGui2[0].Hide()
-
-    
-    def HideBonusList3(self):
-        self.BoniGui3[0].Hide()
-
-    
-    def HideBonusList4(self):
-        self.BoniGui4[0].Hide()
-
-    
-    def HideBonusList5(self):
-        self.BoniGui5[0].Hide()
-
-    
-    def AddBonus(self, Index):
-        ItemIndex = self.BoniGui[3].GetSelectedItem()
-       
-        BonusValue = ItemIndex.GetText().split('\t\t\t')
-        if int(BonusValue[0]) == 0:
-            
-            try:
-                BackUp = self.SearchBoni[Index]
-                if BackUp[1] == 0:
-                    self.SearchBoni.remove(self.SearchBoni[Index])
-                else:
-                    self.SearchBoni[Index] = [
-                        0,
-                        BackUp[1]]
-            except:
-                pass
-
-        else:
-            
-            try:
-                
-                try:
-                    BackUp = self.SearchBoni[Index]
-                    self.SearchBoni.remove(self.SearchBoni[Index])
-                except:
-                    Backup = [
-                        0,
-                        0]
-
-                self.SearchBoni.insert(Index, [
-                    int(BonusValue[0]),
-                    BackUp[1]])
-            except:
-                self.SearchBoni.append([
-                    int(BonusValue[0]),
-                    0])
-
-        self.UpdateBonusList()
-        self.HideBonusList()
-
-    
-    def AddBonus2(self, Index):
-        ItemIndex = self.BoniGui2[3].GetSelectedItem()
-        
-        BonusValue = ItemIndex.GetText().split('\t\t\t')
-        if int(BonusValue[0]) == 0:
-            
-            try:
-                BackUp2 = self.SearchBoni2[Index]
-                if BackUp2[1] == 0:
-                    self.SearchBoni2.remove(self.SearchBoni2[Index])
-                else:
-                    self.SearchBoni2[Index] = [
-                        0,
-                        BackUp2[1]]
-            except:
-                pass
-
-        else:
-            
-            try:
-                
-                try:
-                    BackUp2 = self.SearchBoni2[Index]
-                    self.SearchBoni2.remove(self.SearchBoni2[Index])
-                except:
-                    Backup2 = [
-                        0,
-                        0]
-
-                self.SearchBoni2.insert(Index, [
-                    int(BonusValue[0]),
-                    BackUp2[1]])
-            except:
-                self.SearchBoni2.append([
-                    int(BonusValue[0]),
-                    0])
-
-        self.UpdateBonusList2()
-        self.HideBonusList2()
-
-    
-    def AddBonus3(self, Index):
-        ItemIndex = self.BoniGui3[3].GetSelectedItem()
-        
-        BonusValue = ItemIndex.GetText().split('\t\t\t')
-        if int(BonusValue[0]) == 0:
-            
-            try:
-                BackUp3 = self.SearchBoni3[Index]
-                if BackUp3[1] == 0:
-                    self.SearchBoni3.remove(self.SearchBoni3[Index])
-                else:
-                    self.SearchBoni3[Index] = [
-                        0,
-                        BackUp3[1]]
-            except:
-                pass
-
-        else:
-            
-            try:
-                
-                try:
-                    BackUp3 = self.SearchBoni3[Index]
-                    self.SearchBoni3.remove(self.SearchBoni3[Index])
-                except:
-                    Backup3 = [
-                        0,
-                        0]
-
-                self.SearchBoni3.insert(Index, [
-                    int(BonusValue[0]),
-                    BackUp3[1]])
-            except:
-                self.SearchBoni3.append([
-                    int(BonusValue[0]),
-                    0])
-
-        self.UpdateBonusList3()
-        self.HideBonusList3()
-
-    
-    def AddBonus4(self, Index):
-        ItemIndex = self.BoniGui4[3].GetSelectedItem()
-       
-        BonusValue = ItemIndex.GetText().split('\t\t\t')
-        if int(BonusValue[0]) == 0:
-            
-            try:
-                BackUp4 = self.SearchBoni4[Index]
-                if BackUp4[1] == 0:
-                    self.SearchBoni4.remove(self.SearchBoni4[Index])
-                else:
-                    self.SearchBoni4[Index] = [
-                        0,
-                        BackUp4[1]]
-            except:
-                pass
-
-        else:
-            
-            try:
-                
-                try:
-                    BackUp4 = self.SearchBoni4[Index]
-                    self.SearchBoni4.remove(self.SearchBoni4[Index])
-                except:
-                    Backup4 = [
-                        0,
-                        0]
-
-                self.SearchBoni4.insert(Index, [
-                    int(BonusValue[0]),
-                    BackUp4[1]])
-            except:
-                self.SearchBoni4.append([
-                    int(BonusValue[0]),
-                    0])
-
-        self.UpdateBonusList4()
-        self.HideBonusList4()
-
-    
-    def AddBonus5(self, Index):
-        ItemIndex = self.BoniGui5[3].GetSelectedItem()
-       
-        BonusValue = ItemIndex.GetText().split('\t\t\t')
-        if int(BonusValue[0]) == 0:
-            
-            try:
-                BackUp5 = self.SearchBoni5[Index]
-                if BackUp5[1] == 0:
-                    self.SearchBoni5.remove(self.SearchBoni5[Index])
-                else:
-                    self.SearchBoni5[Index] = [
-                        0,
-                        BackUp5[1]]
-            except:
-                pass
-
-        else:
-            
-            try:
-                
-                try:
-                    BackUp5 = self.SearchBoni5[Index]
-                    self.SearchBoni5.remove(self.SearchBoni5[Index])
-                except:
-                    Backup5 = [
-                        0,
-                        0]
-
-                self.SearchBoni5.insert(Index, [
-                    int(BonusValue[0]),
-                    BackUp5[1]])
-            except:
-                self.SearchBoni5.append([
-                    int(BonusValue[0]),
-                    0])
-
-        self.UpdateBonusList5()
-        self.HideBonusList5()
-
-    
-    def UpdateBonusList(self):
-        tmp = { }
-        for Bonus in self.BonusIDListe:
-            tmp[Bonus[1]] = Bonus[0]
-        
-        for Index in xrange(5):
-            self.Gui[15 + Index * 4].SetText('Nothing')
-        
-        for Bonus in self.SearchBoni:
-            Index = self.SearchBoni.index(Bonus)
-            self.Gui[15 + Index * 4].SetText(tmp[Bonus[0]])
-        
-
-    
-    def UpdateBonusList2(self):
-        tmp = { }
-        for Bonus in self.BonusIDListe:
-            tmp[Bonus[1]] = Bonus[0]
-        
-        for Index in xrange(5):
-            self.Gui[35 + Index * 4].SetText('Nothing')
-        
-        for Bonus in self.SearchBoni2:
-            Index = self.SearchBoni2.index(Bonus)
-            self.Gui[35 + Index * 4].SetText(tmp[Bonus[0]])
-        
-
-    
-    def UpdateBonusList3(self):
-        tmp = { }
-        for Bonus in self.BonusIDListe:
-            tmp[Bonus[1]] = Bonus[0]
-        
-        for Index in xrange(5):
-            self.Gui[55 + Index * 4].SetText('Nothing')
-        
-        for Bonus in self.SearchBoni3:
-            Index = self.SearchBoni3.index(Bonus)
-            self.Gui[55 + Index * 4].SetText(tmp[Bonus[0]])
-        
-
-    
-    def UpdateBonusList4(self):
-        tmp = { }
-        for Bonus in self.BonusIDListe:
-            tmp[Bonus[1]] = Bonus[0]
-        
-        for Index in xrange(5):
-            self.Gui[75 + Index * 4].SetText('Nothing')
-        
-        for Bonus in self.SearchBoni4:
-            Index = self.SearchBoni4.index(Bonus)
-            self.Gui[75 + Index * 4].SetText(tmp[Bonus[0]])
-        
-
-    
-    def UpdateBonusList5(self):
-        tmp = { }
-        for Bonus in self.BonusIDListe:
-            tmp[Bonus[1]] = Bonus[0]
-        
-        for Index in xrange(5):
-            self.Gui[95 + Index * 4].SetText('Nothing')
-        
-        for Bonus in self.SearchBoni5:
-            Index = self.SearchBoni5.index(Bonus)
-            self.Gui[95 + Index * 4].SetText(tmp[Bonus[0]])
-        
-
-    
-    def OnUpdate(self):
-        self.UpdateBonusValues()
-        self.UpdateBoni()
-        self.UpdateBonusValues2()
-        self.UpdateBoni2()
-        self.UpdateBonusValues3()
-        self.UpdateBoni3()
-        self.UpdateBonusValues4()
-        self.UpdateBoni4()
-        self.UpdateBonusValues5()
-        self.UpdateBoni5()
-
-    
-    def UpdateBonusValues(self):
-        TmpValues = []
-        for Index in xrange(5):
-            
-            try:
-                SearchValue = int(self.Gui[16 + Index * 4].GetText())
-            except:
-                SearchValue = 0
-
-            TmpValues.append([
-                SearchValue,
-                0])
-        
-        if TmpValues != self.SearchBoniValues:
-            self.SearchBoniValues = TmpValues
-        
-
-    
-    def UpdateBonusValues2(self):
-        TmpValues2 = []
-        for Index in xrange(5):
-            
-            try:
-                SearchValue = int(self.Gui[36 + Index * 4].GetText())
-            except:
-                SearchValue = 0
-
-            TmpValues2.append([
-                SearchValue,
-                0])
-        
-        if TmpValues2 != self.SearchBoniValues2:
-            self.SearchBoniValues2 = TmpValues2
-        
-
-    
-    def UpdateBonusValues3(self):
-        TmpValues3 = []
-        for Index in xrange(5):
-            
-            try:
-                SearchValue = int(self.Gui[56 + Index * 4].GetText())
-            except:
-                SearchValue = 0
-
-            TmpValues3.append([
-                SearchValue,
-                0])
-        
-        if TmpValues3 != self.SearchBoniValues3:
-            self.SearchBoniValues3 = TmpValues3
-        
-
-    
-    def UpdateBonusValues4(self):
-        TmpValues4 = []
-        for Index in xrange(5):
-            
-            try:
-                SearchValue = int(self.Gui[76 + Index * 4].GetText())
-            except:
-                SearchValue = 0
-
-            TmpValues4.append([
-                SearchValue,
-                0])
-        
-        if TmpValues4 != self.SearchBoniValues4:
-            self.SearchBoniValues4 = TmpValues4
-        
-
-    
-    def UpdateBonusValues5(self):
-        TmpValues5 = []
-        for Index in xrange(5):
-            
-            try:
-                SearchValue = int(self.Gui[96 + Index * 4].GetText())
-            except:
-                SearchValue = 0
-
-            TmpValues5.append([
-                SearchValue,
-                0])
-        
-        if TmpValues5 != self.SearchBoniValues5:
-            self.SearchBoniValues5 = TmpValues5
-        
-
-    
-    def UpdateBoni(self):
-        if self.State == 'Stop':
-            return None
-        
-        Values = []
-        Boni = []
-        Count = 0
-        for AttributeIndex in xrange(self.Count):
-            (Bonus, Value) = player.GetItemAttribute(self.Slot, AttributeIndex)
-            if Bonus == 0:
-                return None
-            
-            Count += 1
-            Values.append(Value)
-            Boni.append(Bonus)
-        
-        if not player.GetItemCount(self.SlotStack[0]) <= 0 and self.Boni != Boni or self.Values != Values:
-            if self.Boni != Boni or self.Values != Values or app.GetTime() >= self.LastProcessTimeStamp + 0.80000000000000004:
-                self.LastProcessTimeStamp = app.GetTime()
-                self.Boni = Boni
-                self.Values = Values
-                self.ControllBoni(Boni, Values)
-            
-
-    
-    def UpdateBoni2(self):
-        if self.State2 == 'Stop':
-            return None
-        
-        Values2 = []
-        Boni2 = []
-        Count2 = 0
-        for AttributeIndex in xrange(self.Count2):
-            (Bonus2, Value2) = player.GetItemAttribute(self.Slot2, AttributeIndex)
-            if Bonus2 == 0:
-                return None
-            
-            Count2 += 1
-            Values2.append(Value2)
-            Boni2.append(Bonus2)
-        
-        if not player.GetItemCount(self.SlotStack2[0]) <= 0 and self.Boni2 != Boni2 or self.Values2 != Values2:
-            if self.Boni2 != Boni2 or self.Values2 != Values2 or app.GetTime() >= self.LastProcessTimeStamp2 + 0.80000000000000004:
-                self.LastProcessTimeStamp2 = app.GetTime()
-                self.Boni2 = Boni2
-                self.Values2 = Values2
-                self.ControllBoni2(Boni2, Values2)
-            
-
-    
-    def UpdateBoni3(self):
-        if self.State3 == 'Stop':
-            return None
-        
-        Values3 = []
-        Boni3 = []
-        Count3 = 0
-        for AttributeIndex in xrange(self.Count3):
-            (Bonus3, Value3) = player.GetItemAttribute(self.Slot3, AttributeIndex)
-            if Bonus3 == 0:
-                return None
-            
-            Count3 += 1
-            Values3.append(Value3)
-            Boni3.append(Bonus3)
-        
-        if not player.GetItemCount(self.SlotStack3[0]) <= 0 and self.Boni3 != Boni3 or self.Values3 != Values3:
-            if self.Boni3 != Boni3 or self.Values3 != Values3 or app.GetTime() >= self.LastProcessTimeStamp3 + 0.80000000000000004:
-                self.LastProcessTimeStamp3 = app.GetTime()
-                self.Boni3 = Boni3
-                self.Values3 = Values3
-                self.ControllBoni3(Boni3, Values3)
-            
-
-    
-    def UpdateBoni4(self):
-        if self.State4 == 'Stop':
-            return None
-        
-        Values4 = []
-        Boni4 = []
-        Count4 = 0
-        for AttributeIndex in xrange(self.Count4):
-            (Bonus4, Value4) = player.GetItemAttribute(self.Slot4, AttributeIndex)
-            if Bonus4 == 0:
-                return None
-            
-            Count4 += 1
-            Values4.append(Value4)
-            Boni4.append(Bonus4)
-        
-        if not player.GetItemCount(self.SlotStack4[0]) <= 0 and self.Boni4 != Boni4 or self.Values4 != Values4:
-            if self.Boni4 != Boni4 or self.Values4 != Values4 or app.GetTime() >= self.LastProcessTimeStamp4 + 0.80000000000000004:
-                self.LastProcessTimeStamp4 = app.GetTime()
-                self.Boni4 = Boni4
-                self.Values4 = Values4
-                self.ControllBoni4(Boni4, Values4)
-            
-
-    
-    def UpdateBoni5(self):
-        if self.State5 == 'Stop':
-            return None
-        
-        Values5 = []
-        Boni5 = []
-        Count5 = 0
-        for AttributeIndex in xrange(self.Count5):
-            (Bonus5, Value5) = player.GetItemAttribute(self.Slot5, AttributeIndex)
-            if Bonus5 == 0:
-                return None
-            
-            Count5 += 1
-            Values5.append(Value5)
-            Boni5.append(Bonus5)
-        
-        if not player.GetItemCount(self.SlotStack5[0]) <= 0 and self.Boni5 != Boni5 or self.Values5 != Values5:
-            if self.Boni5 != Boni5 or self.Values5 != Values5 or app.GetTime() >= self.LastProcessTimeStamp5 + 0.80000000000000004:
-                self.LastProcessTimeStamp5 = app.GetTime()
-                self.Boni5 = Boni5
-                self.Values5 = Values5
-                self.ControllBoni5(Boni5, Values5)
-            
-
-    
-    def ControllBoni(self, Boni, Values):
-        
-        try:
-            for i in xrange(len(self.SearchBoni)):
-                
-                try:
-                    Index = Boni.index(self.SearchBoni[i][0])
-                    if Values[Index] < self.SearchBoniValues[i][0]:
-                        Boni.index('-1')
-                except:
-                    Index = Boni.index(self.SearchBoni[i][1])
-                    if Values[Index] < self.SearchBoniValues[i][1]:
-                        Boni.index('-1')
-                    
-
-            
-            self.State = 'Stop'
-            
-            self.BoardMessage.SetTip('Bonuses: ' + str(Boni))
-            self.BoardMessage.SetTip('Bonus values: ' + str(Values))
-            self.BoardMessage.SetTop()
-        except:
-            if player.GetItemCountByVnum(self.SwitchValue) <= 0:
-                if shop.IsOpen():
-                    for EachShopSlot in xrange(shop.SHOP_SLOT_COUNT):
-                        ShopItemValue = shop.GetItemID(EachShopSlot)
-                        if ShopItemValue == int(self.SwitchValue):
-                            net.SendShopBuyPacket(EachShopSlot)
-                        
-                    
-                else:
-                    chat.AppendChat(1, 'No switcher items left.')
-                    self.State = 'Stop'
-                    return None
-            
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                ItemValue = player.GetItemIndex(Slot)
-                if ItemValue == self.SwitchValue:
-                    if self.State == 'Stop':
-                        return None
-                    
-                    self.SlotStack = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    net.SendItemUseToItemPacket(Slot, self.Slot)
-                    break
-                
-            
-
-
-    
-    def ControllBoni2(self, Boni, Values):
-        
-        try:
-            for i in xrange(len(self.SearchBoni2)):
-                
-                try:
-                    Index = Boni.index(self.SearchBoni2[i][0])
-                    if Values[Index] < self.SearchBoniValues2[i][0]:
-                        Boni.index('-1')
-                except:
-                    Index = Boni.index(self.SearchBoni2[i][1])
-                    if Values[Index] < self.SearchBoniValues2[i][1]:
-                        Boni.index('-1')
-                    
-
-            
-            self.State2 = 'Stop'
-            
-            self.BoardMessage.SetTip('Bonuses: ' + str(Boni))
-            self.BoardMessage.SetTip('Bonus values: ' + str(Values))
-            self.BoardMessage.SetTop()
-            " chat.AppendChat(1, 'Bonuses: ' + str(Boni)) "
-            " chat.AppendChat(1, 'Bonus values: ' + str(Values)) "
-        except:
-            if player.GetItemCountByVnum(self.SwitchValue) <= 0:
-                if shop.IsOpen():
-                    for EachShopSlot in xrange(shop.SHOP_SLOT_COUNT):
-                        ShopItemValue = shop.GetItemID(EachShopSlot)
-                        if ShopItemValue == int(self.SwitchValue):
-                            net.SendShopBuyPacket(EachShopSlot)
-                        
-                    
-                else:
-                    chat.AppendChat(1, 'No switcher items left.')
-                    self.State2 = 'Stop'
-                    return None
-            
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                ItemValue = player.GetItemIndex(Slot)
-                if ItemValue == self.SwitchValue:
-                    if self.State2 == 'Stop':
-                        return None
-                    
-                    self.SlotStack2 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    net.SendItemUseToItemPacket(Slot, self.Slot2)
-                    break
-                
-            
-
-
-    
-    def ControllBoni3(self, Boni, Values):
-        
-        try:
-            for i in xrange(len(self.SearchBoni3)):
-                
-                try:
-                    Index = Boni.index(self.SearchBoni3[i][0])
-                    if Values[Index] < self.SearchBoniValues3[i][0]:
-                        Boni.index('-1')
-                except:
-                    Index = Boni.index(self.SearchBoni3[i][1])
-                    if Values[Index] < self.SearchBoniValues3[i][1]:
-                        Boni.index('-1')
-                    
-
-            
-            self.State3 = 'Stop'
-            
-            self.BoardMessage.SetTip('Bonuses: ' + str(Boni))
-            self.BoardMessage.SetTip('Bonus values: ' + str(Values))
-            self.BoardMessage.SetTop()
-        except:
-            if player.GetItemCountByVnum(self.SwitchValue) <= 0:
-                if shop.IsOpen():
-                    for EachShopSlot in xrange(shop.SHOP_SLOT_COUNT):
-                        ShopItemValue = shop.GetItemID(EachShopSlot)
-                        if ShopItemValue == int(self.SwitchValue):
-                            net.SendShopBuyPacket(EachShopSlot)
-                        
-                    
-                else:
-                    chat.AppendChat(1, 'No switcher items left.')
-                    self.State3 = 'Stop'
-                    return None
-            
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                ItemValue = player.GetItemIndex(Slot)
-                if ItemValue == self.SwitchValue:
-                    if self.State3 == 'Stop':
-                        return None
-                    
-                    self.SlotStack3 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    net.SendItemUseToItemPacket(Slot, self.Slot3)
-                    break
-                
-            
-
-
-    
-    def ControllBoni4(self, Boni, Values):
-        
-        try:
-            for i in xrange(len(self.SearchBoni4)):
-                
-                try:
-                    Index = Boni.index(self.SearchBoni4[i][0])
-                    if Values[Index] < self.SearchBoniValues4[i][0]:
-                        Boni.index('-1')
-                except:
-                    Index = Boni.index(self.SearchBoni4[i][1])
-                    if Values[Index] < self.SearchBoniValues4[i][1]:
-                        Boni.index('-1')
-                    
-
-            
-            self.State4 = 'Stop'
-            
-            self.BoardMessage.SetTip('Bonuses: ' + str(Boni))
-            self.BoardMessage.SetTip('Bonus values: ' + str(Values))
-            self.BoardMessage.SetTop()
-        except:
-            if player.GetItemCountByVnum(self.SwitchValue) <= 0:
-                if shop.IsOpen():
-                    for EachShopSlot in xrange(shop.SHOP_SLOT_COUNT):
-                        ShopItemValue = shop.GetItemID(EachShopSlot)
-                        if ShopItemValue == int(self.SwitchValue):
-                            net.SendShopBuyPacket(EachShopSlot)
-                        
-                    
-                else:
-                    chat.AppendChat(1, 'No switcher items left.')
-                    self.State4 = 'Stop'
-                    return None
-            
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                ItemValue = player.GetItemIndex(Slot)
-                if ItemValue == self.SwitchValue:
-                    if self.State4 == 'Stop':
-                        return None
-                    
-                    self.SlotStack4 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    net.SendItemUseToItemPacket(Slot, self.Slot4)
-                    break
-                
-            
-
-
-    
-    def ControllBoni5(self, Boni, Values):
-        
-        try:
-            for i in xrange(len(self.SearchBoni5)):
-                
-                try:
-                    Index = Boni.index(self.SearchBoni5[i][0])
-                    if Values[Index] < self.SearchBoniValues5[i][0]:
-                        Boni.index('-1')
-                except:
-                    Index = Boni.index(self.SearchBoni5[i][1])
-                    if Values[Index] < self.SearchBoniValues5[i][1]:
-                        Boni.index('-1')
-                    
-
-            
-            self.State5 = 'Stop'
-            self.BoardMessage.SetTip('Bonuses: ' + str(Boni))
-            self.BoardMessage.SetTip('Bonus values: ' + str(Values))
-            self.BoardMessage.SetTop()
-        except:
-            if player.GetItemCountByVnum(self.SwitchValue) <= 0:
-                if shop.IsOpen():
-                    for EachShopSlot in xrange(shop.SHOP_SLOT_COUNT):
-                        ShopItemValue = shop.GetItemID(EachShopSlot)
-                        if ShopItemValue == int(self.SwitchValue):
-                            net.SendShopBuyPacket(EachShopSlot)
-                        
-                    
-                else:
-                    chat.AppendChat(1, 'No switcher items left.')
-                    self.State5 = 'Stop'
-                    return None
-            
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                ItemValue = player.GetItemIndex(Slot)
-                if ItemValue == self.SwitchValue:
-                    if self.State5 == 'Stop':
-                        return None
-                    
-                    self.SlotStack5 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    net.SendItemUseToItemPacket(Slot, self.Slot5)
-                    break
-                
-            
-
-
-    
-    def DefineBoni(self):
-        self.Values = []
-        self.Boni = []
-        self.Count = 0
-        for AttributeIndex in xrange(5):
-            (Bonus, Value) = player.GetItemAttribute(self.Slot, AttributeIndex)
-            if Bonus != 0:
-                self.Count += 1
-                self.Boni.append(Bonus)
-                self.Values.append(Value)
-            
-        
-        self.ControllBoni(self.Boni, self.Values)
-
-    
-    def DefineBoni2(self):
-        self.Values2 = []
-        self.Boni2 = []
-        self.Count2 = 0
-        for AttributeIndex in xrange(5):
-            (Bonus2, Value2) = player.GetItemAttribute(self.Slot2, AttributeIndex)
-            if Bonus2 != 0:
-                self.Count2 += 1
-                self.Boni2.append(Bonus2)
-                self.Values2.append(Value2)
-            
-        
-        self.ControllBoni2(self.Boni2, self.Values2)
-
-    
-    def DefineBoni3(self):
-        self.Values3 = []
-        self.Boni3 = []
-        self.Count3 = 0
-        for AttributeIndex in xrange(5):
-            (Bonus3, Value3) = player.GetItemAttribute(self.Slot3, AttributeIndex)
-            if Bonus3 != 0:
-                self.Count3 += 1
-                self.Boni3.append(Bonus3)
-                self.Values3.append(Value3)
-            
-        
-        self.ControllBoni3(self.Boni3, self.Values3)
-
-    
-    def DefineBoni4(self):
-        self.Values4 = []
-        self.Boni4 = []
-        self.Count4 = 0
-        for AttributeIndex in xrange(5):
-            (Bonus4, Value4) = player.GetItemAttribute(self.Slot4, AttributeIndex)
-            if Bonus4 != 0:
-                self.Count4 += 1
-                self.Boni4.append(Bonus4)
-                self.Values4.append(Value4)
-            
-        
-        self.ControllBoni4(self.Boni4, self.Values4)
-
-    
-    def DefineBoni5(self):
-        self.Values5 = []
-        self.Boni5 = []
-        self.Count5 = 0
-        for AttributeIndex in xrange(5):
-            (Bonus5, Value5) = player.GetItemAttribute(self.Slot5, AttributeIndex)
-            if Bonus5 != 0:
-                self.Count5 += 1
-                self.Boni5.append(Bonus5)
-                self.Values5.append(Value5)
-            
-        
-        self.ControllBoni5(self.Boni5, self.Values5)
-
-    
-    def ChangeState(self, state):
-        if state == 'Start':
-            if self.SearchBoni == []:
-                chat.AppendChat(1, 'Switchbot stared')
-            
-            self.Slot = 0
-            self.Startmode = 1
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                itemVNum = player.GetItemIndex(Slot)
-                if itemVNum == self.SwitchValue:
-                    self.SlotStack = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    break
-                
-            
-            self.DefineBoni()
-            self.State = 'Start'
-        else:
-            self.State = 'Stop'
-            chat.AppendChat(1, 'Bot stopped')
-
-    
-    def ChangeState2(self, state):
-        if state == 'Start':
-            if self.SearchBoni2 == []:
-                chat.AppendChat(1, 'Switchbot stared')
-            
-            self.Slot2 = 1
-            self.Startmode2 = 1
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                itemVNum = player.GetItemIndex(Slot)
-                if itemVNum == self.SwitchValue:
-                    self.SlotStack2 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    break
-                
-            
-            self.DefineBoni2()
-            self.State2 = 'Start'
-        else:
-            self.State2 = 'Stop'
-            chat.AppendChat(1, 'Bot stopped')
-
-    
-    def ChangeState3(self, state):
-        if state == 'Start':
-            if self.SearchBoni3 == []:
-                chat.AppendChat(1, 'Switchbot stared')
-            
-            self.Slot3 = 2
-            self.Startmode3 = 1
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                itemVNum = player.GetItemIndex(Slot)
-                if itemVNum == self.SwitchValue:
-                    self.SlotStack3 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    break
-                
-            
-            self.DefineBoni3()
-            self.State3 = 'Start'
-        else:
-            self.State3 = 'Stop'
-            chat.AppendChat(1, 'Bot stopped')
-
-    
-    def ChangeState4(self, state):
-        if state == 'Start':
-            if self.SearchBoni4 == []:
-                chat.AppendChat(1, 'Switchbot stared')
-            
-            self.Slot4 = 3
-            self.Startmode1 = 1
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                itemVNum = player.GetItemIndex(Slot)
-                if itemVNum == self.SwitchValue:
-                    self.SlotStack4 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    break
-                
-            
-            self.DefineBoni4()
-            self.State4 = 'Start'
-        else:
-            self.State4 = 'Stop'
-            chat.AppendChat(1, 'Bot stopped')
-
-    
-    def ChangeState5(self, state):
-        if state == 'Start':
-            if self.SearchBoni5 == []:
-                chat.AppendChat(1, 'Switchbot stared')
-            
-            self.Slot5 = 4
-            self.Startmode5 = 1
-            for Slot in xrange(player.INVENTORY_PAGE_SIZE * 5):
-                itemVNum = player.GetItemIndex(Slot)
-                if itemVNum == self.SwitchValue:
-                    self.SlotStack5 = [
-                        Slot,
-                        player.GetItemCount(Slot)]
-                    break
-                
-            
-            self.DefineBoni5()
-            self.State5 = 'Start'
-        else:
-            self.State5 = 'Stop'
-            chat.AppendChat(1, 'Bot stopped')
-
-
-
-def GuiParser(guiobjects, list):
-    for object in guiobjects:
-        Object = object[0][0]()
-        if object[0][1] != '':
-            Object.SetParent(list[object[0][1]])
-        
-        if object[1][0] + object[1][1] != 0:
-            Object.SetSize(object[1][0], object[1][1])
-        
-        if object[2][0] + object[2][1] != 0:
-            Object.SetPosition(object[2][0], object[2][1])
-        
-        for command in object[3]:
-            cmd = command[0]
-            attr = getattr(Object, cmd)
-            if callable(attr):
-                argument = command[1]
-                lenght = len(argument)
-                if lenght == 1:
-                    if argument[0] == '':
-                        attr()
-                    else:
-                        attr(argument[0])
-                elif lenght == 2:
-                    attr(argument[0], argument[1])
-                elif lenght == 3:
-                    attr(argument[0], argument[1], argument[2])
-                elif lenght == 4:
-                    attr(argument[0], argument[1], argument[2], argument[3])
-                
-            
-        
-        for flag in object[4]:
-            Object.AddFlag(str(flag))
-        
-        Object.Show()
-        list.append(Object)
-    
-
+Bonus0 = 0
+Bonus1 = 0
+Bonus2 = 0
+Bonus3 = 0
+Bonus4 = 0
+SwitchButton = 0	
+Boniswitchvalue = 71084
+PRESSWISH0 = 0
+PRESSWISH1 = 0
+PRESSWISH2 = 0
+PRESSWISH3 = 0
+PRESSWISH4 = 0
+
+class SwitchBotDialog2(ui.BoardWithTitleBar):
+	def __init__(self):
+		ui.BoardWithTitleBar.__init__(self)
+		self.LoadSwitchBotDialog22()
+		
+	def __del__(self):
+		ui.BoardWithTitleBar.__del__(self)
+
+	def Destroy(self):
+		self.Hide()
+		return TRUE
+		
+	def Bonuschangevalue(self):
+		global Boniswitchvalue
+		for i in xrange(player.INVENTORY_PAGE_SIZE*4):
+			itemIndex = player.GetItemIndex(i)
+			item.SelectItem(itemIndex)
+			ItemValue = player.GetItemIndex(i)
+			if item.IsAntiFlag(74112) and item.IsFlag(8196) and item.GetItemSubType() == 18:
+				#chat.AppendChat(chat.CHAT_TYPE_INFO, "Enchant Item is on Value: " + str(ItemValue))
+				Boniswitchvalue = int(ItemValue)
+				break
+			elif str(item.GetItemName()) == "Vrajeste Obiectul":
+				#chat.AppendChat(chat.CHAT_TYPE_INFO, "Enchant Item is on Value: " + str(ItemValue))
+				Boniswitchvalue = int(ItemValue)
+				break
+		
+	def LoadSwitchBotDialog22(self):
+		if str(locale.APP_TITLE).find("DragonWrath") != -1:
+			return
+		self.SetPosition(150,200)
+		self.SetSize(330, 315)
+		self.Show()
+		self.AddFlag('movable')
+		self.AddFlag("float")
+		self.SetTitleName('Switchbot')
+		self.SetCloseEvent(self.Close)
+				
+		self.LoadTextLines()
+		self.LoadButtons()
+		self.LoadEditLines()
+		self.Bonuschangevalue()
+		
+		self.BoardMessage = uiTip.BigBoard()
+	
+	def LoadEditLines(self):
+
+		self.SlotwahlSlotBar = ui.SlotBar()
+		self.SlotwahlSlotBar.SetParent(self)
+		self.SlotwahlSlotBar.SetSize(29, 14)
+		self.SlotwahlSlotBar.SetPosition(50, 220)
+		self.SlotwahlSlotBar.Show()
+		
+		self.Slotbar = ui.EditLine()
+		self.Slotbar.SetParent(self.SlotwahlSlotBar)
+		self.Slotbar.SetSize(29, 18)
+		self.Slotbar.SetPosition(6, 0)
+		self.Slotbar.SetMax(2)
+		self.Slotbar.SetNumberMode()
+		self.Slotbar.SetText("0")
+		self.Slotbar.SetTabEvent(ui.__mem_func__(self.StartSwitchBot))
+		self.Slotbar.SetReturnEvent(ui.__mem_func__(self.StartSwitchBot))
+		self.Slotbar.Show()
+		
+		self.BonusValue5SlotBar = ui.SlotBar()
+		self.BonusValue5SlotBar.SetParent(self)
+		self.BonusValue5SlotBar.SetSize(29, 14)
+		self.BonusValue5SlotBar.SetPosition(50, 170)
+		self.BonusValue5SlotBar.SetWindowHorizontalAlignRight()
+		self.BonusValue5SlotBar.Show()
+		
+		self.Bvalue5 = ui.EditLine()
+		self.Bvalue5.SetParent(self.BonusValue5SlotBar)
+		self.Bvalue5.SetSize(29, 18)
+		self.Bvalue5.SetPosition(6, 0)
+		self.Bvalue5.SetMax(4)
+		self.Bvalue5.SetNumberMode()
+		self.Bvalue5.SetText("0")
+		self.Bvalue5.SetTabEvent(ui.__mem_func__(self.Slotbar.SetFocus))
+		self.Bvalue5.SetReturnEvent(ui.__mem_func__(self.Slotbar.SetFocus))
+		self.Bvalue5.Show()
+
+		self.speeds = ui.SlotBar()
+		self.speeds.SetParent(self)
+		self.speeds.SetSize(29, 14)
+		self.speeds.SetPosition(50, 250)
+		self.speeds.Show()
+						
+		self.speed = ui.EditLine()
+		self.speed.SetParent(self.speeds)
+		self.speed.SetSize(29, 18)
+		self.speed.SetPosition(6, 0)
+		self.speed.SetMax(4)
+		self.speed.SetNumberMode()
+		self.speed.SetText("0.50")
+		self.speed.Show()
+
+		self.BonusValue4SlotBar = ui.SlotBar()
+		self.BonusValue4SlotBar.SetParent(self)
+		self.BonusValue4SlotBar.SetSize(29, 14)
+		self.BonusValue4SlotBar.SetPosition(50, 140)
+		self.BonusValue4SlotBar.SetWindowHorizontalAlignRight()
+		self.BonusValue4SlotBar.Show()
+		
+		self.Bvalue4 = ui.EditLine()
+		self.Bvalue4.SetParent(self.BonusValue4SlotBar)
+		self.Bvalue4.SetSize(29, 18)
+		self.Bvalue4.SetPosition(6, 0)
+		self.Bvalue4.SetMax(4)
+		self.Bvalue4.SetNumberMode()
+		self.Bvalue4.SetFocus()
+		self.Bvalue4.SetText("0")
+		self.Bvalue4.SetTabEvent(ui.__mem_func__(self.Bvalue5.SetFocus))
+		self.Bvalue4.SetReturnEvent(ui.__mem_func__(self.Bvalue5.SetFocus))
+		self.Bvalue4.Show()
+
+		self.BonusValue3SlotBar = ui.SlotBar()
+		self.BonusValue3SlotBar.SetParent(self)
+		self.BonusValue3SlotBar.SetSize(29, 14)
+		self.BonusValue3SlotBar.SetPosition(50, 110)
+		self.BonusValue3SlotBar.SetWindowHorizontalAlignRight()
+		self.BonusValue3SlotBar.Show()
+		
+		self.Bvalue3 = ui.EditLine()
+		self.Bvalue3.SetParent(self.BonusValue3SlotBar)
+		self.Bvalue3.SetSize(29, 18)
+		self.Bvalue3.SetPosition(6, 0)
+		self.Bvalue3.SetMax(4)
+		self.Bvalue3.SetNumberMode()
+		self.Bvalue3.SetText("0")
+		self.Bvalue3.SetTabEvent(ui.__mem_func__(self.Bvalue4.SetFocus))
+		self.Bvalue3.SetReturnEvent(ui.__mem_func__(self.Bvalue4.SetFocus))
+		self.Bvalue3.Show()
+
+		self.BonusValue2SlotBar = ui.SlotBar()
+		self.BonusValue2SlotBar.SetParent(self)
+		self.BonusValue2SlotBar.SetSize(29, 14)
+		self.BonusValue2SlotBar.SetPosition(50, 80)
+		self.BonusValue2SlotBar.SetWindowHorizontalAlignRight()
+		self.BonusValue2SlotBar.Show()
+		
+		self.Bvalue2 = ui.EditLine()
+		self.Bvalue2.SetParent(self.BonusValue2SlotBar)
+		self.Bvalue2.SetSize(29, 18)
+		self.Bvalue2.SetPosition(6, 0)
+		self.Bvalue2.SetMax(4)
+		self.Bvalue2.SetNumberMode()
+		self.Bvalue2.SetText("0")
+		self.Bvalue2.SetTabEvent(ui.__mem_func__(self.Bvalue3.SetFocus))
+		self.Bvalue2.SetReturnEvent(ui.__mem_func__(self.Bvalue3.SetFocus))
+		self.Bvalue2.Show()
+
+		self.BonusValue1SlotBar = ui.SlotBar()
+		self.BonusValue1SlotBar.SetParent(self)
+		self.BonusValue1SlotBar.SetSize(29, 14)
+		self.BonusValue1SlotBar.SetPosition(50, 50)
+		self.BonusValue1SlotBar.SetWindowHorizontalAlignRight()
+		self.BonusValue1SlotBar.Show()
+		
+		self.Bvalue1 = ui.EditLine()
+		self.Bvalue1.SetParent(self.BonusValue1SlotBar)
+		self.Bvalue1.SetSize(29, 18)
+		self.Bvalue1.SetPosition(6, 0)
+		self.Bvalue1.SetMax(4)
+		self.Bvalue1.SetNumberMode()
+		self.Bvalue1.SetText("0")
+		self.Bvalue1.SetFocus()
+		self.Bvalue1.SetTabEvent(ui.__mem_func__(self.Bvalue2.SetFocus))
+		self.Bvalue1.SetReturnEvent(ui.__mem_func__(self.Bvalue2.SetFocus))
+		self.Bvalue1.Show()
+		
+	def LoadButtons(self):
+		self.Wunschbonus01 = ui.Button()
+		self.Wunschbonus01.SetParent(self)
+		self.Wunschbonus01.SetPosition(15, 50)
+		self.Wunschbonus01.SetUpVisual("d:/ymir work/ui/public/Large_Button_01.sub")
+		self.Wunschbonus01.SetOverVisual("d:/ymir work/ui/public/Large_Button_02.sub")
+		self.Wunschbonus01.SetDownVisual("d:/ymir work/ui/public/Large_Button_03.sub")
+		self.Wunschbonus01.SetText("1.Bonus")
+		self.Wunschbonus01.SetEvent(ui.__mem_func__(self.__Wish_1_Option))
+		self.Wunschbonus01.Show()
+
+		self.Wunschbonus02 = ui.Button()
+		self.Wunschbonus02.SetParent(self)
+		self.Wunschbonus02.SetPosition(15, 80)
+		self.Wunschbonus02.SetUpVisual("d:/ymir work/ui/public/Large_Button_01.sub")
+		self.Wunschbonus02.SetOverVisual("d:/ymir work/ui/public/Large_Button_02.sub")
+		self.Wunschbonus02.SetDownVisual("d:/ymir work/ui/public/Large_Button_03.sub")
+		self.Wunschbonus02.SetText("2.Bonus")
+		self.Wunschbonus02.SetEvent(ui.__mem_func__(self.__Wish_2_Option))
+		self.Wunschbonus02.Show()
+
+		self.Wunschbonus03 = ui.Button()
+		self.Wunschbonus03.SetParent(self)
+		self.Wunschbonus03.SetPosition(15, 110)
+		self.Wunschbonus03.SetUpVisual("d:/ymir work/ui/public/Large_Button_01.sub")
+		self.Wunschbonus03.SetOverVisual("d:/ymir work/ui/public/Large_Button_02.sub")
+		self.Wunschbonus03.SetDownVisual("d:/ymir work/ui/public/Large_Button_03.sub")
+		self.Wunschbonus03.SetText("3.Bonus")
+		self.Wunschbonus03.SetEvent(ui.__mem_func__(self.__Wish_3_Option))
+		self.Wunschbonus03.Show()
+
+		self.Wunschbonus04 = ui.Button()
+		self.Wunschbonus04.SetParent(self)
+		self.Wunschbonus04.SetPosition(15, 140)
+		self.Wunschbonus04.SetUpVisual("d:/ymir work/ui/public/Large_Button_01.sub")
+		self.Wunschbonus04.SetOverVisual("d:/ymir work/ui/public/Large_Button_02.sub")
+		self.Wunschbonus04.SetDownVisual("d:/ymir work/ui/public/Large_Button_03.sub")
+		self.Wunschbonus04.SetText("4.Bonus")
+		self.Wunschbonus04.SetEvent(ui.__mem_func__(self.__Wish_4_Option))
+		self.Wunschbonus04.Show()
+
+		self.Wunschbonus05 = ui.Button()
+		self.Wunschbonus05.SetParent(self)
+		self.Wunschbonus05.SetPosition(15, 170)
+		self.Wunschbonus05.SetUpVisual("d:/ymir work/ui/public/Large_Button_01.sub")
+		self.Wunschbonus05.SetOverVisual("d:/ymir work/ui/public/Large_Button_02.sub")
+		self.Wunschbonus05.SetDownVisual("d:/ymir work/ui/public/Large_Button_03.sub")
+		self.Wunschbonus05.SetText("5.Bonus")
+		self.Wunschbonus05.SetEvent(ui.__mem_func__(self.__Wish_5_Option))
+		self.Wunschbonus05.Show()
+
+		self.ResetbonusallButton = ui.Button()
+		self.ResetbonusallButton.SetParent(self)
+		self.ResetbonusallButton.SetPosition(110, 250)
+		self.ResetbonusallButton.SetUpVisual("d:/ymir work/ui/public/XLarge_Button_01.sub")
+		self.ResetbonusallButton.SetOverVisual("d:/ymir work/ui/public/XLarge_Button_02.sub")
+		self.ResetbonusallButton.SetDownVisual("d:/ymir work/ui/public/XLarge_Button_03.sub")
+		self.ResetbonusallButton.SetText("Remove all bonus")
+		self.ResetbonusallButton.SetEvent(ui.__mem_func__(self.__Resetbonusall))
+		self.ResetbonusallButton.Show()
+
+		self.Switchtingabbruchbutton = ui.Button()
+		self.Switchtingabbruchbutton.SetParent(self)
+		self.Switchtingabbruchbutton.SetPosition(201, 220)
+		self.Switchtingabbruchbutton.SetUpVisual("d:/ymir work/ui/public/Large_Button_01.sub")
+		self.Switchtingabbruchbutton.SetOverVisual("d:/ymir work/ui/public/Large_Button_02.sub")
+		self.Switchtingabbruchbutton.SetDownVisual("d:/ymir work/ui/public/Large_Button_03.sub")
+		self.Switchtingabbruchbutton.SetEvent(ui.__mem_func__(self.__BreakSwitching))
+		self.Switchtingabbruchbutton.SetText("Exit")
+		self.Switchtingabbruchbutton.Show()
+
+		self.StartButton = ui.Button()
+		self.StartButton.SetParent(self)
+		self.StartButton.SetPosition(110, 220)
+		self.StartButton.SetUpVisual("d:/ymir work/ui/public/Large_Button_01.sub")
+		self.StartButton.SetOverVisual("d:/ymir work/ui/public/Large_Button_02.sub")
+		self.StartButton.SetDownVisual("d:/ymir work/ui/public/Large_Button_03.sub")
+		self.StartButton.SetEvent(ui.__mem_func__(self.StartSwitchBot))
+		self.StartButton.SetText("Start")
+		self.StartButton.Show()
+		
+	def LoadTextLines(self):
+		self.SlotText = ui.TextLine()
+		self.SlotText.SetParent(self)
+		self.SlotText.SetDefaultFontName()
+		self.SlotText.SetPosition(20, 220)
+		self.SlotText.SetFeather()
+		self.SlotText.SetText("Slot:")
+		self.SlotText.SetOutline()
+		self.SlotText.Show()
+		
+		self.SpeedText = ui.TextLine()
+		self.SpeedText.SetParent(self)
+		self.SpeedText.SetDefaultFontName()
+		self.SpeedText.SetPosition(20, 250)
+		self.SpeedText.SetFeather()
+		self.SpeedText.SetText("Delay:")
+		self.SpeedText.SetOutline()
+		self.SpeedText.Show()
+	
+		self.Status = ui.TextLine()
+		self.Status.SetParent(self)
+		self.Status.SetDefaultFontName()
+		self.Status.SetPosition(20, 288)
+		self.Status.SetFeather()
+		self.Status.SetText("Status:")
+		self.Status.SetOutline()
+		self.Status.Show()
+		
+		self.LastChange = ui.TextLine()
+		self.LastChange.SetParent(self)
+		self.LastChange.SetDefaultFontName()
+		self.LastChange.SetPosition(60, 288)
+		self.LastChange.SetFeather()
+		self.LastChange.SetText("Stopped")
+		self.LastChange.SetFontColor(1.0, 1.0, 1.0)
+		self.LastChange.SetOutline()
+		self.LastChange.Show()		
+
+		self.Bonus1Attr = ui.TextLine()
+		self.Bonus1Attr.SetParent(self)
+		self.Bonus1Attr.SetDefaultFontName()
+		self.Bonus1Attr.SetPosition(120, 51)
+		self.Bonus1Attr.SetFeather()
+		self.Bonus1Attr.SetText("None")
+		self.Bonus1Attr.SetFontColor(1.0, 1.0, 1.0)
+		self.Bonus1Attr.SetOutline()
+		self.Bonus1Attr.Show()	
+
+		self.Bonus2Attr = ui.TextLine()
+		self.Bonus2Attr.SetParent(self)
+		self.Bonus2Attr.SetDefaultFontName()
+		self.Bonus2Attr.SetPosition(120, 81)
+		self.Bonus2Attr.SetFeather()
+		self.Bonus2Attr.SetText("None")
+		self.Bonus2Attr.SetFontColor(1.0, 1.0, 1.0)
+		self.Bonus2Attr.SetOutline()
+		self.Bonus2Attr.Show()	
+
+		self.Bonus3Attr = ui.TextLine()
+		self.Bonus3Attr.SetParent(self)
+		self.Bonus3Attr.SetDefaultFontName()
+		self.Bonus3Attr.SetPosition(120, 111)
+		self.Bonus3Attr.SetFeather()
+		self.Bonus3Attr.SetText("None")
+		self.Bonus3Attr.SetFontColor(1.0, 1.0, 1.0)
+		self.Bonus3Attr.SetOutline()
+		self.Bonus3Attr.Show()	
+
+		self.Bonus4Attr = ui.TextLine()
+		self.Bonus4Attr.SetParent(self)
+		self.Bonus4Attr.SetDefaultFontName()
+		self.Bonus4Attr.SetPosition(120, 141)
+		self.Bonus4Attr.SetFeather()
+		self.Bonus4Attr.SetText("None")
+		self.Bonus4Attr.SetFontColor(1.0, 1.0, 1.0)
+		self.Bonus4Attr.SetOutline()
+		self.Bonus4Attr.Show()	
+
+		self.Bonus5Attr = ui.TextLine()
+		self.Bonus5Attr.SetParent(self)
+		self.Bonus5Attr.SetDefaultFontName()
+		self.Bonus5Attr.SetPosition(120, 171)
+		self.Bonus5Attr.SetFeather()
+		self.Bonus5Attr.SetText("None")
+		self.Bonus5Attr.SetFontColor(1.0, 1.0, 1.0)
+		self.Bonus5Attr.SetOutline()
+		self.Bonus5Attr.Show()	
+		
+	def __BreakSwitching(self):
+		global SwitchButton
+		if SwitchButton == 1:
+			self.LastChange.SetText("Stopped")
+			self.Switchtingabbruchbutton.SetText("Stop")
+			SwitchButton = 0		
+		else:
+			self.Hide()
+		
+      	
+	def StartSwitchBot(self):
+		global SwitchButton
+		SwitchButton = 1		
+		self.LastChange.SetText("Start")
+		self.Switchtingabbruchbutton.SetText("Stop Bot")
+		self.__Switchtingdialog()
+
+		
+	def __Switchtingdialog(self):
+		global BoniSwitchvalue
+		global Bonus0
+		global Bonus1
+		global Bonus2
+		global Bonus3
+		global Bonus4
+		global SwitchButton
+		Slot = self.Slotbar.GetText()
+		val0, bon0 = player.GetItemAttribute((int(Slot)), 0) #(itemposition, atrribute)
+		val1, bon1 = player.GetItemAttribute((int(Slot)), 1) #(itemposition, atrribute)
+		val2, bon2 = player.GetItemAttribute((int(Slot)), 2) #(itemposition, atrribute)
+		val3, bon3 = player.GetItemAttribute((int(Slot)), 3) #(itemposition, atrribute)
+		val4, bon4 = player.GetItemAttribute((int(Slot)), 4) #(itemposition, atrribute)
+		Switchvalue = Boniswitchvalue
+		Search0 = self.Bvalue1.GetText()
+		Search1 = self.Bvalue2.GetText()
+		Search2 = self.Bvalue3.GetText()
+		Search3 = self.Bvalue4.GetText()
+		Search4 = self.Bvalue5.GetText()
+		DELAY_SEC = self.speed.GetText()
+
+#1 Bonus switchen:
+		if SwitchButton == 1:
+			if (int(Bonus1) == 0) and (val0 == int(Bonus0) and bon0 >= int(Search0) or (val1 == int(Bonus0) and bon1 >= int(Search0)) or (val2 == int(Bonus0) and bon2 >= int(Search0)) or (val3 == int(Bonus0) and bon3 >= int(Search0)) or (val4 == int(Bonus0) and bon4 >= int(Search0))):
+				self.BoardMessage.SetTip("The Switching was Successful!")
+				self.BoardMessage.SetTop()
+				self.LastChange.SetText("Switching are finished.")
+				self.Switchtingabbruchbutton.SetText("Exit")
+				SwitchButton = 0	
+#2 Bonis switchen:
+			elif (int(Bonus2) == 0) and (val0 == int(Bonus0) and bon0 >= int(Search0) or (val1 == int(Bonus0) and bon1 >= int(Search0)) or (val2 == int(Bonus0) and bon2 >= int(Search0)) or (val3 == int(Bonus0) and bon3 >= int(Search0)) or (val4 == int(Bonus0) and bon4 >= int(Search0))) and ((val0 == int(Bonus1) and bon0 >= int(Search1)) or (val1 == int(Bonus1) and bon1 >= int(Search1)) or (val2 == int(Bonus1) and bon2 >= int(Search1)) or (val3 == int(Bonus1) and bon3 >= int(Search1)) or (val4 == int(Bonus1) and bon4 >= int(Search1))):
+				self.BoardMessage.SetTip("The Switching was Successful!")
+				self.BoardMessage.SetTop()
+				self.LastChange.SetText("Switching are finished.")
+				self.Switchtingabbruchbutton.SetText("Exit")
+				SwitchButton = 0
+#3 Bonis switchen:
+			elif (int(Bonus3) == 0) and (val0 == int(Bonus0) and bon0 >= int(Search0) or (val1 == int(Bonus0) and bon1 >= int(Search0)) or (val2 == int(Bonus0) and bon2 >= int(Search0)) or (val3 == int(Bonus0) and bon3 >= int(Search0)) or (val4 == int(Bonus0) and bon4 >= int(Search0))) and ((val0 == int(Bonus1) and bon0 >= int(Search1)) or (val1 == int(Bonus1) and bon1 >= int(Search1)) or (val2 == int(Bonus1) and bon2 >= int(Search1)) or (val3 == int(Bonus1) and bon3 >= int(Search1)) or (val4 == int(Bonus1) and bon4 >= int(Search1))) and ((val0 == int(Bonus2) and bon0 >= int(Search2)) or (val1 == int(Bonus2) and bon1 >= int(Search2)) or (val2 == int(Bonus2) and bon2 >= int(Search2)) or (val3 == int(Bonus2) and bon3 >= int(Search2)) or (val4 == int(Bonus2) and bon4 >= int(Search2))):
+				self.BoardMessage.SetTip("The Switching was Successful!")
+				self.BoardMessage.SetTop()
+				self.LastChange.SetText("Switching are finished.")
+				self.Switchtingabbruchbutton.SetText("Exit")
+				SwitchButton = 0
+#4 Bonis switchen:
+			elif (int(Bonus4) == 0) and (val0 == int(Bonus0) and bon0 >= int(Search0) or (val1 == int(Bonus0) and bon1 >= int(Search0)) or (val2 == int(Bonus0) and bon2 >= int(Search0)) or (val3 == int(Bonus0) and bon3 >= int(Search0)) or (val4 == int(Bonus0) and bon4 >= int(Search0))) and ((val0 == int(Bonus1) and bon0 >= int(Search1)) or (val1 == int(Bonus1) and bon1 >= int(Search1)) or (val2 == int(Bonus1) and bon2 >= int(Search1)) or (val3 == int(Bonus1) and bon3 >= int(Search1)) or (val4 == int(Bonus1) and bon4 >= int(Search1))) and ((val0 == int(Bonus2) and bon0 >= int(Search2)) or (val1 == int(Bonus2) and bon1 >= int(Search2)) or (val2 == int(Bonus2) and bon2 >= int(Search2)) or (val3 == int(Bonus2) and bon3 >= int(Search2)) or (val4 == int(Bonus2) and bon4 >= int(Search2))) and ((val0 == int(Bonus3) and bon0 >= int(Search3)) or (val1 == int(Bonus3) and bon1 >= int(Search3)) or (val2 == int(Bonus3) and bon2 >= int(Search3)) or (val3 == int(Bonus3) and bon3 >= int(Search3)) or (val4 == int(Bonus3) and bon4 >= int(Search3))):
+				self.BoardMessage.SetTip("The Switching was Successful!")
+				self.BoardMessage.SetTop()
+				self.LastChange.SetText("Switching are finished.")
+				self.Switchtingabbruchbutton.SetText("Exit")
+				SwitchButton = 0
+#5 Bonis switchen:
+			elif (int(Bonus4) != 0) and (val0 == int(Bonus0) and bon0 >= int(Search0) or (val1 == int(Bonus0) and bon1 >= int(Search0)) or (val2 == int(Bonus0) and bon2 >= int(Search0)) or (val3 == int(Bonus0) and bon3 >= int(Search0)) or (val4 == int(Bonus0) and bon4 >= int(Search0))) and ((val0 == int(Bonus1) and bon0 >= int(Search1)) or (val1 == int(Bonus1) and bon1 >= int(Search1)) or (val2 == int(Bonus1) and bon2 >= int(Search1)) or (val3 == int(Bonus1) and bon3 >= int(Search1)) or (val4 == int(Bonus1) and bon4 >= int(Search1))) and ((val0 == int(Bonus2) and bon0 >= int(Search2)) or (val1 == int(Bonus2) and bon1 >= int(Search2)) or (val2 == int(Bonus2) and bon2 >= int(Search2)) or (val3 == int(Bonus2) and bon3 >= int(Search2)) or (val4 == int(Bonus2) and bon4 >= int(Search2))) and ((val0 == int(Bonus3) and bon0 >= int(Search3)) or (val1 == int(Bonus3) and bon1 >= int(Search3)) or (val2 == int(Bonus3) and bon2 >= int(Search3)) or (val3 == int(Bonus3) and bon3 >= int(Search3)) or (val4 == int(Bonus3) and bon4 >= int(Search3))) and ((val0 == int(Bonus4) and bon0 >= int(Search4)) or (val1 == int(Bonus4) and bon1 >= int(Search4)) or (val2 == int(Bonus4) and bon2 >= int(Search4)) or (val3 == int(Bonus4) and bon3 >= int(Search4)) or (val4 == int(Bonus4) and bon4 >= int(Search4))):
+				self.BoardMessage.SetTip("The Switching was Successful!")
+				self.BoardMessage.SetTop()
+				self.LastChange.SetText("Switching are finished.")
+				self.Switchtingabbruchbutton.SetText("Exit")
+				SwitchButton = 0
+			elif Bonus0 == 0:
+				self.Switchtingabbruchbutton.SetText("Exit")
+				SwitchButton = 0		
+				self.LastChange.SetText("The switching was aborted.")
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "Please chose one or more bonus in the places.")		
+			else:
+				self.WaitingDelay = WaitingDialog()
+				self.WaitingDelay.Open(float(DELAY_SEC))
+				self.WaitingDelay.SAFE_SetTimeOverEvent(self.__Switchtingdialog)
+				for eachSlot in xrange(player.INVENTORY_PAGE_SIZE*4):
+					itemVNum = player.GetItemIndex(eachSlot)
+
+					if itemVNum == int(Switchvalue):
+						net.SendItemUseToItemPacket(eachSlot, (int(Slot)))
+						break
+			if player.GetItemCountByVnum(int(Switchvalue)) <= 1:
+				for eachSlot in xrange(shop.SHOP_SLOT_COUNT):
+					getShopItemID = shop.GetItemID(eachSlot)
+					if getShopItemID == int(Switchvalue) and not itemVNum == int(Switchvalue):
+						net.SendShopBuyPacket(eachSlot)
+			
+	def __Resetbonusall(self):
+		global Bonus0
+		global Bonus1
+		global Bonus2
+		global Bonus3
+		global Bonus4
+		Bonus0 = 0
+		Bonus1 = 0
+		Bonus2 = 0
+		Bonus3 = 0
+		Bonus4 = 0
+		self.Bvalue1.SetText("0")
+		self.Bvalue2.SetText("0")
+		self.Bvalue3.SetText("0")
+		self.Bvalue4.SetText("0")
+		self.Bvalue5.SetText("0")
+		self.Bonus1Attr.SetText("None")
+		self.Bonus2Attr.SetText("None")
+		self.Bonus3Attr.SetText("None")
+		self.Bonus4Attr.SetText("None")
+		self.Bonus5Attr.SetText("None")
+		self.LastChange.SetText("Remove bonus")
+		
+		#x1, y1 = self.GetGlobalPosition()
+		
+	
+	def __Wish_1_Option(self):
+		global Bonus0
+		global PRESSWISH0
+		PRESSWISH0 = 1
+		self.BonusListBox = FileListDialog()
+		
+	def __Wish_2_Option(self):
+		global Bonus1
+		global PRESSWISH1
+		PRESSWISH1 = 1
+		self.BonusListBox = FileListDialog()
+		
+	def __Wish_3_Option(self):
+		global Bonus2
+		global PRESSWISH2
+		PRESSWISH2 = 1
+		self.BonusListBox = FileListDialog()
+
+	def __Wish_4_Option(self):
+		global Bonus3
+		global PRESSWISH3
+		PRESSWISH3 = 1
+		self.BonusListBox = FileListDialog()
+		
+	def __Wish_5_Option(self):
+		global Bonus4
+		global PRESSWISH4
+		PRESSWISH4 = 1
+		self.BonusListBox = FileListDialog()
+	
+	def OnUpdate(self):
+		global Bonus0
+		global Bonus1
+		global Bonus2
+		global Bonus3
+		global Bonus4
+		if self.Bonus1Attr.GetText() != str(BonusListe[int(Bonus0)]) and int(Bonus0) != 0:
+			self.Bonus1Attr.SetText(str(BonusListe[int(Bonus0)]))
+		elif self.Bonus1Attr.GetText() != "" and int(Bonus0) == 0:
+			self.Bonus1Attr.SetText("None")		
+		if self.Bonus2Attr.GetText() != str(BonusListe[int(Bonus1)]) and int(Bonus1) != 0:
+			self.Bonus2Attr.SetText(str(BonusListe[int(Bonus1)]))
+		elif self.Bonus2Attr.GetText() != "" and int(Bonus1) == 0:
+			self.Bonus2Attr.SetText("None")		
+		if self.Bonus3Attr.GetText() != str(BonusListe[int(Bonus2)]) and int(Bonus2) != 0:
+			self.Bonus3Attr.SetText(str(BonusListe[int(Bonus2)]))
+		elif self.Bonus3Attr.GetText() != "" and int(Bonus2) == 0:
+			self.Bonus3Attr.SetText("None")		
+		if self.Bonus4Attr.GetText() != str(BonusListe[int(Bonus3)]) and int(Bonus3) != 0:
+			self.Bonus4Attr.SetText(str(BonusListe[int(Bonus3)]))
+		elif self.Bonus4Attr.GetText() != "" and int(Bonus3) == 0:
+			self.Bonus4Attr.SetText("None")		
+		if self.Bonus5Attr.GetText() != str(BonusListe[int(Bonus4)]) and int(Bonus4) != 0:
+			self.Bonus5Attr.SetText(str(BonusListe[int(Bonus4)]))
+		elif self.Bonus5Attr.GetText() != "" and int(Bonus4) == 0:
+			self.Bonus5Attr.SetText("None")
+		
+	def Show(self):
+		ui.BoardWithTitleBar.Show(self)
+		
+	def Close(self):
+		self.Hide()
+
+	def OnPressEscapeKey(self):
+		self.Close()
+		return TRUE
+		
+
+BonusListe = ( 
+	"",
+	"Max HP",
+	"Max MP",
+	"Vitality",
+	"Intiligence", 
+	"Strengh",
+	"Dodge Value",
+	"Attack Speed",
+	"Move Speed",
+	"Cast Speed",
+	"HP-Regeneration",
+	"MP-Regeneration",
+	"Poison Chance",
+	"Faint Chance",
+	"Slow Chance",
+	"Critical Hit",
+	"Penetrade Hit",
+	"Strong Against: Half Human",
+	"Strong Against: Animal",
+	"Strong Against: Orcs",
+	"Strong Against: Esoterics",
+	"Strong Against: Undead",
+	"Strong Against: Devil",
+	"HP-Absorption",
+	"MP-Absorption",
+	"Manaburn",
+	"Not Use",
+	"Melee attack Block",
+	"Bow Dodge",
+	"Sword Defence",
+	"Two-Handed Defence",
+	"Dagger Defence",
+	"Bell Defence",
+	"Fan Defence",
+	"Arrow Resistance",
+	"Fire Resistance",
+	"Flash Resistance",
+	"Magic Defence",
+	"Wind Defence",
+	"Melee Reflect",
+	"Curse Reflect",
+	"Gift Resistance",
+	"Not Use",
+	"Exp-Bonus",
+	"Yang-Drop",
+	"Item-Drop",
+	"Not Use",
+	"Not Use",
+	"Stun Imun",
+	"Slow Imun",
+	"Fall Imun",
+	"APPLY_SKILL",
+	"Arrow Range",
+	"Attack+",
+	"Defence+",
+	"Magicattack+",
+	"Magicdefence+",
+	"",
+	"Max. Endurance",
+	"Strong against Warrior",
+	"Strong against Assassin",
+	"Strong against Sura",
+	"Strong against Shaman",
+	"Strong agaianst Monster",
+	"Not Use",
+	"Not Use",
+	"Not Use",
+	"Not Use",
+	"Not Use",
+	"APPLY_MAX_HP_PCT",
+	"APPLY_MAX_SP_PCT",
+	"Skill Damage",
+	"Average Damage",
+	"Skill Resistance",
+	"Hit Resistance",
+	"",
+	"iCafe EXP-Bonus",
+	"iCafe Item-Bonus",
+	"Warrior Defence",
+	"Assassin Defence",
+	"Sura Defence",
+	"Shaman Defence",
+	)
+
+BonusIDListe = { 
+	"" : 0,
+	"Max HP" : 1,
+	"Max MP" : 2,
+	"Vitality" : 3,
+	"Intiligence" : 4, 
+	"Strengh" : 5,
+	"Dodge Value" : 6,
+	"Attack Speed" : 7,
+	"Move Speed" : 8,
+	"Cast Speed" : 9,
+	"HP-Regeneration" : 10,
+	"MP-Regeneration" : 11,
+	"Poison Chance" : 12,
+	"Faint Chance" : 13,
+	"Slow Chance" : 14,
+	"Critical Hit" : 15,
+	"Penetrade Hit" : 16,
+	"Strong Against: Half Human" : 17,
+	"Strong Against: Animal" : 18,
+	"Strong Against: Orcs" : 19,
+	"Strong Against: Esoterics" : 20,
+	"Strong Against: Undead" : 21,
+	"Strong Against: Devil" : 22,
+	"HP-Absorption" : 23,
+	"MP-Absorption" : 24,
+	"Manaburn" : 25,
+	"Melee attack Block" : 27,
+	"Bow Dodge" : 28,
+	"Sword Defence" : 29,
+	"Two-Handed Defence" : 30,
+	"Dagger Defence" : 31,
+	"Bell Defence" : 32,
+	"Fan Defence" : 33,
+	"Arrow Resistance" : 34,
+	"Fire Resistance" : 35,
+	"Flash Resistance" : 36,
+	"Magic Defence" : 37,
+	"Wind Defence" : 38,
+	"Melee Reflect" : 39,
+	"Curse Reflect" : 40,
+	"Gift Resistance" : 41,
+	"Not Use" : 42,
+	"Exp-Bonus" : 43,
+	"Yang-Drop" : 44,
+	"Item-Drop" : 45,
+	"Not Use" : 46,
+	"Not Use" : 47,
+	"Stun Imun" : 48,
+	"Slow Imun" : 49,
+	"Fall Imun" : 50,
+	"APPLY_SKILL" : 51,
+	"Arrow Range" : 52,
+	"Attack+" : 53,
+	"Defence+" : 54,
+	"Magicattack+" : 55,
+	"Magicdefence+" : 56,
+	"" : 57,
+	"Max. Endurance" : 58,
+	"Strong against Warrior" : 59,
+	"Strong against Assassin" : 60,
+	"Strong against Sura" : 61,
+	"Strong against Shaman" : 62,
+	"Strong agaianst Monster" : 63,
+	"Not Use" : 64,
+	"Not Use" : 65,
+	"Not Use" : 66,
+	"Not Use" : 67,
+	"Not Use" : 68,
+	"APPLY_MAX_HP_PCT" : 69,
+	"APPLY_MAX_SP_PCT" : 70,
+	"Skill Damage" : 71,
+	"Average Damage" : 72,
+	"Skill Resistance" : 73,
+	"Hit Resistance" : 74,
+	"" : 75,
+	"iCafe EXP-Bonus" : 76,
+	"iCafe Item-Bonus" : 77,
+	"Warrior Defence" : 78,
+	"Assassin Defence" : 79,
+	"Sura Defence" : 80,
+	"Shaman Defence" : 81,
+	}
+	
+class FileListDialog(ui.BoardWithTitleBar):
+	def __init__(self):
+		ui.BoardWithTitleBar.__init__(self)
+
+		self.isLoaded=0
+		self.selectEvent=None
+		self.fileListBox=None
+		self.SetPosition(150 + 330 +10, 200)
+		self.SetSize(220, 315)
+		self.Show()
+		self.AddFlag("movable")
+		self.AddFlag("float")
+		self.SetTitleName('Bonus List')
+		self.SetCloseEvent(self.Close)
+		
+	def __del__(self):
+		ui.BoardWithTitleBar.__del__(self)
+
+	def Show(self):
+		if self.isLoaded==0:
+			self.isLoaded=1
+
+			self.__Load()
+
+		ui.BoardWithTitleBar.Show(self)
+
+	def Open(self):
+		self.Show()
+		
+		self.SetCenterPosition()
+		self.SetTop()
+		self.UpdateFileList()
+
+	def Close(self):
+		self.Hide()
+
+	def OnPressEscapeKey(self):
+		self.Close()
+		return TRUE
+
+	def __CreateFileListBox(self):
+		fileListBox = ui.ListBoxEx()
+		fileListBox.SetParent(self)
+		fileListBox.SetPosition(15, 40)
+		fileListBox.Show()
+		return fileListBox
+
+	def __Load(self):
+		self.__Load_BindObject()
+
+		self.UpdateFileList()
+
+	def __Load_BindObject(self):
+		self.fileListBox = self.__CreateFileListBox()
+		self.LoadFuckingScrollBar()
+		self.fileListBox.SetScrollBar(self.ScrollBar)
+
+		self.UpdateButton = ui.Button()
+		self.UpdateButton.SetParent(self)
+		self.UpdateButton.SetUpVisual("d:/ymir work/ui/public/Large_button_01.sub")
+		self.UpdateButton.SetOverVisual("d:/ymir work/ui/public/Large_button_02.sub")
+		self.UpdateButton.SetDownVisual("d:/ymir work/ui/public/Large_button_03.sub")
+		self.UpdateButton.SetText("Refresh")
+		self.UpdateButton.SetPosition(89, 265)
+		self.UpdateButton.SetEvent(ui.__mem_func__(self.UpdateFileList))
+		self.UpdateButton.Show()
+		self.UpdateButton.Hide()
+		
+		self.SelectBonus = ui.Button()
+		self.SelectBonus.SetParent(self)
+		self.SelectBonus.SetPosition(15, 285)
+		self.SelectBonus.SetUpVisual("d:/ymir work/ui/public/Middle_Button_01.sub")
+		self.SelectBonus.SetOverVisual("d:/ymir work/ui/public/Middle_Button_02.sub")
+		self.SelectBonus.SetDownVisual("d:/ymir work/ui/public/Middle_Button_03.sub")
+		self.SelectBonus.SetText("Add")
+		self.SelectBonus.SetEvent(ui.__mem_func__(self.SetBonis))
+		self.SelectBonus.Show()
+
+		self.CancelBonus = ui.Button()
+		self.CancelBonus.SetParent(self)
+		self.CancelBonus.SetPosition(89, 265)
+		self.CancelBonus.SetUpVisual("d:/ymir work/ui/public/Middle_Button_01.sub")
+		self.CancelBonus.SetOverVisual("d:/ymir work/ui/public/Middle_Button_02.sub")
+		self.CancelBonus.SetDownVisual("d:/ymir work/ui/public/Middle_Button_03.sub")
+		self.CancelBonus.SetText("Exit")
+		self.CancelBonus.SetEvent(ui.__mem_func__(self.Close))
+		self.CancelBonus.Show()
+		self.CancelBonus.Hide()
+
+	def LoadFuckingScrollBar(self):
+		self.ScrollBar = ui.ScrollBar()
+		self.ScrollBar.SetParent(self)
+		self.ScrollBar.SetPosition(195, 40)
+		self.ScrollBar.SetScrollBarSize(250)
+		self.ScrollBar.Show()
+
+	def CancelGuildName(self):
+		self.guildNameBoard.Close()
+		self.guildNameBoard = None
+		return TRUE
+
+	def UpdateFileList(self):
+		self.__RefreshFileList()
+		for BonusType in BonusListe:
+			if BonusType == "":
+				self.fileListBox.AppendItem(Item("Remove"))
+			elif BonusType != "":
+				self.fileListBox.AppendItem(Item(BonusType))
+			#chat.AppendChat(chat.CHAT_TYPE_INFO, str(BonusIDListe[BonusType]))		
+		
+	def __RefreshFileList(self):
+		self.fileListBox.RemoveAllItems()
+		
+	def SetBonis(self):
+		global Bonus0
+		global Bonus1
+		global Bonus2
+		global Bonus3
+		global Bonus4
+		global PRESSWISH0
+		global PRESSWISH1
+		global PRESSWISH2
+		global PRESSWISH3
+		global PRESSWISH4
+		SelectedIndex = self.fileListBox.GetSelectedItem()
+		SelectedIndex = SelectedIndex.GetText()
+		if str(SelectedIndex) != "Remove" and str(SelectedIndex) != "":
+			if PRESSWISH0 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "1.Bonus " + str(SelectedIndex))
+				Bonus0 = BonusIDListe[str(SelectedIndex)]
+				PRESSWISH0 = 0
+			elif PRESSWISH1 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "2.Bonus " + str(SelectedIndex))
+				Bonus1 = int(BonusIDListe[SelectedIndex])
+				PRESSWISH1 = 0
+			elif PRESSWISH2 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "3.Bonus " + str(SelectedIndex))
+				Bonus2 = int(BonusIDListe[SelectedIndex])
+				PRESSWISH2 = 0
+			elif PRESSWISH3 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "4.Bonus " + str(SelectedIndex))
+				Bonus3 = int(BonusIDListe[SelectedIndex])
+				PRESSWISH3 = 0
+			elif PRESSWISH4 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "5.Bonus " + str(SelectedIndex))
+				Bonus4 = int(BonusIDListe[SelectedIndex])
+				PRESSWISH4 = 0
+				
+		elif str(SelectedIndex) == "Remove" and str(SelectedIndex) != "":
+			if PRESSWISH0 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "1.Bonus wurde geloscht")
+				Bonus0 = 0
+				PRESSWISH0 = 0
+			elif PRESSWISH1 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "2.Bonus wurde geloscht")
+				Bonus1 = 0
+				PRESSWISH1 = 0
+			elif PRESSWISH2 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "3.Bonus wurde geloscht")
+				Bonus2 = 0
+				PRESSWISH2 = 0
+			elif PRESSWISH3 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "4.Bonus wurde geloscht")
+				Bonus3 = 0
+				PRESSWISH3 = 0
+			elif PRESSWISH4 == 1:
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "5.Bonus wurde geloscht")
+				Bonus4 = 0
+				PRESSWISH4 = 0	
+				
+		else:
+			chat.AppendChat(chat.CHAT_TYPE_INFO, "Kein Bonus ausgewahlt")		
+		self.Close()
+
+class WaitingDialog(ui.ScriptWindow):
+
+	def __init__(self):
+		ui.ScriptWindow.__init__(self)
+		self.eventTimeOver = lambda *arg: None
+		self.eventExit = lambda *arg: None
+
+	def __del__(self):
+		ui.ScriptWindow.__del__(self)
+
+	def Open(self, waitTime):
+		import time
+		curTime = time.clock()
+		self.endTime = curTime + waitTime
+
+		self.Show()		
+
+	def Close(self):
+		self.Hide()
+
+	def Destroy(self):
+		self.Hide()
+
+	def SAFE_SetTimeOverEvent(self, event):
+		self.eventTimeOver = ui.__mem_func__(event)
+
+	def SAFE_SetExitEvent(self, event):
+		self.eventExit = ui.__mem_func__(event)
+		
+	def OnUpdate(self):
+		import time
+		lastTime = max(0, self.endTime - time.clock())
+		if 0 == lastTime:
+			self.Close()
+			self.eventTimeOver()
+		else:
+			return
+		
+	def OnPressExitKey(self):
+		self.Close()
+		return TRUE
+		
+FILE_NAME_LEN = 40 
 
 class Item(ui.ListBoxEx.Item):
-    
-    def __init__(self, fileName):
-        ui.ListBoxEx.Item.__init__(self)
-        self.canLoad = 0
-        self.text = fileName
-        self.textLine = self._Item__CreateTextLine(fileName)
+	def __init__(self, fileName):
+		ui.ListBoxEx.Item.__init__(self)
+		self.canLoad=0
+		self.text=fileName
+		self.textLine=self.__CreateTextLine(fileName[:FILE_NAME_LEN])          
 
-    
-    def __del__(self):
-        ui.ListBoxEx.Item.__del__(self)
+	def __del__(self):
+		ui.ListBoxEx.Item.__del__(self)
 
-    
-    def GetText(self):
-        return self.text
+	def GetText(self):
+		return self.text
 
-    
-    def SetSize(self, width, height):
-        ui.ListBoxEx.Item.SetSize(self, 6 * len(self.textLine.GetText()) + 4, height)
+	def SetSize(self, width, height):
+		ui.ListBoxEx.Item.SetSize(self, 6*len(self.textLine.GetText()) + 4, height)
 
-    
-    def _Item__CreateTextLine(self, fileName):
-        textLine = ui.TextLine()
-        textLine.SetParent(self)
-        textLine.SetPosition(0, 0)
-        textLine.SetText(fileName)
-        textLine.Show()
-        return textLine
+	def __CreateTextLine(self, fileName):
+		textLine=ui.TextLine()
+		textLine.SetParent(self)
+		textLine.SetPosition(0, 0)
+		textLine.SetText(fileName)
+		textLine.Show()
+		return textLine
+				
 
-
-NewM2Bot().Show()
+SwitchBotDialog2().Show()
