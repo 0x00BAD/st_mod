@@ -97,8 +97,14 @@ for i in range (len(b)):
 						safeboxm=b[i]
 					if a[y]=='ItemToolTip':
 						uiToolTipm=b[i]
+					if a[y]=='Interface':
+						interfaceModulem=b[i]
                         
 huj='import '
+try:
+	exec (huj+interfaceModulem+' as interfaceModule')
+except:
+	pass
 try:
 	exec (huj+safeboxm+' as safebox')
 except:
@@ -259,6 +265,7 @@ try :
 	exec (huj+constInfom+' as constInfo')
 except:
 	exec (huj+constInfom+' as constInfo')
+
 try:
 	import random
 except:
@@ -271,6 +278,7 @@ try:
 	import grp
 except:
 	pass
+
 try:
 	import random
 except:
