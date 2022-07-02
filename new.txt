@@ -1,8 +1,6 @@
-In this version, v260622
+In this version, v020722
 
 Those are the new improvements:
 
-● Fixed the bug that STMod didn't load for some users;
-● Added 'Switchbot' to community scripts;
-● Added config for Metin2Attomey;
-● Fixed some small issues.
+● Made from scratch our Switching bot (including 6/7);
+● Fixed some issues.
