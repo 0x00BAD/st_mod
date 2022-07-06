@@ -1,6 +1,6 @@
-In this version, v020722
+In this version, v060722
 
 Those are the new improvements:
 
-● Made from scratch our Switching bot (including 6/7);
+● Fixed energy-bot for GF servers;
 ● Fixed some issues.
