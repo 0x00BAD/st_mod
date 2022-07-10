@@ -1,6 +1,7 @@
-In this version, v060722
+In this version, v100722
 
 Those are the new improvements:
 
-● Fixed energy-bot for GF servers;
-● Fixed some issues.
+● Added translations for switchbot;
+● Fixed Instant logout;
+● Fixed some other minor issues.
