@@ -1,7 +1,12 @@
-In this version, v100722
+In this version, v230722
 
 Those are the new improvements:
 
-● Added translations for switchbot;
-● Fixed Instant logout;
-● Fixed some other minor issues.
+● Added Map teleport 2, at Farming tab (better and optimized one);
+● Added farming range at Farming tab;
+● Added a 'Fix quests' button on top of STMod window > only click on this when you can't open quests from NPC's;
+● Now STMod will log each PM you'll get (STMod folder > Resources > Logs > * SERVER NAME * > * CHARACTER NAME * .log)
+● Fixed 'Stop if player detected' function for farmbot, miningbot >> now included for fishbot too;
+● Added option to whitelist players (Player detector), you can find the list: STMod folder > Resources > Servers > * SERVER NAME * > player_whitelist.txt (You can add any player to that list, clicking on the '+' button near 'Detect players' function);
+● Added at General Tab, under Switchbot > Biologist bot;
+● Fixed some bugs / issues.
