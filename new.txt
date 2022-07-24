@@ -2,4 +2,5 @@ In this version, v240722
 
 Those are the new improvements:
 
-● Fixed lagging issue on some servers, using farmbot.
+● Fixed lagging issue on some servers, using farmbot;
+● Added individual checks for GM's & players (Notify, logout, quit).
