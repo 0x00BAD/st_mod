@@ -1,6 +1,6 @@
-In this version, v240722
+In this version, v280722
 
 Those are the new improvements:
 
-● Fixed lagging issue on some servers, using farmbot;
-● Added individual checks for GM's & players (Notify, logout, quit).
+● Fixed pickup bot 3 for Metin2Legend;
+● Added a 'fix' button for Calliope (You have to press on it once, when playing on Calliope2).
