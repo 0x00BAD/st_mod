@@ -1,6 +1,6 @@
-In this version, v280722
+In this version, v300722
 
 Those are the new improvements:
 
-● Fixed pickup bot 3 for Metin2Legend;
-● Added a 'fix' button for Calliope (You have to press on it once, when playing on Calliope2).
+● Fixed STMod for Sepherion2;
+● Fixed some issues.
