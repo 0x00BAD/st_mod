@@ -2,5 +2,4 @@ In this version, v300722
 
 Those are the new improvements:
 
-● Fixed STMod for Sepherion2;
-● Fixed some issues.
+● Added Capslock and TAB key to load STMod ingame.
