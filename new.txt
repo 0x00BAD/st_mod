@@ -5,4 +5,5 @@ Those are the new improvements:
 ● Fixed a bug where if 'Use horse' function was enabled, and character got kicked or dead, the bot stopped using it;
 ● Fixed 'Metin & Boss detector' function;
 ● Now, when using skills, STMod will check if the skill is still active, if yes, then it won't deactivate it;
+● Fixed a bug at patcher;
 ● Fixed some small issues.
