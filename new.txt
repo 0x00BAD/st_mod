@@ -1,9 +1,6 @@
-In this version, v100822
+In this version, v170822
 
 Those are the new improvements:
 
-● Fixed a bug at switch-bot, if item was on first slot from inventory, didn't switched on it;
-● Now when you select a bonus on switch-bot, it will auto set the max value [ex: Max HP -> 2000];
-● Fixed attack on Metin2SG;
-● Added newest STMod version on Metin2SG;
-● Fixed some small issues.
+● Improved switchbot;
+● Fixed some bugs.
