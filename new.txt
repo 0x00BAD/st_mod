@@ -1,6 +1,7 @@
-In this version, v170822
+In this version, v220822
 
 Those are the new improvements:
 
-● Improved switchbot;
+● Added latest STMod version for Metin2Classic;
+● Fixed fishbot for Metin2Classic;
 ● Fixed some bugs.
