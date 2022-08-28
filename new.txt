@@ -1,7 +1,8 @@
-In this version, v220822
+In this version, v280822
 
 Those are the new improvements:
 
-● Added latest STMod version for Metin2Classic;
-● Fixed fishbot for Metin2Classic;
-● Fixed some bugs.
+● Added 'Auto sort' & 'Auto stack' functions;
+● Fixed Energy Bot for GF servers;
+● Fixed the bug where if the user had free version, didn't recieved PM's;
+● Fixed some other issues.
