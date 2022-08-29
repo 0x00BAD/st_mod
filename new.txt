@@ -1,8 +1,10 @@
-In this version, v280822
+v290822
 
 Those are the new improvements:
 
-● Added 'Auto sort' & 'Auto stack' functions;
-● Fixed Energy Bot for GF servers;
-● Fixed the bug where if the user had free version, didn't recieved PM's;
-● Fixed some other issues.
+● Added 'Lock target' & 'Lock players' functions;
+● Improved levelbot function;
+● Now you can specify the distance at 'Hotkey teleport' function;
+● Added a 'Refine all' button > with this function you can refine all the items at once with the same VNUM;
+● Now the in-game Logs will be stored in STMod path > Resources > Servers > Metin2Server > Logs;
+● Fixed some bugs.
