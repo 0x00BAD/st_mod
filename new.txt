@@ -1,10 +1,7 @@
-v290822
+Update v310822
 
 Those are the new improvements:
 
-● Added 'Lock target' & 'Lock players' functions;
-● Improved levelbot function;
-● Now you can specify the distance at 'Hotkey teleport' function;
-● Added a 'Refine all' button > with this function you can refine all the items at once with the same VNUM;
-● Now the in-game Logs will be stored in STMod path > Resources > Servers > Metin2Server > Logs;
+● Added a new Injection method (If STMod doesn't inject with the normal injection, check that box, may fix your issue);
+● At fishbot tab added a 'Fishing delay' info message, to check how the delay should be, based on your fishing rod;
 ● Fixed some bugs.
