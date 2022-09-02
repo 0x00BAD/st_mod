@@ -1,7 +1,5 @@
-Update v310822
+Update v020922
 
 Those are the new improvements:
 
-● Added a new Injection method (If STMod doesn't inject with the normal injection, check that box, may fix your issue);
-● At fishbot tab added a 'Fishing delay' info message, to check how the delay should be, based on your fishing rod;
-● Fixed some bugs.
+● Improved Farmbot II & Farmbot III
