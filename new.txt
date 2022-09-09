@@ -1,6 +1,6 @@
 Update v090922
 
-**Those are the new improvements:
+Those are the new improvements:
 
 ● Created new plugin: Argument dumper;
 ● Fixed some bugs.
