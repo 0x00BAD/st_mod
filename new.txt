@@ -3,4 +3,5 @@ Update v090922
 Those are the new improvements:
 
 ● Created new plugin: Argument dumper;
-● Fixed some bugs.
+● Fixed some bugs;
+● Fixed the bug on Kimetsu that you can't recieve PM's.
