@@ -6,4 +6,5 @@ Those are the new improvements:
 ● Added a 'Fix' button for VirtualMT2 for Mining bot;
 ● Improved 'Freeze location' function;
 ● Improved STMod stability, reduced memory usage;
+● Improved Levelbot;
 ● Fixed some small issues.
