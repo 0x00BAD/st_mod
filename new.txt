@@ -1,7 +1,9 @@
-Update v090922
+Update v110922
 
 Those are the new improvements:
 
-● Created new plugin: Argument dumper;
-● Fixed some bugs;
-● Fixed the bug on Kimetsu that you can't recieve PM's.
+● Improved mining bot (Main mining bot and the one from Farmbot III);
+● Added a 'Fix' button for VirtualMT2;
+● Improved 'Freeze location' function;
+● Improved STMod stability, reduced memory usage;
+● Fixed some small issues.
