@@ -3,7 +3,7 @@ Update v110922
 Those are the new improvements:
 
 ● Improved mining bot (Main mining bot and the one from Farmbot III);
-● Added a 'Fix' button for VirtualMT2;
+● Added a 'Fix' button for VirtualMT2 for Mining bot;
 ● Improved 'Freeze location' function;
 ● Improved STMod stability, reduced memory usage;
 ● Fixed some small issues.
