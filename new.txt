@@ -1,8 +1,8 @@
-Update v130922
+Update v150922
 
 Those are the new improvements:
 
-● Improved fishig bot;
-● Added at Fishbot tab > 'Kill fishes', selecting which one to kill;
-● Fixed 'Stop when player detected' from fishbot;
+● Remade from scratch Farmbot III, now will work way smoother, also added 'Kill mobs' function to it;
+Notice: In order to use it, you have to delete old routes, now routes are using a different format.
+Notice 2: In order to farm 'Special' or 'Custom' bosses/mobs (Using 'Kill bosses' function), which are not detected by default by the bot, you have to Open 'Metin & Boss detector', right click on the mob/boss and click on 'Add boss', if everything is okay, a message will show up in chat.
 ● Fixed some small issues.
