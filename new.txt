@@ -1,11 +1,8 @@
-Update v180922
+Update v190922
 
-Those are the new improvements:
+**Those are the new improvements:
 
-Farmbot III Improvements:
-	● Added a 'Use horse skill' checkbox at Farmbot 3 (used if player was stucked);
-	● Added 'Attack metins for x seconds;
-	● Added to select which ore to farm;
-	
 General improvements:
-	● Fixed some issues;
+	● Fixed STMod for Rodnia2;
+	● Fixed STMod for Heltos2;
+	● Fixed some issues.
