@@ -1,8 +1,15 @@
-Update v190922
+Update v200922
 
-**Those are the new improvements:
+Those are the new improvements:
+
+Farmbot III improvements:
+	● Added 'Hybrid' method to go (Combined walking + teleporting);
+	● Now the bot will wait for HP, minimum 35%;
+	● Added an 'Ignore metin' function;
+	● Improved stability of the bot;
+	● Improved stability of the bot;
+	
 
 General improvements:
-	● Fixed STMod for Rodnia2;
-	● Fixed STMod for Heltos2;
-	● Fixed some issues.
+	● Added 'Hybrid' method to go on all functions where used 'Walking' / 'Teleporting';
+	● Fixed some small bugs.
