@@ -1,15 +1,12 @@
-Update v200922
+Update v011022
 
 Those are the new improvements:
 
-Farmbot III improvements:
-	● Added 'Hybrid' method to go (Combined walking + teleporting);
-	● Now the bot will wait for HP, minimum 35%;
-	● Added an 'Ignore metin' function;
-	● Improved stability of the bot;
-	● Improved stability of the bot;
-	
-
 General improvements:
-	● Added 'Hybrid' method to go on all functions where used 'Walking' / 'Teleporting';
-	● Fixed some small bugs.
+	● Now the bot will check if the player is mounting horse (on mining bot(s));
+	● If you're using a function that contains 'Attacking function', the bot will check for player's HP, if your HP is lower than 35%, will stop attaking and move a bit away;
+	● Fixed STMod on Calliope2:
+		--> Now STMod will load again there;
+		--> Fixed a bug at farming bot(s);
+		--> Fixed the bug where you didn't recieve PM's;
+	● Fixed some small issues.
