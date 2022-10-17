@@ -1,18 +1,6 @@
-Update v151022
+Update v171022
 
 Those are the new improvements:
 
 General improvements:
-● Added new STMod version for GF servers, that includes:
-	--> Farmbot works (Metin, ore, boss farm);
-	--> Added pickupbot from OpenBot;
-	--> Remade Speedhack, will no longer back-teleport you;
-	--> Fixed path-finding for Energy bot (now will work everytime, as smooth as possible);
-	--> Added to energy bot: 'Give all items' button, you can now give all items the same VNUM from your inventory separately, without the bot to try to go to buy more items;
-	--> Freeze location;
-	--> Levelbot (including 'Teleport to mob' function) >> this is just simulating the in-game Auto-Attack;
-	--> Metin & Boss detector;
-	--> Fixed 'Use horse' function, add status & skills functions, map teleport >> the newest one, functions such as 'Go to ...';
-● Added 'Farm metins/boss/mobs' at once at Farmbot III;
-● Added 'Custom' ore to mine at both mining-bots;
-● Fixed some small issues.
+	● Added a GUI for captcha solver.
