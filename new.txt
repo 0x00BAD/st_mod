@@ -1,6 +1,8 @@
-Update v171022
+Update v191022
 
 Those are the new improvements:
 
 General improvements:
-	● Added a GUI for captcha solver.
+   ● Fixed Levelbot;
+   ● Fixed pickup-bot for GF servers;
+   ● Fixed some other small bugs.
