@@ -3,5 +3,4 @@ Update v211022
 Those are the new improvements:
 
 General improvements:
-   ● Fixed STMod for Worea2;
-   ● Added Waithack for GF servers.
+   ● Fixed STMod for Worea2.
