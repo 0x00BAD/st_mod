@@ -1,9 +1,6 @@
-Update v191022
+Update v211022
 
 Those are the new improvements:
 
 General improvements:
-   ● Fixed Levelbot;
-   ● Fixed Speed-hack (won't back-teleport you again);
-   ● Fixed pickup-bot for GF servers;
-   ● Fixed some other small bugs.
+   ● Added Waithack for GF servers.
