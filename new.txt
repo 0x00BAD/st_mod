@@ -1,6 +1,8 @@
-Update v211022
+Update v231022
 
 Those are the new improvements:
 
 General improvements:
-   ● Fixed STMod for Worea2.
+	● Added 'Mine nearest ore' function;
+	● Improved Farming bots (metin, boss, ore), from now on, there won't be any 'lag' when searching for entities;
+	● Fixed some issues.
