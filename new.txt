@@ -12,7 +12,6 @@ General improvements:
 			-> Added near 'Use horse', 'Use mount' function, which will auto mount selected mount;
 			-> Added pick-up tab, which includes: Filter pick-up (VIDS), normal pickup (you can use 'pick all items at once') with customised delay;
 			-> Removed Mining bot 1 and the one from Farmbot 3, you can farm independently ore's with the main farming bot;
-			-> Added 
 		● Added at Fishbot tab: 
 			-> If using 'Skip animation' function, by default it will use normal horse, but now you can set to use a specific mount;
 		● All settings will be saved now and loaded correctly at start-up (Use item after relog, item to give to alchemist etc);
