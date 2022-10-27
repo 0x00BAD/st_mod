@@ -1,8 +1,25 @@
-Update v231022
+Update v271022
 
 Those are the new improvements:
 
 General improvements:
-	● Added 'Mine nearest ore' function;
-	● Improved Farming bots (metin, boss, ore), from now on, there won't be any 'lag' when searching for entities;
-	● Fixed some issues.
+	STMod - Pservers:
+		● Rewritten Farming tab, this includes:
+			-> Removed 'Farmbot I, II, III', they are now a single farmbot (metin, ore, boss, mob farm);
+			-> You can now farm by route (added 'run route backwards' too) / in range (check a box at a time);
+			-> Added 'Fast scanning' -> less lag while scanning for new VIDS (metin, ore, boss, mob farm);
+			-> Added 'Unstuck character' -> only used when farmbot is used to go with 'Walking' method;
+			-> Added near 'Use horse', 'Use mount' function, which will auto mount selected mount;
+			-> Added pick-up tab, which includes: Filter pick-up (VIDS), normal pickup (you can use 'pick all items at once') with customised delay;
+			-> Removed Mining bot 1 and the one from Farmbot 3, you can farm independently ore's with the main farming bot;
+			-> Added 
+		● Added at Fishbot tab: 
+			-> If using 'Skip animation' function, by default it will use normal horse, but now you can set to use a specific mount;
+		● All settings will be saved now and loaded correctly at start-up (Use item after relog, item to give to alchemist etc);
+	STMod - Gameforge servers:
+		● After respawning, if you were dead, the bot will wait for HP (you can specify the %)
+		● Added 'Levelbot 2', added because on some servers, the 'Auto-Hunt' option wasn't enabled;
+		● When you use waithack & levelbot (with 'stop if player' on) when you hit, they didn't count -> fixed.
+		
+	
+	● Fixed some other small issues.
