@@ -1,14 +1,8 @@
-Update v291022
+Update v311022
 
 Those are the new improvements:
 
 General improvements:
 	STMod - Pservers:
-		● Fixed the bug from Kimetsu that you didn't recieved PM's;
-		● Fixed bug with false 'bot stopped, player around';
-		● From now on, when using function 'Stop if player detected', when you're running a route, the bot will be paused until detected player is gone (or whitelisted);
-		● Added a 'Attack outside range' box (using this, if you set your range to 500, and the bot is seeing a metin/ore etc, will attack);
-		● Added 'Auto increase range' box (by default it was on, you can turn it off now), this function is useful when the bot is still trying to find some entities and can't find any;
-		● Improved bot to focus on closest entities (if 'Attack outside range' is unchecked).
-		● Fixed pickup bot for Ozin2;
+		● Fixed STMod for Etaria2;
 		● Fixed some other small issues.
