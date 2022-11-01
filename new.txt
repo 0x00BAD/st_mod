@@ -1,8 +1,9 @@
-Update v311022
+Update v011122
 
 Those are the new improvements:
 
 General improvements:
 	STMod - Pservers:
-		● Fixed STMod for Etaria2;
+		● Fixed a bug at Fishbot > buying bait;
+		● Fixed a bug at 'Stop if player detected'.
 		● Fixed some other small issues.
