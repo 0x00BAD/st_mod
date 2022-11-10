@@ -1,13 +1,6 @@
-Update v081122
+Update v101122
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed some issues.
-	
-	STMod - Pservers:
-		● Fixed a bug at Fishbot > selling selected 'items';
-		● Now you can mine more than one 'Custom' ore at a time, to add a 'Custom' ore to the list, just right click on it and click on the '+' button;
-		● Fixed Save & Load settings.
-	STMod - Gameforge servers:
-		● Added 'Inventory' tab, which includes: 'Drop', 'Sell' functions.
+	● Added 'Snow flakes' as a default theme (you can change it from File > Design).
