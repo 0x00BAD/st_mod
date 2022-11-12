@@ -1,6 +1,8 @@
-Update v101122
+Update v121122
 
 Those are the new improvements:
 
 General improvements:
-	● Added 'Snow flakes' as a default theme (you can change it from File > Design).
+	● Fixed Farming bot logic (you can now farm metins, bosses, mobs all at once, the order is this: Metins -> Boss -> Mobs);
+	● Fixed issues while Mining with 'Fast scanning';
+	● Improved 'Farm in range'.
