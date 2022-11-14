@@ -1,8 +1,6 @@
-Update v131122
+Update v141122
 
 Those are the new improvements:
 
 General improvements:
-	● Improved focus on current farmed 'entity';
-	● Fixed STMod for MainWorld2;
-	● Fixed small issues.
+	● Fixed STMod for Boga2.
