@@ -1,6 +1,8 @@
-Update v141122
+Update v161122
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Boga2.
+	● Fixed STMod for Eon2;
+	● Improved 'Not ks' function, now added a checkbox for it too;
+	● Improved 'First autologin' function > when you first start a client.
