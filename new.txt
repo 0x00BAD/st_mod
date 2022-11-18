@@ -1,8 +1,8 @@
-Update v161122
+Update v181122
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Eon2;
-	● Improved 'Not ks' function, now added a checkbox for it too;
-	● Improved 'First autologin' function > when you first start a client.
+   ● Removed 'Fix for Mt2Classic' > Now STMod will 'auto-fix' itself if using it on Mt2Classic (If you are using STMod on Mt2Classic, remove your existing config and redownload it from import settings);
+   ● Improved & updated 'Working list' from STMod, now you can double click on a server and you'll be redirected to their website;
+   ● Fixed some small issues.
