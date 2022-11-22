@@ -1,8 +1,8 @@
-Update v181122
+Update v221122
 
 Those are the new improvements:
 
 General improvements:
-   ● Removed 'Fix for Mt2Classic' > Now STMod will 'auto-fix' itself if using it on Mt2Classic (If you are using STMod on Mt2Classic, remove your existing config and redownload it from import settings);
-   ● Improved & updated 'Working list' from STMod, now you can double click on a server and you'll be redirected to their website;
-   ● Fixed some small issues.
+	● Fixed STMod for Aureria2 [Farmbot, use-item function, spam-function];
+	● Added 'Reply bot' (you can set certain words, if matched in your PM, then reply);
+	● Fixed some small issues.
