@@ -4,9 +4,7 @@ ST-0-1D-9C3E538-ED95772-131FF14-E8A3CA7-F0F3156-6B5A61F-2BD37EA-9A1A123-774662F|
 ST-0-19-B9F69F4-F512BDA-4E900C5-1C6AEEA-4380887-3F3B49F-B8F03D5-F0E6F73-A9534C3|2023-11-30 23:59:59|ug
 ST-0-1E-F455FD3-47F8D7D-0F56608-AA013D8-247658C-39E6E74-3BA58F7-9B0CC8F-A10CAD9|2023-11-30 23:59:59|sc
 ---------------------------------------------------------------------------------------------------
-ST-0-15-14B4D0D-7688084-951ED41-B6BA248-BF3FE4E-5140024-BE1CD0E-E514C5C-EFE4234|2022-11-22 12:57:00|Payment method: Paypal Paid amount: 10,00 € EUR Payment email/username: Admir Ferizi
 ST-0-19-16AC015-B1D6DBB-16B36A8-3D05F45-0AEFF79-50356BD-2ED6F1C-C95DF2B-C79CE28|2022-11-22 21:10:00|Payment method: Paypal Paid amount:12.65 Payment email/username:matheo.fievet@laposte.net
-ST-0-11-925DD6B-21E7224-DDD1E44-38A3464-79172B4-FE30CC6-D2FBEED-E9F3A26-8B82F46|2022-11-22 17:25:00|Payment method: PayPal Paid amount: 10.00€ Payment email/username: nextmon63@gmail.com
 ST-0-14-C7EEDB5-9D7B6E7-21C8674-E9096E6-140D645-4D40324-603F1EF-ADA8D6E-BD718CB|2022-11-22 23:00:00|Payment method: PayPal Paid amount: 12.65€ Payment email/username: nicolas.masica@gmail.com / Nicolas Masica
 ST-0-10-DC620DF-2794017-E9C1224-E359D3B-2F3E6F8-877B7AD-B376E1F-253C061-7EACCB1|2022-11-23 16:51:00|Payment method: Paypal Paid amount: 12.65€ Payment email/username: nicolas.masica@gmail.com / Nicolas Masica
 ST-0-11-6259515-7AF4306-1970D24-55E69A9-052EECA-62D6471-34F6BB5-1D949B9-9147C39|2022-11-23 17:57:00|Payment method: Revolut Paid amount: 5€ Payment email/username: Shinsu#2210 /ihsan uckuyulu
@@ -17,6 +15,7 @@ ST-0-19-A06F6CA-9520851-6638F1C-839F52F-878C64F-5307858-68C81CE-8652A39-D2CA3E4|
 ST-0-16-9C36A1F-89047E5-ACDDE49-83CABAC-B46F229-D5E8CD8-F3A1D32-6873E61-EA48B69|2022-11-25 10:55:00|Payment method: Paypal Paid amount : 12.65 € Payment email : dfavente5@gmail.com
 ST-0-14-29D7E64-AC535AF-3EA2196-8A721A8-A231E89-F463355-4A43E05-DE76B34-A9D86FD|2022-11-25 10:55:00||Payment method: Paypal Paid amount : 5,00€ Payment email: kevinhilmer23@yahoo.com
 ST-0-1C-9CF8CFA-684EDDB-10CB6F8-EE2797D-28F800B-A0F74D8-26E4F31-9434731-A7C0944|2022-11-25 15:30:00|Payment method: Paypal Paid amount : 14,00€ Payment email: hatim.heg90@gmail.com
+ST-0-19-A3D5D7B-C46D52A-9514E2D-4BF9743-E5F6E4D-55B359E-E8542C2-BB15290-40F5798|2022-11-25 19:15:00|Payment method:paypalPaid amount:5 euro e-mail de plata: abelfintoiu@yahoo.com
 ST-0-1C-FAE5FC3-89B9217-166F0C1-462F1FE-0DB42F6-0D78A95-0B7E46C-42ABED4-A988098|2022-11-25 20:18:00|Payment method: paypal Paid amount: 12,65Payment email/username: bazzani.lorenzo@yahoo.it
 ST-0-10-19EE8BB-593ADF8-3B4C1D6-15862A9-5E901B7-BA56230-7BABCFC-6FE6B26-3E174BF|2022-11-26 08:39:00|Payment method: paypal Paid amount: 12,65 Payment email/username: marceloschuermann@hotmail.com
 ST-0-15-3BAC9E0-F47CEC3-68659B8-5081E5C-86DE138-BD7CB01-166CE9A-E06C7D0-8D6FF62|2022-11-26 12:39:00|Payment method: paypal Paid amount: 7 Payment email/username: klentonramus@gmail.com
@@ -235,6 +234,8 @@ ZT-0-1B-EDDAC26-C2C2E1B-34C216D-10F07A4-A237A3F-C535150-42EDE5E-BEC6B8E-7CB9B77|
 ZT-0-13-880ABA5-AC4DE13-379EE59-0B58E42-F8F34C5-FF42CB1-E6DBD67-F11B90C-B23C3E5|2022-11-22 11:17:00|
 ZT-0-1B-2532D3B-56BA11F-0F771E3-D667BEA-982BD26-7B5D4FA-B789066-A6619E4-15E6005|2022-11-22 12:00:00|Payment method: PaypalPaid amount: 5€Payment email/username: grimm_christopher@web.de
 ZT-0-17-97C214E-ADC4745-32450D0-43F903F-69553F8-D3E1E75-1A717BD-EAF02C5-C5F40C8|2022-11-22 12:30:00|Payment method: Paypal Paid amount: 10,00 € EUR Payment email/username: FelixNikitin@web.de
+ZT-0-15-14B4D0D-7688084-951ED41-B6BA248-BF3FE4E-5140024-BE1CD0E-E514C5C-EFE4234|2022-11-22 12:57:00|Payment method: Paypal Paid amount: 10,00 € EUR Payment email/username: Admir Ferizi
+ZT-0-11-925DD6B-21E7224-DDD1E44-38A3464-79172B4-FE30CC6-D2FBEED-E9F3A26-8B82F46|2022-11-22 17:25:00|Payment method: PayPal Paid amount: 10.00€ Payment email/username: nextmon63@gmail.com
 
 ___________________________________________________________________________________________________
 ___________________________________________________________________________________________________
