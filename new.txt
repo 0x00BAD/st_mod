@@ -3,6 +3,11 @@ Update v221122
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Aureria2 [Farmbot, use-item function, spam-function];
-	● Added 'Reply bot' (you can set certain words, if matched in your PM, then reply);
+	● Removed 'Metin2-SG' fix, STMod will now auto-fix itself if you're using it on Metin2SG;
+	● Improved Fishbot;
+	● At Fishbot tab added > 'Go to fisherman if you're not in his range' >>> this will be used if you're far from Fisherman and the bot can't use the shop (buy baits, sell items etc);
+	● Now the bot will save & load the settings from 'Drop/kill fish' tab;
+	● Now when you farm the bot will teleport away (if you have 'TP when HP lower than  x %') when your HP is lower than the value you've set (default 30%);
+	● You can now set the pickup speed up to 10 seconds;
+	● Now the bot will save & load the pickup speed setting;
 	● Fixed some small issues.
