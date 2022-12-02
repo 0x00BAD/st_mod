@@ -3,10 +3,4 @@ Update v021222
 Those are the new improvements:
 
 General improvements:
-	● Fixed lagging issue when Boss farm was active;
-	● Remade 'Map teleport':
-		-> Now supports the maps where the in-game big map wasn't available);
-		-> Added ways to go (walking, teleporting, hybrid);
-	● Fixed Pickup bot for Shiro2;
-	● Added 'Skip animation' at Skillbot;
-	● Added 'Autologin' for GF servers;
+	● Fixed a bug at 'Map teleport';
