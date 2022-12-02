@@ -1,12 +1,12 @@
-Update v281122
+Update v021222
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed Boss farming on Gloria2;
-	● Updated metin/boss detector speed to 0.1 (was 5seconds);
-	● Fixed Reply-Bot for Kronius;
-	● Fixed Skillbot for Shiro2;
-	● Added 'Play beep' for Player / GM detector;
-	● Added 'F7' hotkey for GF servers for Waithack;
-	● Fixed 'Map teleport' for GF servers;
+	● Fixed lagging issue when Boss farm was active;
+	● Remade 'Map teleport':
+		-> Now supports the maps where the in-game big map wasn't available);
+		-> Added ways to go (walking, teleporting, hybrid);
+	● Fixed Pickup bot for Shiro2;
+	● Added 'Skip animation' at Skillbot;
+	● Added 'Autologin' for GF servers;
