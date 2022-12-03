@@ -3,5 +3,5 @@ Update v031222
 Those are the new improvements:
 
 General improvements:
-	● Fixed 'Item user';
-	● Every active licence will get +1 day.
+	● Fixed a bug at Farmbot;
+	● Fixed lagging issue.
