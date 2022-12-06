@@ -3,5 +3,8 @@ Update v031222
 Those are the new improvements:
 
 General improvements:
-	● Fixed a bug at Farmbot;
-	● Fixed lagging issue.
+	● Fixed STMod for Boga2;
+	● Fixed levelbot for Attomey;
+	● Fixed Speedhack for Attomey;
+	● Fixed farmbot (do not ks, now at startup and during farming, the bot will try to auto recognize entities);
+	● Fixed some other issues;
