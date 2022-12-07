@@ -1,9 +1,7 @@
-Update v031222
+Update v071222
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Boga2;
-	● Fixed levelbot for Attomey;
-	● Fixed farmbot (do not ks, now at startup and during farming, the bot will try to auto recognize entities);
-	● Fixed some other issues;
+	● Added 'Ranged' mobber function;
+	● Fixed farmbot issue.
