@@ -1,8 +1,8 @@
-Update v071222
+Update v081222
 
 Those are the new improvements:
 
 General improvements:
-	● Added 'Ranged' mobber function;
-	● Every active licence got +2 days;
-	● Fixed farmbot issue.
+	● Fixed STMod for newest GF version;
+	● Fixed 'Grotto of Exile' on Map Teleport for Shiro2;
+	● When you'll use now Map Teleport and go somewhere, your location will be shown on the map.
