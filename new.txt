@@ -3,6 +3,7 @@ Update v081222
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for newest GF version;
+	● Fixed STMod for newest GF version (including Openbot);
+	NOTICE: After updating STMod, go into STMod folder > Resources and delete from there 'OpenBot-main' folder!
 	● Fixed 'Grotto of Exile' on Map Teleport for Shiro2;
 	● When you'll use now Map Teleport and go somewhere, your location will be shown on the map.
