@@ -1,9 +1,9 @@
-Update v081222
+Update v141222
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for newest GF version (including Openbot);
-	NOTICE: After updating STMod, go into STMod folder > Resources and delete from there 'OpenBot-main' folder!
-	● Fixed 'Grotto of Exile' on Map Teleport for Shiro2;
-	● When you'll use now Map Teleport and go somewhere, your location will be shown on the map.
+	● Fixed 'Rotating' issue for farming bot (now the bot will check if the character has the required orientation, in order to attack correctly);
+	● Fixed 'Grotto of Exile 2' on Map Teleport for Shiro2;
+	● Added 'Mt2Mester' config at Import settings;
+	● Increased 'Exp donator' and also will randomize the delay.
