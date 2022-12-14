@@ -5,5 +5,4 @@ Those are the new improvements:
 General improvements:
 	● Fixed 'Rotating' issue for farming bot (now the bot will check if the character has the required orientation, in order to attack correctly);
 	● Fixed 'Grotto of Exile 2' on Map Teleport for Shiro2;
-	● Added 'Mt2Mester' config at Import settings;
 	● Increased 'Exp donator' and also will randomize the delay.
