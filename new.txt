@@ -5,4 +5,4 @@ Those are the new improvements:
 General improvements:
 	● Fixed a bug where if you'd got logged out on GF servers and logged back in, pickup stopped working until restarting it.
 
-Happy Holidays to everyone!
+Wishing all of our users a joyous and safe holiday season. May this time be filled with love, connection, and appreciation for the people who matter most. Thank you for your support and partnership. Happy holidays and Merry Christmas! 
