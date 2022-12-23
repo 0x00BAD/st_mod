@@ -1,20 +1,8 @@
-Update v211222
+Update v231222
 
 Those are the new improvements:
 
 General improvements:
-	● Remade the licencing system ->
-		- You'll now need an account in order to use STMod (You can create it directly from STMod);
-		- You only have to login once;
-		- The users that have their licence still active, you'll have to create a ticket with your old payment info (Email, key, date of purchase etc) and we will port your old licence to the new one;
-		- The prices are slightly changed;
-		- Now, if you'll use 'Shoppy.gg' as payment method, once the payment is done, you'll recieve your key on your Email (no need to wait for us), also there are only 3 packages available -> 10 days, 30 days, 60 days;
-		- There are 100 coupons ( `STMod10` ) 10% off; 
-	● Fixed STMod for Rubinum ->
-		- Use skill;
-		- Drop-down menus;
-		- Farmbot;
-	● Now, at Import settings if you already have a config for a specific server it will prompt you that if you want to overwrite the existing config (maybe your current config is old);
-	● Fixed STMod free version for GF servers;
-	● Fixed the bug where if you clicked on random positions in game, and had the option 'Auto refresh map' from Map teleport, will teleported you randomly;
-	● Fixed some other issues.
+	● Fixed a bug where if you'd got logged out on GF servers and logged back in, pickup stopped working until restarting it.
+
+Happy Holidays to everyone!
