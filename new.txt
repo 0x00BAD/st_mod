@@ -1,8 +1,10 @@
-Update v231222
+Update v281222
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed a bug where if you'd got logged out on GF servers and logged back in, pickup stopped working until restarting it.
-
-Wishing all of our users a joyous and safe holiday season. May this time be filled with love, connection, and appreciation for the people who matter most. Thank you for your support and partnership. Happy holidays and Merry Christmas! 
+	● Fixed 'Boss farm' for Azyrah;
+	● Now when you'll use 'Levelbot', will go to mobs based on the drop-down value from 'How to move' (Walking/Teleport/Hybrid);
+	● Fixed a bug at 'Add status' function;
+	● Now at 'Upgrade skills' function were with +17 (caused kicks) changed to +5 / skill;
+	● Fixed some issues.
