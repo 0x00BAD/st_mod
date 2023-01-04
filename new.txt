@@ -1,6 +1,8 @@
-Update v281222
+Update v040123
 
 Those are the new improvements:
 
 General improvements:
+	● Fixed STMod for Landom2 (You must use Hybrid or Teleporting as moving method!);
+	● Improved Farmbot logic: Now the bot will attack closest metins first.
 	● Fixed some issues.
