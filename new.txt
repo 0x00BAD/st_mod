@@ -1,13 +1,10 @@
-Update v040123
+Update v060123
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Landom2 (You must use Hybrid or Teleporting as moving method!);
-	● Improved Farmbot logic: Now the bot will attack closest metins first.
-	● Fixed some issues.
-
-Update v040123_rev2
-
-General improvements:
-    ● Fixed farmbot issue that was running into metin and didn't attacked it.
+	● Fixed the bug where STMod was throwing random 'An error occured' messages;
+	● Added 'Priority' at farmbot (the bot will set the priority to what you've chose: metins or bosses first);
+	● Now you can ignore multiple metins at once (if you already had an ignore-metins list, please delete it >> from there: STMod folder > Resources > Servers > Server name > metins_to_ignore.txt and re-make it;
+	● Added function for the bot to wait x seconds after entity died;
+	● Fixed STMod for Metin2BR (Please follow the tutorial from our website, in order to work properly).
