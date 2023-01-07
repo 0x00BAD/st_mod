@@ -3,4 +3,5 @@ Update v070123
 Those are the new improvements:
 
 General improvements:
-	● Improved 'Load settings' function, now should work on every server.
+	● Fixed 'Reset settings' function;
+	● Fixed STMod for Origins2 (use config from import settings).
