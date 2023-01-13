@@ -1,8 +1,8 @@
-Update v110123
+Update v130123
 
 Those are the new improvements:
 
 General improvements:
-	● Added new STMod version for Anthology2 & Legend2.FR;
-	● Fixed STMod for Alune2.pl (use config from import settings, also only inject after you're on character select window or logged in!);
-	● Added 'CH Changer' on General tab (may not work on every server!).
+	● Added 'Anti ban' tab > General tab;
+	● Added options at exp donator: donate exp from level and donate exp after %;
+	● Fixed some issues.
