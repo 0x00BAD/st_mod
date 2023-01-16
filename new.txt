@@ -4,4 +4,5 @@ Those are the new improvements:
 
 General improvements:
 	● Remade entire Fishing bot logic (rewrote it from scratch), now will work way smoother;
+	● Added config for 'EdenM2' at import settings;
 	● Now at farming bot (farm in range option) when the bot doesn't see any entity to attack, will go back to the initial position.
