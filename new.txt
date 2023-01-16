@@ -1,15 +1,7 @@
-Update v130123
+Update v160123
 
 Those are the new improvements:
 
 General improvements:
-	● Added 'Anti ban' tab > General tab;
-	● Added options at exp donator: donate exp from level and donate exp after %;
-	● Fixed some issues.
-	
-Update v130123_rev2
-
-Those are the new improvements:
-
-General improvements:
-	● Added 'Reset password' function.
+	● Remade entire Fishing bot logic (rewrote it from scratch), now will work way smoother;
+	● Now at farming bot (farm in range option) when the bot doesn't see any entity to attack, will go back to the initial position.
