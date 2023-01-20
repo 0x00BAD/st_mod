@@ -1,11 +1,8 @@
-Update v180123
+Update v200123
 
 Those are the new improvements:
 
 General improvements:
-	● Added following functions:
-		> Stop bot in x minutes;
-		> Exit bot in x minutes;
-		> Wait x minutes before logging in (useful if you have 'Logout' option);
-		> Near 'Red elixir' function added a box, you have to place there an item (such as 'dragon god blessing') and the bot will auto use when your HP is lower than the value you set;
+	● Fixed STMod for Shiro2;
+	● Added 'New refine window' function at refine > Inventory tab;
 	● Fixed some issues.
