@@ -1,8 +1,9 @@
-Update v200123
+Update v230123
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Shiro2;
-	● Added 'New refine window' function at refine > Inventory tab;
+	● Fixed STMod for Eon2 (use config from import settings);
+	● Added a new function at farming tab -> 'Go to next target immediately', only use this if the server where you play doesn't 'remove' dead vids (metins/bosses etc) within 1 second once you kill them;
+	● Improved bot functions;
 	● Fixed some issues.
