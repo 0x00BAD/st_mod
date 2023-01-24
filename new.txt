@@ -1,9 +1,9 @@
-Update v230123
+Update v240123
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Eon2 (use config from import settings);
-	● Added a new function at farming tab -> 'Go to next target immediately', only use this if the server where you play doesn't 'remove' dead vids (metins/bosses etc) within 1 second once you kill them;
-	● Improved bot functions;
-	● Fixed some issues.
+	● Added a new function at farming tab -> 'Skip metin if still attacking after X seconds', using this, the bot will check if you're attacking for more than X seconds, if yes, then change target;
+	● Improved 'Save' & 'Load' functions, now will save&load drop downs values (moving method, priority etc);
+	● Added near 'How to move' drop down on Farming tab a checkbox ->> Fix for 'Hybrid' moving method, this way the bot will try too keep the character on ground;
+	● Improved 'Do not KS' function.
