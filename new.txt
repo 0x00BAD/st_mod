@@ -1,9 +1,12 @@
-Update v240123
+Update v270123
 
 Those are the new improvements:
 
 General improvements:
-	● Added a new function at farming tab -> 'Skip metin if still attacking after X seconds', using this, the bot will check if you're attacking for more than X seconds, if yes, then change target;
-	● Improved 'Save' & 'Load' functions, now will save&load drop downs values (moving method, priority etc);
-	● Added near 'How to move' drop down on Farming tab a checkbox ->> Fix for 'Hybrid' moving method, this way the bot will try too keep the character on ground;
-	● Improved 'Do not KS' function.
+	● Added more changing channels option: change CH if:
+		-> finished route (the bot will change ch only if there isn't anything to attack);
+		-> if nothing to attack;
+	● The windows such as: item user, metin & boss detector, map teleport, channel changing options will be attached to the main STMod in-game window;
+	● From now on, Map Teleport will auto update the player location, if 'Auto refresh map' box is checked;
+	● Added near 'Quit game' if GM detected, a new box: 'Quit all clients';
+	● Fixed some bugs.
