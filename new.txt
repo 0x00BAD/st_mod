@@ -1,12 +1,9 @@
-Update v270123
+Update v280123
 
 Those are the new improvements:
 
 General improvements:
-	● Added more changing channels option: change CH if:
-		-> finished route (the bot will change ch only if there isn't anything to attack);
-		-> if nothing to attack;
-	● The windows such as: item user, metin & boss detector, map teleport, channel changing options will be attached to the main STMod in-game window;
-	● From now on, Map Teleport will auto update the player location, if 'Auto refresh map' box is checked;
-	● Added near 'Quit game' if GM detected, a new box: 'Quit all clients';
-	● Fixed some bugs.
+	● Fixed the bug where you didn't recieved PM's on Erenia2
+	● Fixed a bug at 'Walking' moving method;
+	● Now when using 'Hybrid' as moving method with 'Fix' option, the bot won't rotate the camera;
+	● Fixed the bug where if you used farming bot to mine ores then switch to farm metins, it will unequip your weapon.
