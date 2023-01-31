@@ -1,9 +1,7 @@
-Update v280123
+Update v310123
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed the bug where you didn't recieved PM's on Erenia2
-	● Fixed a bug at 'Walking' moving method;
-	● Now when using 'Hybrid' as moving method with 'Fix' option, the bot won't rotate the camera;
-	● Fixed the bug where if you used farming bot to mine ores then switch to farm metins, it will unequip your weapon.
+	● Fixed the bug where you didn't recieved PM's on Remix2;
+	● Fixed some small issues.
