@@ -1,7 +1,14 @@
-Update v310123
+Update v040223
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed the bug where you didn't recieved PM's on Remix2;
-	● Fixed some small issues.
+	GF Servers update:
+		● Added the newest farming tab (which includes the latest PServers updates);
+		● Added CH Changer;
+		● Added Fishbot > General tab;
+		
+	PServers update:
+		● Improved displaying settings on Arabic Pservers;
+		● Fixed PM bug on Shiva2;
+		● Fixed some small issues.
