@@ -1,14 +1,12 @@
-Update v040223
+Update v060223
 
 Those are the new improvements:
 
 General improvements:
-	GF Servers update:
-		● Added the newest farming tab (which includes the latest PServers updates);
-		● Added CH Changer;
-		● Added Fishbot > General tab;
-		
+	● Every active licence got +2 days;
+
 	PServers update:
-		● Improved displaying settings on Arabic Pservers;
-		● Fixed PM bug on Shiva2;
-		● Fixed some small issues.
+		● Fixed the bug where strings from Checkboxes were displayed wrong;
+	GF servers update:
+		● Added back OpenBot;
+		● Fixed the bug at Fishbot where if the bot went to shop or changed channel, the bot stopped.
