@@ -1,12 +1,7 @@
-Update v060223
+Update v070223
 
 Those are the new improvements:
 
 General improvements:
-	● Every active licence got +2 days;
-
-	PServers update:
-		● Fixed the bug where strings from Checkboxes were displayed wrong;
-	GF servers update:
-		● Added back OpenBot;
-		● Fixed the bug at Fishbot where if the bot went to shop or changed channel, the bot stopped.
+	● Added 'Farm method 2' -> only use this on servers where the metin2 client freezes when starting farmbot (servers such as DDMT2, Paradox2 etc);
+	● Fixed some small issues.
