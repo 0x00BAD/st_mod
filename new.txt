@@ -4,5 +4,5 @@ Those are the new improvements:
 
 General improvements:
     ● Fixed STMod for new GF version;
-    ● All active premium keys got +3 days;```
+    ● All active premium keys got +3 days;
     ● Fixed Antiban function for DDMT2.
