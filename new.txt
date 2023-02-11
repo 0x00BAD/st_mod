@@ -1,8 +1,7 @@
-Update v100223
+Update v110223
 
 Those are the new improvements:
 
 General improvements:
-    ● Fixed STMod for new GF version;
-    ● All active premium keys got +3 days;
-    ● Fixed Antiban function for DDMT2.
+    ● Fixed STMod for free users for GF;
+    ● Fixed fishbot for GF servers.
