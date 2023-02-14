@@ -1,7 +1,8 @@
-Update v110223
+Update v140223
 
 Those are the new improvements:
 
 General improvements:
-    ● Fixed STMod for free users for GF;
-    ● Fixed fishbot for GF servers.
+
+● Fixed STMod for Aegma2 (use config from import settings);
+● Fixed a bug at 'Ranged mobber' function.
