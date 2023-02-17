@@ -1,8 +1,11 @@
-Update v140223
+Update v170223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Aegma2 (use config from import settings);
-● Fixed a bug at 'Ranged mobber' function.
+● Added more functions to spoof to Hwid Switcher;
+● Added 'Stop if player detected' at GF fishbot;
+● Fixed 'Quit game if you recieve PM's from GM' function;
+● Fixed the bug from Skipping ads (click on 'Can't skip ads' menu item, this will show up when you can't skip those ads);
+● Fixed some visual bugs.
