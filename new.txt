@@ -1,14 +1,8 @@
-Update v220223
+Update v230223
 
 Those are the new improvements:
 
 General improvements:
 
-● Added 'Mount horse' function at GF fishbot;
-● Improved bot stability on GF servers;
-● Fixed Autologin on GF servers;
-● Fixed STMod for new GF servers version;
-● Added 2 new hotkeys:
-  -> F5: Toggle Farmbot;
-  -> F6: Toggle Normal pickupbot;
-● Fixed some bugs.
+● Fixed STMod for Ashia2 (use config from import settings);
+● Fixed STMod for Mt2Mester (use config from import settings).
