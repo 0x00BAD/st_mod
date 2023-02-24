@@ -1,8 +1,7 @@
-Update v230223
+Update v240223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Ashia2 (use config from import settings);
-● Fixed STMod for Mt2Mester (use config from import settings).
+● Fixed STMod for ROP2 (use config from import settings).
