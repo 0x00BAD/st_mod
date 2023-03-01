@@ -1,7 +1,7 @@
-Update v240223
+Update v010323
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for ROP2 (use config from import settings).
+● Improved HwID Switcher > using it, will now bypass 'Multi farm block'.
