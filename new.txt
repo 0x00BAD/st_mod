@@ -1,7 +1,11 @@
-Update v010323
+Update v070323
 
 Those are the new improvements:
 
 General improvements:
 
-● Improved HwID Switcher > using it, will now bypass 'Multi farm block'.
+● Fixed Fishbot from GF regarding 'Stop if player detected' -> Now won't detect players from Antiban > Whitelist;
+● Fixed Waithack from GF regarding 'Stop if player detected' -> Now won't detect players from Antiban > Whitelist;
+● Fixed Pickup from GF regarding 'Stop if player detected' -> Now won't detect players from Antiban > Whitelist;
+● Fixed 'Logout' function for GF;
+● Fixed 'Map teleport' for Omega2.
