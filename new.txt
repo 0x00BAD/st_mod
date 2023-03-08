@@ -1,11 +1,7 @@
-Update v070323
+Update v090323
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed Fishbot from GF regarding 'Stop if player detected' -> Now won't detect players from Antiban > Whitelist;
-● Fixed Waithack from GF regarding 'Stop if player detected' -> Now won't detect players from Antiban > Whitelist;
-● Fixed Pickup from GF regarding 'Stop if player detected' -> Now won't detect players from Antiban > Whitelist;
-● Fixed 'Logout' function for GF;
-● Fixed 'Map teleport' for Omega2.
+● Fixed Fishbot for new fishing system for Zendra2 (Possible for other servers too).
