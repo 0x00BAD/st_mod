@@ -1,10 +1,8 @@
-Update v090323
+Update v170323
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed Fishbot for GF Servers where if you'd change Map, it stopped working (if still doesn't start once you press on the start button, start fishing manually);
-● Added at GF energy bot a new function: 'Fill inventory' (the bot will fill the inventory with selected items until your inventory has few empty slots);
-● STMod will now save & load Pickup speed;
-● Fixed some other small issues.
+● Fixed 'An error occured' bug;
+● Every active licence got +2 days.
