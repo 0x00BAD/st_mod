@@ -6,3 +6,5 @@ General improvements:
 
 ● Fixed 'An error occured' bug;
 ● Every active licence got +2 days.
+
+Notice: Starting from Today until 20 April, using Coupon code: STMOD30 you'll have a 30% Discount.
