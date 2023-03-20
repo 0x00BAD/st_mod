@@ -1,10 +1,10 @@
-Update v170323
+Update v200323
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed 'An error occured' bug;
+● Registrations are now enabled;
 ● Every active licence got +2 days.
 
 Notice: Starting from 17 March until 20 April, using Coupon code: STMOD30 you'll get 30% Discount.
