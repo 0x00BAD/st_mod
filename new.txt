@@ -1,9 +1,10 @@
-Update v210323
+Update v220323
 
 Those are the new improvements:
 
 General improvements:
 
-● Added auto-fix STMod for Legend of Metin2 (removed the fix from main STMod window, now the bot will auto-fix it on this server)
+● Added auto-fix STMod for Legend of Metin2 (removed the fix from main STMod window, now the bot will auto-fix it on this server);
+● Fixed STMod for Attomey2 (Use config from import settings).
 
-Notice: Starting from 17 March until 20 April, using Coupon code: STMOD30 you'll get 30% Discount.
+Notice: Starting from 17 March until 20 April, using promo code: STMOD30 you'll get 30% Discount.
