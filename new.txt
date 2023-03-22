@@ -1,10 +1,9 @@
-Update v200323
+Update v210323
 
 Those are the new improvements:
 
 General improvements:
 
-● Registrations are now enabled;
-● Every active licence got +2 days.
+● Added auto-fix STMod for Legend of Metin2 (removed the fix from main STMod window, now the bot will auto-fix it on this server)
 
 Notice: Starting from 17 March until 20 April, using Coupon code: STMOD30 you'll get 30% Discount.
