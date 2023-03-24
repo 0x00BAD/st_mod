@@ -1,15 +1,15 @@
-Update v220323
+Update v240323
 
 Those are the new improvements:
 
 General improvements:
-
-● Fixed STMod for GGMT2 (Fixed crashes);
-● Added auto-fix STMod for Legend of Metin2 (removed the fix from main STMod window, now the bot will auto-fix it on this server);
-● Fixed STMod for Attomey2 (Use config from import settings);
-● Added a new function near Pickup > "Pickup only after breaking an entity".
-(This way, STMod won't spam everytime the pickup function, also when this function is used, will only pickup items when a metin / boss etc was killed)
-Notice: This function will only be available when Farmbot is on!
+● Added at 'Map teleport' -> Radar: which includes:
+	
+RED -> Bosses
+BLUE -> Metins
+PURPLE -> Ore
+GREEN -> NPC
+YELLOW -> Players
   
   
 Notice: Starting from 17 March until 20 April, using promo code: STMOD30 you'll get 30% Discount.
