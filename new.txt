@@ -1,15 +1,10 @@
-Update v240323
+Update v250323
 
 Those are the new improvements:
 
 General improvements:
-● Added at 'Map teleport' -> Radar: which includes:
-	
-RED -> Bosses
-BLUE -> Metins
-PURPLE -> Ore
-GREEN -> NPC
-YELLOW -> Players
+● Fixed STMod for GF servers;
+● Every active licence got +2 days.
   
   
 Notice: Starting from 17 March until 20 April, using promo code: STMOD30 you'll get 30% Discount.
