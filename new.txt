@@ -1,10 +1,9 @@
-Update v280323
+Update v300323
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for Sanctum2S2;
-● Fixed instant pickup bot for TZMT2.
+● Fixed STMod for GF servers.
   
   
 Notice: Starting from 17 March until 20 April, using promo code: STMOD30 you'll get 30% Discount.
