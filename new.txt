@@ -1,9 +1,12 @@
-Update v300323
+Update v040423
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for GF servers.
-  
+● Fixed STMod for ROP2;
+● Temporary fixed the webhost issue;
+● All active keys got +2 days.
+
+We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
   
 Notice: Starting from 17 March until 20 April, using promo code: STMOD30 you'll get 30% Discount.
