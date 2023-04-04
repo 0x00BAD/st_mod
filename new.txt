@@ -5,7 +5,7 @@ Those are the new improvements:
 General improvements:
 ● Fixed STMod for ROP2;
 ● Temporary fixed the webhost issue;
-● Everyone got +3 days.
+● Everyone got +3 premium days.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
   
