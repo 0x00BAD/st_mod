@@ -3,7 +3,6 @@ Update v080423
 Those are the new improvements:
 
 General improvements:
- ● Fixed the quests windows shown on GF servers when using Energy bot;
  ● Fixed 'Beep when PM recieved' & 'Reply bot' for Rubinum2;
  ● At 'Inventory' tab added 'Item seller/destroyer' function (Using it, the bot will auto sell [you can also use this without any shop opened if the server accepts this 'selling' packet] / destroy selected items);
  ● Fixed some bugs.
