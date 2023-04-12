@@ -1,11 +1,13 @@
-Update v080423
+Update v120423
 
 Those are the new improvements:
 
 General improvements:
- ● Fixed 'Beep when PM recieved' & 'Reply bot' for Rubinum2;
- ● At 'Inventory' tab added 'Item seller/destroyer' function (Using it, the bot will auto sell [you can also use this without any shop opened if the server accepts this 'selling' packet] / destroy selected items);
- ● Fixed some bugs.
+● Improved bot stability for GF servers;
+  -> Now the quests won't show up when you're using Energybot;
+  -> Added back 'Instant fishing' at fishbot;
+● Fixed STMod for Worea2;
+● Fixed STMod for Rohan2.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
   
