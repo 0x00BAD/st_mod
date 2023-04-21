@@ -1,13 +1,15 @@
-Update v120423
+Update v210423
 
 Those are the new improvements:
 
 General improvements:
-● Improved bot stability for GF servers;
-  -> Now the quests won't show up when you're using Energybot;
-  -> Added back 'Instant fishing' at fishbot;
-● Fixed STMod for Worea2;
-● Fixed STMod for Rohan2.
+● Added auto client restart & login if client crashed (Pservers only);
+● Improved 'Route farming' logic;
+● Once injected (if 'Load STMod' in-game button is shown), in-game STMod window will auto show-up in ~30 seconds;
+● Beep sound can be customized now (You can change it from STMod folder > Resources > Sounds || Make sure the extension of the beep file is .wav -> beep.wav);
+● Fixed arabic text for GF servers;
+● STMod will now save & load Farming bot state (useful if client restarted and keeping the last farming state);
+● Fixed STMod for Revenant2.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
   
