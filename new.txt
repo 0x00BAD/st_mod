@@ -3,6 +3,7 @@ Update v250423
 Those are the new improvements:
 
 General improvements:
+● Fixed freezing issue when captcha was shown on Stellaria;
 ● Fixed STMod for Wilderness.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
