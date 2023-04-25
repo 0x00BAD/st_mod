@@ -1,9 +1,8 @@
-Update v240423
+Update v250423
 
 Those are the new improvements:
 
 General improvements:
-● Translated the in-game part around 95% for every language;
-● Fixed some issues.
+● Fixed STMod for Wilderness.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
