@@ -1,9 +1,8 @@
-Update v250423
+Update v290423
 
 Those are the new improvements:
 
 General improvements:
-● Fixed freezing issue when captcha was shown on Stellaria;
-● Fixed STMod for Wilderness.
+● Fixed a bug where if used Auto login & auto client start, on some servers the bot didn't select the character.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
