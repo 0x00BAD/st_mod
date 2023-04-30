@@ -1,8 +1,8 @@
-Update v290423
+Update v300423
 
 Those are the new improvements:
 
 General improvements:
-● Fixed a bug where if used Auto login & auto client start, on some servers the bot didn't select the character.
+● Added at 'Account manager' PIN support.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
