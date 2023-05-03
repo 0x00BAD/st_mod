@@ -1,8 +1,11 @@
-Update v300423
+Update v020523
 
 Those are the new improvements:
 
 General improvements:
-● Added at 'Account manager' PIN support.
+● Improved 'Stop if player detected' function from Farmbot;
+● Fixed the issue where if 'Show players' on map teleport was toggled, player dots won't show;
+● When you create a new STMod config for a new server, STMod will try to auto configure the best way;
+● Fixed some small issues.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
