@@ -1,11 +1,10 @@
-Update v020523
+Update v050523
 
 Those are the new improvements:
 
 General improvements:
-● Improved 'Stop if player detected' function from Farmbot;
-● Fixed the issue where if 'Show players' on map teleport was toggled, player dots won't show;
-● When you create a new STMod config for a new server, STMod will try to auto configure the best way;
-● Fixed some small issues.
+● Added at 'Auto-login manager' a new button for the bot to select second click X;Y;
+● Added 'Change CH in x seconds' at Farming tab (you can type how many seconds the bot should wait before changing channels);
+● Fixed some small bugs.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
