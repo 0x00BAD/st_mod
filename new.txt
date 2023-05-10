@@ -1,10 +1,9 @@
-Update v050523
+Update v100523
 
 Those are the new improvements:
 
 General improvements:
-● Added at 'Auto-login manager' a new button for the bot to select second click X;Y;
-● Added 'Change CH in x seconds' at Farming tab (you can type how many seconds the bot should wait before changing channels);
-● Fixed some small bugs.
+● Improved 'Change CH in x seconds' logic (the bot will wait X seconds you set before changing CH, if an entity you farm, shows up before those X seconds, the bot will cancel the CH changing sequence);
+● Fixed some issues.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
