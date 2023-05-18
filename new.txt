@@ -1,10 +1,10 @@
-Update v150523
+Update v180523
 
 Those are the new improvements:
 
 General improvements:
-● Fixed item user function for RevolutionMT2;
-● The bot will now open the 'bait box' from Vertas2;
-● Fixed some issues.
+● Fixed the bot when using 'Auto login' (the one that is used when starting client) if your password contained a special character, such as: "+", "^", "%" etc, it didn't typed it;
+● The bot will now save & load fishbot state;
+● Minor bug fixes.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
