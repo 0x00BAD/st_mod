@@ -1,9 +1,9 @@
-Update v190523
+Update v210523
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for LocMT2;
-● Minor bug fixes.
+● Added a potential captcha bypasser for Requilion2 (probably others servers too);
+● Fixed register new account issue.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
