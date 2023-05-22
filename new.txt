@@ -4,7 +4,7 @@ Those are the new improvements:
 
 General improvements:
 ● Fixed STMod for Azora2;
-● The bot will randomize now the mining time with -+ 2 sec;
+● The bot will randomize now the mining time with ± 2 sec;
 ● At Spambot tab -> Auto-reply, added a new function: 'Repeat previous message', using this, the bot will auto respond to the sender with its message (only if the message recieved doesn't exists on your reply list), as example: sender sends you a message with 'hi, are you here?', the bot will answer with 'hi, are you here?';
 ● Minor bugfixes.
 
