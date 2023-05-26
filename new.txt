@@ -1,11 +1,8 @@
-Update v220523
+Update v260523
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for Azora2;
-● The bot will randomize now the mining time with ± 2 sec;
-● At Spambot tab -> Auto-reply, added a new function: 'Repeat previous message', using this, the bot will auto respond to the sender with its message (only if the message recieved doesn't exists on your reply list), as example: sender sends you a message with 'hi, are you here?', the bot will answer with 'hi, are you here?';
-● Minor bugfixes.
+● Improved change CH if nothing to attack logic.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
