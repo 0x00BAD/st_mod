@@ -1,8 +1,10 @@
-Update v260523
+Update v070623
 
 Those are the new improvements:
 
 General improvements:
-● Improved change CH if nothing to attack logic.
+	● Improved 'Do not KS' function, now the bot will check if a player is near the selected metin until it reaches it.
+	● Fixed the Discord bot issues;
+	● Minor improves.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
