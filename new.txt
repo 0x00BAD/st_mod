@@ -3,8 +3,8 @@ Update v070623
 Those are the new improvements:
 
 General improvements:
-	● Improved 'Do not KS' function, now the bot will check if a player is near the selected metin until it reaches it.
-	● Fixed the Discord bot issues;
-	● Minor improves.
+● Improved 'Do not KS' function, now the bot will check if a player is near the selected metin until it reaches it;
+● Fixed the Discord bot issues (now the bot will give you Premium+ role if available, usage: /redeem your_stmod_username);
+● Minor improves.
 
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
