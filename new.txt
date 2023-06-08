@@ -7,4 +7,12 @@ General improvements:
 ● Fixed the Discord bot issues (now the bot will give you Premium+ role if available, usage: /redeem your_stmod_username);
 ● Minor improves.
 
+Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
+
+Make the most of this opportunity to enhance your summer experience. Whether you're planning a vacation ✈️🏖️, exploring the great outdoors 🌲⛰️, or simply looking for ways to relax and unwind 🌸🧘‍♂️, our discount will make it even better. Let our bot take care of your tasks while you focus on making unforgettable memories. 🤖💪
+
+Promo code: STMOD25
+Have a memorable and enjoyable summer!
+
+
 We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
