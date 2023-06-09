@@ -1,11 +1,11 @@
-Update v070623
+Update v090623
 
 Those are the new improvements:
 
 General improvements:
-● Improved 'Do not KS' function, now the bot will check if a player is near the selected metin until it reaches it;
-● Fixed the Discord bot issues (now the bot will give you Premium+ role if available, usage: /redeem your_stmod_username);
-● Minor improves.
+● Fixed STMod for SurvivoM2 (Use config from import settings).
+
+
 
 Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
 
