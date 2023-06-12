@@ -3,7 +3,9 @@ Update v090623
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for SurvivoM2 (Use config from import settings).
+● Fixed STMod for GF;
+● Fixed an issue at 'Skillbot' regarding save & load settings;
+● Every active premium account got +5 days.
 
 
 
