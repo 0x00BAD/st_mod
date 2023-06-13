@@ -1,11 +1,10 @@
-Update v090623
+Update v130623
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for GF;
-● Fixed an issue at 'Skillbot' regarding save & load settings;
-● Every active premium account got +5 days.
+● Fixed instant pickup bot for Nemerum;
+● Improved 'Go to next target immediately' function, now the bot won't go again to dead metin.
 
 
 
