@@ -1,10 +1,11 @@
-Update v130623
+Update v200623
 
 Those are the new improvements:
 
 General improvements:
-● Fixed instant pickup bot for Nemerum;
-● Improved 'Go to next target immediately' function, now the bot won't go again to dead metin.
+● Now the save & load settings will be saved based on your character name (each character will have individual settings, no matter the server, before were based on server name);
+● Now at Shop search bot the item list will be sorted from lowest price to highest;
+● Some bug fixes.
 
 
 
