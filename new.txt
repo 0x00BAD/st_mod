@@ -1,11 +1,11 @@
-Update v200623
+Update v280623
 
 Those are the new improvements:
 
 General improvements:
-● Now the save & load settings will be saved based on your character name (each character will have individual settings, no matter the server, before were based on server name);
-● Now at Shop search bot the item list will be sorted from lowest price to highest;
-● Some bug fixes.
+● Added 'TAB' hotkey for 'Lock target' function;
+● Fixed 'Pickup' for Metin2009;
+● Now when using fishbot, the character won't rotate randomly anymore, the bot will rotate your character to initial position.
 
 
 
