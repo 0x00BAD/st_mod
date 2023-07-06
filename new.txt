@@ -1,12 +1,12 @@
-Update v280623
+Update v060723
 
 Those are the new improvements:
 
 General improvements:
-● Added 'TAB' hotkey for 'Lock target' function;
-● Fixed 'Pickup' for Metin2009;
-● Now when using fishbot, the character won't rotate randomly anymore, the bot will rotate your character to initial position.
-
+● Improved 'Autologin' when client starts logic;
+● Fixed 'Pickup' for Ava2 Remastered;
+● Removed the 'injection time', now STMod will auto inject (if using auto injection) once the Metin2Client is ready;
+● Few bug fixes.
 
 
 Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
