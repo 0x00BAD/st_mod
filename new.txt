@@ -1,21 +1,9 @@
-Update v060723
+Update v070723
 
 Those are the new improvements:
 
 General improvements:
-● Improved 'Autologin' when client starts logic;
-● Fixed 'Pickup' for Ava2 Remastered;
-● Removed the 'injection time', now STMod will auto inject (if using auto injection) once the Metin2Client is ready;
-● Few bug fixes.
-
-Update v060723_rev2
-
-
-Those are the new improvements:
-
-General improvements:
-● Fixed the bug where you could only open a single client.
-
+● Fixed STMod for Legend of Metin / Anthology2 (use config from import settings).
 
 Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
 
