@@ -1,10 +1,9 @@
-Update v110723
+Update v120723
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for UnitedMetin2;
-● Minor improvements.
+● Bugfixes.
 
 Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
 
