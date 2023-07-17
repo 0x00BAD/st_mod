@@ -1,11 +1,10 @@
-Update v140723
+Update v170723
 
 Those are the new improvements:
 
 General improvements:
-● Remade Skillbot function, now you won't need to type the skill time, also, if you have more skills enabled, the bot will use them at once;
-● Impoved 'Split item' function from Shop manager tab;
-● Bugfixes.
+● The bot will now auto add your characters (which you already played with STMod) to whitelist;
+● Fixed STMod for GGMT2 (use config from import settings).
 
 Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
 
