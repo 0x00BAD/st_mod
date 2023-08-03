@@ -1,8 +1,10 @@
-Update v250723
+Update v030823
 
 Those are the new improvements:
 
 General improvements:
+● Added support at switchbot new bonuses such as 'Strong against Metins', 'Strong against Bosses' etc;
+● Added 'Save & load settings' at switchbot, you'll now be able to save desired bonuses and load them;
 ● Bug fixes.
 
 Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
