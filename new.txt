@@ -1,20 +1,7 @@
-Update v030823
+Update v040823
 
 Those are the new improvements:
 
 General improvements:
-● Added support at switchbot new bonuses such as 'Strong against Metins', 'Strong against Bosses' etc;
-● Added 'Save & load settings' at switchbot, you'll now be able to save desired bonuses and load them;
-● Bug fixes.
-
-Get ready for an amazing summer! Starting today, on the 8th of June 2023, and lasting until the 1st of August 2023, we have an exclusive offer just for you. Use the promo code STMOD25 during checkout and enjoy a fantastic 25% discount off the regular price. 💻💼
-
-Make the most of this opportunity to enhance your summer experience. Whether you're planning a vacation ✈️🏖️, exploring the great outdoors 🌲⛰️, or simply looking for ways to relax and unwind 🌸🧘‍♂️, our discount will make it even better. Let our bot take care of your tasks while you focus on making unforgettable memories. 🤖💪
-
-Promo code: STMOD25
-Have a memorable and enjoyable summer!
-
-
-STMod Premium -> You can now purchase 90 days key.
-
-We've created also a Telegram server, feel free to join it from here: https://t.me/xstmod
+● At switchbot, it will dump the bonuses from game, won't use the defined ones anymore;
+● Added at General tab 'use quick slots' -> the bot will auto use the slots (each 5 seconds) from 1 to 4 and F1 to F4, those you select.
