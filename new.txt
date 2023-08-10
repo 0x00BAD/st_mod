@@ -4,16 +4,16 @@ Those are the new improvements:
 
 General improvements:
 ● Fixed STMod for:
-		-> GF Servers;
-		-> Klug2 (use config from import settings);
-		-> Storm2;
-		-> Ares2 (use config from import settings);
-		-> Metin2Shao (use config from import settings);
-		-> Anubis2 (use config from import settings);
-		-> Ashura2 (use config from import settings);
-		-> WOM2 (use config from import settings);
-		-> Zenit2 (use config from import settings);
-		-> Origins2 (use config from import settings);
-		-> Odessa2 (use config from import settings);
-		-> Sylas2 (use config from import settings);
+  -> GF Servers;
+  -> Klug2 (use config from import settings);
+  -> Storm2;
+  -> Ares2 (use config from import settings);
+  -> Metin2Shao (use config from import settings);
+  -> Anubis2 (use config from import settings);
+  -> Ashura2 (use config from import settings);
+  -> WOM2 (use config from import settings);
+  -> Zenit2 (use config from import settings);
+  -> Origins2 (use config from import settings);
+  -> Odessa2 (use config from import settings);
+  -> Sylas2 (use config from import settings);
 ● Every active premium key got +2 days.
