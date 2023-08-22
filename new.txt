@@ -1,12 +1,15 @@
-Update v150823
+Update v220823
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for Emeria2 (use config from import settings);
-● Fixed STMod for Rodnia2 (use config from import settings);
-● Fixed STMod for Zenon2 (use config from import settings);
-● Fixed STMod for Laroxion2 (use config from import settings);
-● Fixed STMod for Sinners2 (use config from import settings);
-● Fixed STMod for Nova2 (use config from import settings);
-● Added customized delay at skillbot.
+	● Fixed STMod for Colossus2 (use config from import settings);
+	● Fixed STMod for AgeOfFusion2 (use config from import settings);
+	● Fixed Autologin when client starting for Rodnia2;
+	● Added at General tab -> 'Dungeons' tab, which will help you to restart the dungeon after finishing it;
+	● Bugfixes.
+
+You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
+
+
+We've also created a Telegram server, feel free to join it from here: https://t.me/xstmod
