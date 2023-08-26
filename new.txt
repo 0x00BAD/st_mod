@@ -1,13 +1,10 @@
-Update v220823
+Update v260823
 
 Those are the new improvements:
 
 General improvements:
-	● Fixed STMod for Colossus2 (use config from import settings);
-	● Fixed STMod for AgeOfFusion2 (use config from import settings);
-	● Fixed Autologin when client starting for Rodnia2;
-	● Added at General tab -> 'Dungeons' tab, which will help you to restart the dungeon after finishing it;
-	● Bugfixes.
+● Added auto-captcha for Colossus2;
+● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
 
