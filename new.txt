@@ -1,10 +1,9 @@
-Update v260823
+Update v280823
 
 Those are the new improvements:
 
 General improvements:
-● Added auto-captcha for Colossus2;
-● Bugfixes.
+● Fixed STMod for Eternity2 / Wilderness2.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
 
