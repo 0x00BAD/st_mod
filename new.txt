@@ -1,10 +1,10 @@
-Update v290823
+Update v300823
 
 Those are the new improvements:
 
 General improvements:
-● Added 'Search' function at servers select / switch server;
-● Bugfixes.
+● Fixed random crashes issues;
+● Every premium active key got +2 days.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
 
