@@ -6,7 +6,7 @@ General improvements:
 ● Fixed Fishbot for Azyrah2;
 ● Fixed Shop search bot for WOM2;
 ● Fixed STMod for GF servers;
-● Every registered account until now, got +3 premium days;
+● Every premium active account, got +3 premium days;
 ● Bugfixes.
 
 
