@@ -1,10 +1,12 @@
-Update v300823
+Update v010923
 
 Those are the new improvements:
 
 General improvements:
-● Fixed random crashes issues;
-● Every premium active key got +2 days.
+● Fixed Fishbot for Azyrah2;
+● Fixed Shop search bot for WOM2;
+● Bugfixes.
+
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
 
