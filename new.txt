@@ -1,14 +1,14 @@
-Update v010923
+Update v060923
 
 Those are the new improvements:
 
 General improvements:
-● Fixed Fishbot for Azyrah2;
-● Fixed Shop search bot for WOM2;
-● Fixed STMod for GF servers;
-● Every premium active account, got +3 premium days;
-● Bugfixes.
-
+● Fixed STMod for Legend of Metin;
+● Fixed STMod for Geria2 (Use config from import settings);
+● Fixed STMod for Legend2Global (Use config from import settings);
+● Fixed STMod for Shiva2 (Use config from import settings);
+● Fixed STMod for Xhantia2 (Use config from import settings);
+● Bugfixes and improvements.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
 
