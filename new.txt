@@ -1,14 +1,13 @@
-Update v060923
+Update v070923
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for Legend of Metin;
-● Fixed STMod for Geria2 (Use config from import settings);
-● Fixed STMod for Legend2Global (Use config from import settings);
-● Fixed STMod for Shiva2 (Use config from import settings);
-● Fixed STMod for Xhantia2 (Use config from import settings);
-● Bugfixes and improvements.
+● Fixed STMod for HardSouls2 (Use config from import settings);
+● Fixed STMod for Nexus2 (Use config from import settings);
+● Fixed STMod for Royal2 (Use config from import settings);
+● Fixed STMod for Metin2Community (Use config from import settings);
+● Bot stability improvements.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
 
