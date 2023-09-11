@@ -5,7 +5,9 @@ Those are the new improvements:
 General improvements:
 ● Fixed STMod for Tenerife2 -> Use config from import settings;
 ● Fixed STMod for ArtOfFight2 (AOF2) -> Use config from import settings;
-● Fixed STMod for Nw2Online -> Use config from import settings.
+● Fixed STMod for Nw2Online -> Use config from import settings;
+● Fixed 'Runtime error';
+● Every active premium account got +1 day.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
 
