@@ -1,13 +1,10 @@
-Update v180923
+Update v200923
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for Beluria.pl (use config from import settings);
-● Fixed STMod for ClashMT2 (use config from import settings);
-● Fixed 'CH Changer' for Solana2;
-● Fixed 'CH Changer' for M6Raw;
-● Fixed 'Selling function' for M6Raw;
+● Fixed STMod for Alaska2 (use config from import settings);
+● Fixed STMod for GGMT2 (use config from import settings);
 ● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
