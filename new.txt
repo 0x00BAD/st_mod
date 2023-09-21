@@ -8,6 +8,3 @@ General improvements:
 ● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
-
-
-We've also created a Telegram server, feel free to join it from here: https://t.me/xstmod
