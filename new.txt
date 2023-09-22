@@ -1,10 +1,9 @@
-Update v200923
+Update v220923
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for Alaska2 (use config from import settings);
-● Fixed STMod for GGMT2 (use config from import settings);
+● Improved 'Fast scanning' function;
 ● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
