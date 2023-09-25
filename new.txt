@@ -1,9 +1,10 @@
-Update v220923
+Update v250923
 
 Those are the new improvements:
 
 General improvements:
-● Improved 'Fast scanning' function;
+● Fixed STMod for Esenn2 (use config from import settings);
+● Fixed STMod for Mt2MesterNext (use config from import settings);
 ● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
