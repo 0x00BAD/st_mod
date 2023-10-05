@@ -1,12 +1,12 @@
-Update v021023
+Update v051023
 
 Those are the new improvements:
 
 General improvements:
-● STMod will now detect if a Metin2client got runtime error (will restart that client if 'auto restart' function is enabled);
-● Fixed STMod for Metin2Destiny (use config from import settings);
-● Fixed STMod for M6Raw (use config from import settings);
-● Remade from scratch Buffbot;
+● Remade the STMod updating logic;
+● QoL improvements;
+● Fixed CH-Changer for Zenit;
+● Fixed CH-Changer for Ashura;
 ● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
