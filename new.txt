@@ -1,12 +1,12 @@
-Update v051023
+Update v071023
 
 Those are the new improvements:
 
 General improvements:
-● Remade the STMod updating logic;
-● QoL improvements;
-● Fixed CH-Changer for Zenit;
-● Fixed CH-Changer for Ashura;
-● Bugfixes.
+● Fixed CH-Changer for Eos2;
+● Fixed CH-Changer for Sirah2;
+● Fixed STMod for Age of Mosha (use config from import settings);
+● Small issues fixed;
+● Added at 'Dungeon' tab function to auto rejoin the 'Devil tower' dungeon for Zenit2.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
