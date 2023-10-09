@@ -7,5 +7,6 @@ General improvements:
 ● Fixed CH flickering issue;
 ● Fixed crashing issue;
 ● Added +1 day to each premium user.
+● Fixed 'Error 1' issue.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
