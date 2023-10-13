@@ -1,11 +1,9 @@
-Update v121023
+Update v131023
 
 Those are the new improvements:
 
 General improvements:
-● Fixed fishbot for History2;
-● Fixed selling function for History2;
-● Fixed STMod for M6Raw;
-● Fixed selling function for M6Raw.
+● Fixed selling function for Age of Magis;
+● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
