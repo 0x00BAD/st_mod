@@ -1,9 +1,10 @@
-Update v131023
+Update v141023
 
 Those are the new improvements:
 
 General improvements:
-● Fixed selling function for Age of Magis;
-● Bugfixes.
+● Fixed STMod for Sanctury2;
+● Bugfixes
+
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
