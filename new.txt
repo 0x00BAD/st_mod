@@ -1,10 +1,10 @@
-Update v141023
+Update v181023
 
 Those are the new improvements:
 
 General improvements:
-● Fixed STMod for Sanctury2;
-● Bugfixes
-
+● Added 'Freeze fish' function for Rodnia;
+● Fixed 'Horse riding' for MT2Genara;
+● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
