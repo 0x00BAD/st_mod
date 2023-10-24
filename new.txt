@@ -1,10 +1,13 @@
-Update v181023
+Update v241023
 
 Those are the new improvements:
 
 General improvements:
-● Added 'Freeze fish' function for Rodnia;
-● Fixed 'Horse riding' for MT2Genara;
+● Improved in-game STMod design;
+● Fixed kicking issue when teleporting/relogging;
+● Fixed switchbot for Aion2;
+● Fixed STMod for Solana2 (Use config from import settings);
+● Run STMod patcher if you do not get the latest version.;
 ● Bugfixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
