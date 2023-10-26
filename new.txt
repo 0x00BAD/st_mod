@@ -1,13 +1,15 @@
-Update v241023
+Update v261023
 
 Those are the new improvements:
 
 General improvements:
-● Improved in-game STMod design;
-● Fixed kicking issue when teleporting/relogging;
-● Fixed switchbot for Aion2;
-● Fixed STMod for Solana2 (Use config from import settings);
-● Run STMod patcher if you do not get the latest version.;
-● Bugfixes.
+● Fixed error 2 issue;
+● Fixed STMod for Age of Magis;
+● Fixed switchbot for Metin2GoodTimes;
+● Fixed Buffbot;
+● Added 'Search bonus' function at switchbot;
+● Fixed 'Sell' & 'Destroy' item function for Gloria2;
+● Every active premium key, got +2 days;
+● Other minor fixes.
 
 You can now add servers where you'd like to play with STMod, check on our Discord server the `#server-request` section. 
