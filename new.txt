@@ -5,6 +5,7 @@ Those are the new improvements:
 General improvements:
 ● Fixed error 2 issue;
 ● Fixed STMod for Age of Magis;
+● Fixed STMod for Metin2BR;
 ● Fixed switchbot for Metin2GoodTimes;
 ● Fixed Buffbot;
 ● Added 'Search bonus' function at switchbot;
