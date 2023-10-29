@@ -1,9 +1,10 @@
-Update v271023
+Update v281023
 
 Those are the new improvements:
 
 General improvements:
-● Fixed CH Changer for Colossus2;
-● Fixed STMod for EmpireMT2;
-● Fixed auto-update.
-
+● Removed 'Farm method2', since might get confusing and it wasn't needed anymore;
+● Fixed STMod for Tamidia2;
+● Fixed STMod for Heyra2;
+● Fixed STMod for Legacy2;
+● Bugfixes.
