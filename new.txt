@@ -4,7 +4,8 @@ Those are the new improvements:
 
 General improvements:
 ● Removed 'Farm method2', since might get confusing and it wasn't needed anymore;
-● Fixed STMod for Tamidia2;
-● Fixed STMod for Heyra2;
-● Fixed STMod for Legacy2;
+● Fixed STMod for Tamidia2 (Use config from import settings);
+● Fixed STMod for Heyra2 (Use config from import settings);
+● Fixed STMod for Legacy2 (Use config from import settings);
+● Fixed STMod for Keynes2 (Use config from import settings);
 ● Bugfixes.
