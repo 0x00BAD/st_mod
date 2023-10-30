@@ -1,12 +1,8 @@
-Update v281023
+Update v301023
 
 Those are the new improvements:
 
 General improvements:
-● Removed 'Farm method2', since might get confusing and it wasn't needed anymore;
-● Fixed STMod for:
--> Tamidia2 (Use config from import settings);
--> Heyra2 (Use config from import settings);
--> Legacy2 (Use config from import settings);
--> Keynes2 (Use config from import settings);
+● Fixed auto injection for EzyMT2 (Use config from import settings);
+● Improved Skillbot;
 ● Bugfixes.
