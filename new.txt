@@ -14,4 +14,5 @@ Update v011123_rev2
 
 General improvements:
 ● Fixed STMod for Mt2Mester (Use config from import settings);
-● Fixed STMod for Alaska2 (Use config from import settings).
+● Fixed STMod for Alaska2 (Use config from import settings);
+● Fixed STMod for Zenit2 (Use config from import settings);
