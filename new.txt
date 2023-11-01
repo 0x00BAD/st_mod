@@ -8,3 +8,10 @@ General improvements:
 ● Fixed STMod for Keynes2 (Use config from import settings);
 ● Fixed STMod for EzyMT2 (Use config from import settings);
 ● Bugfixes.
+
+___________________
+Update v011123_rev2
+
+General improvements:
+● Fixed STMod for Mt2Mester (Use config from import settings);
+● Fixed STMod for Alaska2 (Use config from import settings).
