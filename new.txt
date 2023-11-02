@@ -1,13 +1,8 @@
-Update v011123
+Update v021123
 
 Those are the new improvements:
 
 General improvements:
-● Switchbot won't dump anymore those unused bonuses (such as 'iCafe item drop bonus' etc.);
-● Fixed STMod for Zarox2 (Use config from import settings);
-● Fixed STMod for Keynes2 (Use config from import settings);
-● Fixed STMod for EzyMT2 (Use config from import settings);
-● Fixed STMod for Mt2Mester (Use config from import settings);
-● Fixed STMod for Alaska2 (Use config from import settings);
-● Fixed STMod for Zenit2 (Use config from import settings);
+● Fixed STMod for DDMT2 (Use config from import settings);
+● Added 'Settings window' (in-game), this way you'll be able to save/load settings from different characters with two clicks;
 ● Bugfixes.
