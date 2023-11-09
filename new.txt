@@ -1,21 +1,9 @@
-Update v081123
+Update v091123
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Metin2Luna (use config from import settings);
-● Fixed STMod for EzyMT2 (use config from import settings);
-● Fixed STMod for King2 (use config from import settings);
-● Improved ShopCreator, will now work on M6Raw too;
-● Fixed 'Item list' from Item manager;
-● Fixed Relog issue when adding items at 'Item user' function on Heyra2;
-● Fixed fishbot for GF servers;
-● Remade Start/Stop  logic:
-    You will now be able to start more clients (including client restart/autologin), as follows:
-    -> 10 Days package: 12 clients;
-    -> 30 Days package: 24 clients;
-    -> 60 Days package: 48 clients;
-    -> 90 Days package: 99 clients;
-● Bugfixes;
-● Every premium active account got +2 days.
+● Fixed STMod for Mt2Mester, also fixed 'Auto injection' (use config from import settings);
+● Fixed STMod for Mt2MesterNext;
+● Bug-fixes.
