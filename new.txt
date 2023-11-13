@@ -1,9 +1,11 @@
-Update v091123
+Update v131123
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Mt2Mester, also fixed 'Auto injection' (use config from import settings);
-● Fixed STMod for Mt2MesterNext;
+● Fixed STMod for Evaria2 (use config from import settings);
+● Fixed 'Community scripts' function for Rubinum;
+● Fixed 'CH Changer' for Sineria2;
+● At 'Shop Creator bot' you can now select the slots from where to sell (before was 40);
 ● Bug-fixes.
