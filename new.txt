@@ -1,11 +1,10 @@
-Update v131123
+Update v171123
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Evaria2 (use config from import settings);
-● Fixed 'Community scripts' function for Rubinum;
-● Fixed 'CH Changer' for Sineria2;
-● At 'Shop Creator bot' you can now select the slots from where to sell (before was 40);
-● Bug-fixes.
+● Fixed STMod for DeathWorld2 (use config from import settings);
+● Fixed STMod for Royal2 (use config from import settings, in order to work, you have to inject STMod twice);
+● Bugfixes;
+● Starting from 1st of January 2024, we will no longer support GF servers, that means STMod will stop working there.
