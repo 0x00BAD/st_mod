@@ -6,6 +6,3 @@ General improvements:
 
 ● Fixed fishbot rotation issue;
 ● Bugfixes.
-
-
-Notice: Starting from 1st of January 2024, we will no longer support GF servers, that means STMod will stop working there.
