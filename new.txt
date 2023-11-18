@@ -1,10 +1,11 @@
-Update v171123
+Update v181123
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for DeathWorld2 (use config from import settings);
-● Fixed STMod for Royal2 (use config from import settings, in order to work, you have to inject STMod twice);
-● Bugfixes;
-● Starting from 1st of January 2024, we will no longer support GF servers, that means STMod will stop working there.
+● Fixed fishbot rotation issue;
+● Bugfixes.
+
+
+Notice: Starting from 1st of January 2024, we will no longer support GF servers, that means STMod will stop working there.
