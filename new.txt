@@ -1,8 +1,11 @@
-Update v181123
+Update v221123
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed fishbot rotation issue;
+● Improved Switchbot;
+● Fixed Skillbot for King2;
+● Fixed error 2 issue on Arocs2;
+● Improved skillbot;
 ● Bugfixes.
