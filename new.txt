@@ -6,6 +6,7 @@ General improvements:
 
 ● Improved Switchbot;
 ● Fixed Skillbot for King2;
+● Fixed Skillbot for Origins2;
 ● Fixed error 2 issue on Arocs2;
 ● Improved skillbot;
 ● Bugfixes.
