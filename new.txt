@@ -1,12 +1,12 @@
-Update v221123
+Update v021223
 
 Those are the new improvements:
 
 General improvements:
 
-● Improved Switchbot;
-● Fixed Skillbot for King2;
-● Fixed Skillbot for Origins2;
-● Fixed error 2 issue on Arocs2;
-● Improved skillbot;
-● Bugfixes.
+● Fixed 'Channel Changing' function for Rubinum2;
+● Fixed STMod for World of Nitem (use config from import settings);
+● Fixed STMod for Eluryan2 (use config from import settings);
+● Fixed STMod for Metin2RoSpeed (use config from import settings);
+● Fixed STMod for Troia2 (use config from import settings);
+● Minor issues fixed.
