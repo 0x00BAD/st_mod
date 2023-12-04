@@ -1,12 +1,12 @@
-Update v021223
+Update v041223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed 'Channel Changing' function for Rubinum2;
-● Fixed STMod for World of Nitem (use config from import settings);
-● Fixed STMod for Eluryan2 (use config from import settings);
-● Fixed STMod for Metin2RoSpeed (use config from import settings);
-● Fixed STMod for Troia2 (use config from import settings);
-● Minor issues fixed.
+● Fixed STMod for Metin2Tim (use config from import settings);
+● Fixed STMod for Tonoros2 (use config from import settings);
+● Removed 'Pservers 2' method (STMod will now know if require this method automatically just using default Pservers method);
+● Removed 'Wallhack' box, since didn't worked on most servers, and there's the 'Hybrid' moving method;
+● Removed unused functions;
+● Bugfixes.
