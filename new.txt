@@ -1,12 +1,10 @@
-Update v041223
+Update v051223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Metin2Tim (use config from import settings);
-● Fixed STMod for Tonoros2 (use config from import settings);
-● Removed 'Pservers 2' method (STMod will now know if require this method automatically just using default Pservers method);
-● Removed 'Wallhack' box, since didn't worked on most servers, and there's the 'Hybrid' moving method;
-● Removed unused functions;
-● Bugfixes.
+● STMod (not in-game part) will now inform you if your current path contains special characters;
+● Fixed STMod for Attomey2 (use config from import settings);
+● Fixed STMod for Metin2Severin (use config from import settings);
+● Fixed STMod for Kyros2 (use config from import settings)
