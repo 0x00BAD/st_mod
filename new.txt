@@ -1,10 +1,8 @@
-Update v051223
+Update v061223
 
 Those are the new improvements:
 
 General improvements:
 
-● STMod (not in-game part) will now inform you if your current path contains special characters;
-● Fixed STMod for Attomey2 (use config from import settings);
-● Fixed STMod for Metin2Severin (use config from import settings);
-● Fixed STMod for Kyros2 (use config from import settings)
+● Fixed STMod for Aio2 (use config from import settings);
+● Folder 'Settings' from Resources was renamed to 'IngameResources'.
