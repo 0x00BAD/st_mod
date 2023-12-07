@@ -1,8 +1,8 @@
-Update v061223
+Update v071223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Aio2 (use config from import settings);
-● Folder 'Settings' from Resources was renamed to 'IngameResources'.
+● Fixed STMod for Century2 (use config from import settings);
+● Small issues fixed.
