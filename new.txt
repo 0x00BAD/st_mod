@@ -1,8 +1,9 @@
-Update v071223
+Update v091223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Century2 (use config from import settings);
-● Small issues fixed.
+● Removed 'Ad system';
+● Increased pickup-speed up to 10 seconds;
+● Fixed STMod for GF servers.
