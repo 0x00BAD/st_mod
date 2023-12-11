@@ -1,9 +1,22 @@
-Update v091223
+Update v111223
 
 Those are the new improvements:
 
 General improvements:
 
-● Removed 'Ad system';
-● Increased pickup-speed up to 10 seconds;
-● Fixed STMod for GF servers.
+● Fixed CH Changer for Zenaris2;
+● Fixed CH Changer for Atlas2;
+● Fixed Map teleport & CH Changer for Metin2Severin;
+● Fixed Import settings issue;
+● Fixed STMod for Metin2Novels (use config from import settings);
+● Other small issues fixed.
+
+
+Get ready for the festive season with our Christmas sale!
+
+Since the holidays are around the corner, we've prepared exclusive discounts just for you:
+
+- 10-day package: 30% off - Use Coupon: Christmas30
+- 30-day package: 25% off - Use Coupon: Christmas25
+- 60-day package: 20% off - Use Coupon: Christmas20
+- 90-day package: 15% off - Use Coupon: Christmas15
