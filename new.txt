@@ -1,15 +1,23 @@
-Update v111223
+Update v161223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed CH Changer for Zenaris2;
-● Fixed CH Changer for Atlas2;
-● Fixed Map teleport & CH Changer for Metin2Severin;
-● Fixed Import settings issue;
-● Fixed STMod for Metin2Novels (use config from import settings);
-● Other small issues fixed.
+● Added newest STMod version for GF servers, which includes:
+		-> Added newest interface from PServers;
+		-> Remade waithack logic;
+		-> Remade pickup logic;
+		-> Remade farming bot logic;
+		-> At energybot you'll now be able to use all moving methods (walking, hybrid, teleporting);
+		-> All settings will now be saved & loaded (each botting function);
+		-> Fixed beep & quit function from Antiban;
+		-> QoL changes;
+		-> Many other small improvements / fixes;
+		
+● Fixed STMod for Odessa2 (use config from import settings);
+● Fixed STMod for Colossus2 (use config from import settings);
+● Bugfixes.
 
 
 Get ready for the festive season with our Christmas sale!
