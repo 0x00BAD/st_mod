@@ -20,8 +20,7 @@ General improvements:
 ● Removed 'Attack outside range' box;
 ● Removed 'Fast scanning' box;
 ● Added near 'TP if hp lower' -> Relog (the bot will relog your character if % HP drops below the value you set);
-● Other minor issues fixed;
-● Every premium active account got +5 days.
+● Other minor issues fixed.
 
 
 Get ready for the festive season with our Christmas sale!
