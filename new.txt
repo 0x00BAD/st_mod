@@ -1,27 +1,11 @@
-Update v201223
+Update v221223
 
 Those are the new improvements:
 
 General improvements:
 
-● Currently disabed 'Change CH if nothing to attack' function;
-● Fixed 'Transform to energy crystal' function on GF servers;
-● Fixed STMod for Ashiro2 (use config from import settings);
-● Improved following functions:
-   -> Do not KS: now will ignore every entity that is already occupied by somebody else (before if there were 3 metins and 2 of them occupied, bot would bounce between them);
-   -> Go to next target immediately;
-   -> Stop if player detected function at all botting features (Fishbot, farmbot);
-   -> Remade 'Unstuck' function;
-● Remade farmbot logic;
-● Added 'fixed range' at farmbot:
-   -> Now the bot will stick to the specified range (only if you have 'Fixed range' box checked), and only interact with entities inside that range, if no entity inside that range, the bot will move the character to initial starting location;
-● Removed 'Levelbot' function, since it was somehow duplicated, use Farming bot with 'Monsters' box checked instead;
-● Removed 'Auto increase range' box;
-● Removed 'Attack outside range' box;
-● Removed 'Fast scanning' box;
-● Added near 'TP if hp lower' -> Relog (the bot will relog your character if % HP drops below the value you set);
-● Other minor issues fixed.
-
+● Fixed STMod for Land of Heroes (use config from import settings);
+● Bugfixes.
 
 Get ready for the festive season with our Christmas sale!
 
