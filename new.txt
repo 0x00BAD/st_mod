@@ -1,14 +1,11 @@
-Update v221223
+Update v231223
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for Land of Heroes (use config from import settings);
-● Fixed STMod for Timeless2 (use config from import settings);
-● Fixed STMod for Taleris2 (use config from import settings);
-● Fixed STMod for Spark2 (use config from import settings);
-● Bugfixes.
+● Fixed farming issue;
+● Fixed mining bot for Rubinum2.
 
 Get ready for the festive season with our Christmas sale!
 
