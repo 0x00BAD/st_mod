@@ -1,11 +1,11 @@
-Update v231223
+Update v251223
+
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed farming issue;
-● Fixed mining bot for Rubinum2.
+● Fixed farming issue.
 
 Get ready for the festive season with our Christmas sale!
 
