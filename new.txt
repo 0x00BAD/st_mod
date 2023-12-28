@@ -1,11 +1,16 @@
-Update v251223
+Update v281223
 
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed farming issue.
+● Fixed farming issue;
+● Fixed Energybot for Metin2BR;
+● Fixed 'Reset password';
+● Added back 'CH Changer' from farming tab;
+● All premium active accounts got +5 days.
+
 
 Get ready for the festive season with our Christmas sale!
 
