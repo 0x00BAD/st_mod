@@ -1,12 +1,11 @@
-Update v291223
+Update v301223
 
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed a bug when using 'farm by route'.
-
+● Remade 'servers list'.
 
 Get ready for the festive season with our Christmas sale!
 
