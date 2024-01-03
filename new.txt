@@ -1,17 +1,11 @@
-Update v301223
+Update v030124
 
 
 Those are the new improvements:
 
 General improvements:
 
-● Remade 'servers list'.
-
-Get ready for the festive season with our Christmas sale!
-
-Since the holidays are around the corner, we've prepared exclusive discounts just for you:
-
-- 10-day package: 30% off - Use Coupon: Christmas30
-- 30-day package: 25% off - Use Coupon: Christmas25
-- 60-day package: 20% off - Use Coupon: Christmas20
-- 90-day package: 15% off - Use Coupon: Christmas15
+● Farmbot will now check if character is using a bow, if yes, it won't require anymore to be close to target (as required if non-bow);
+● Fixed STMod for Dinasty2 (use config from import settings);
+● Fixed STMod for LyricuM2 (use config from import settings);
+● Bugfixes.
