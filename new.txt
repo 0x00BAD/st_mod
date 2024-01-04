@@ -1,11 +1,11 @@
-Update v030124
+Update v040124
 
 
 Those are the new improvements:
 
 General improvements:
 
-● Farmbot will now check if character is using a bow, if yes, it won't require anymore to be close to target (as required if non-bow);
-● Fixed STMod for Dinasty2 (use config from import settings);
-● Fixed STMod for LyricuM2 (use config from import settings);
+● Fixed STMod for NewFight2 (use config from import settings);
+● Fixed STMod for Metin2Virgo (use config from import settings);
+● Fixed STMod for Ashiro2;
 ● Bugfixes.
