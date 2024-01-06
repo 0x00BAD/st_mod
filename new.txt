@@ -1,11 +1,11 @@
-Update v040124
+Update v060124
 
 
 Those are the new improvements:
 
 General improvements:
 
-● Fixed STMod for NewFight2 (use config from import settings);
-● Fixed STMod for Metin2Virgo (use config from import settings);
-● Fixed STMod for Ashiro2;
+● Fixed mining bot for GF servers;
+● Fixed the issue where you could only use 1 client on Lyricum2;
+● Fixed CH Changer for WOM2;
 ● Bugfixes.
