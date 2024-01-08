@@ -1,11 +1,10 @@
-Update v060124
+Update v080124
 
 
 Those are the new improvements:
 
-General improvements:
-
-● Fixed mining bot for GF servers;
-● Fixed the issue where you could only use 1 client on Lyricum2;
-● Fixed CH Changer for WOM2;
+● Fixed 'Stop if player detected' function;
+● Fixed STMod for Eternity2 (use config from import settings);
+● Fixed STMod for Zemia2 (use config from import settings);
+● Fixed STMod for Secret of world / SoW2  (use config from import settings);
 ● Bugfixes.
