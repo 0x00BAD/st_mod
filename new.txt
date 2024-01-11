@@ -1,10 +1,12 @@
-Update v080124
+Update v110124
 
 
 Those are the new improvements:
 
-● Fixed 'Stop if player detected' function;
-● Fixed STMod for Eternity2 (use config from import settings);
-● Fixed STMod for Zemia2 (use config from import settings);
-● Fixed STMod for Secret of world / SoW2  (use config from import settings);
+● Fixed on Zemia & SoW2:
+	-> manual adding skills/status points;
+	-> manual mounting/dismounting horse;
+	-> alchemy refiner;
+● Fixed fishbot for Xhelia;
+● Fixed CH Changer for Xhelia;
 ● Bugfixes.
