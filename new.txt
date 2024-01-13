@@ -1,14 +1,11 @@
-Update v120124
+Update v130124
 
 
 Those are the new improvements:
 
 ● Fixed on Zemia & SoW2:
-   -> Item user;
-   -> 1-4 F1-F4 functions;
-   -> sell items function;
-   -> destroy items function;
-   -> auto use dews;
-   -> restart function;
-   -> use horse function.
-● Bugfixes.
+   -> Change CH if...;
+   -> Autologin at client startup;
+● Added at 'CH changer options' from Farming tab -> Relog if nothing to attack;
+● Fixed STMod for Solana2;
+● Fixed autologin on Metin2BR.
