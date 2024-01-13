@@ -4,7 +4,7 @@ Update v130124
 Those are the new improvements:
 
 ● Fixed on Zemia & SoW2:
-   -> Change CH if...;
+   -> Change CH functions (all related functions);
    -> Autologin at client startup;
 ● Added at 'CH changer options' from Farming tab -> Relog if nothing to attack;
 ● Fixed STMod for Solana2;
