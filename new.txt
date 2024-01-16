@@ -1,11 +1,15 @@
-Update v130124
+Update v160124
 
 
 Those are the new improvements:
 
-● Fixed on Zemia & SoW2:
-   -> Change CH functions (all related functions);
-   -> Autologin at client startup;
-● Added at 'CH changer options' from Farming tab -> Relog if nothing to attack;
-● Fixed STMod for Solana2;
-● Fixed autologin on Metin2BR.
+● Fixed STMod for Abyssus2 (use config from import settings);
+● Fixed STMod for Metin2BR (use config from import settings);
+● Fixed shop creator for Metin2BR;
+● Fixed Switchbot for Zemia & SoW2;
+● Fixed 'Item refiner' for Zemia & SoW2;
+● At Antiban tab added: 'Relog each x minutes' function;
+● At farmbot tab added: 'Manual VID range' ->
+	using this, the bot will detect the entities around you faster, (lower VID range, bot will detect entities faster),
+	for longer farming sessions (such as leaving bot overnight) better do not use manual vid range!
+● Bugfixes.
