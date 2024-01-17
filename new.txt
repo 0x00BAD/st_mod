@@ -1,15 +1,9 @@
-Update v160124
+Update v170124
 
 
 Those are the new improvements:
 
-● Fixed STMod for Abyssus2 (use config from import settings);
-● Fixed STMod for Metin2BR (use config from import settings);
-● Fixed shop creator for Metin2BR;
-● Fixed Switchbot for Zemia & SoW2;
-● Fixed 'Item refiner' for Zemia & SoW2;
-● At Antiban tab added: 'Relog each x minutes' function;
-● At farmbot tab added: 'Manual VID range' ->
-	using this, the bot will detect the entities around you faster, (lower VID range, bot will detect entities faster),
-	for longer farming sessions (such as leaving bot overnight) better do not use manual vid range!
-● Bugfixes.
+● Fixed 'PM beep' & 'Auto reply bot' functions for Zemia;
+● Fixed STMod for NewTimes2 (use config from import settings);
+● Fixed STMod for Snoop2 (use config from import settings);
+● Fixed Buffbot for Xhelia2.
