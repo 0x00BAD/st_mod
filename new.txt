@@ -1,9 +1,9 @@
-Update v170124
+Update v180124
 
 
 Those are the new improvements:
 
-● Fixed 'PM beep' & 'Auto reply bot' functions for Zemia;
-● Fixed STMod for NewTimes2 (use config from import settings);
-● Fixed STMod for Snoop2 (use config from import settings);
-● Fixed Buffbot for Xhelia2.
+● Fixed STMod for Spark2 (use config from import settings);
+● Fixed STMod for Metin2Remastered (use config from import settings);
+● Fixed Skillbot for Xhelia2;
+● Bugfixes.
