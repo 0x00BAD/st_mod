@@ -5,5 +5,6 @@ Those are the new improvements:
 
 ● Fixed STMod for Spark2 (use config from import settings);
 ● Fixed STMod for Metin2Remastered (use config from import settings);
+● Fixed STMod for Blaze2 (use config from import settings);
 ● Fixed Skillbot for Xhelia2;
 ● Bugfixes.
