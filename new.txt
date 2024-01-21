@@ -1,10 +1,8 @@
-Update v180124
+Update v210124
 
 
 Those are the new improvements:
 
-● Fixed STMod for Spark2 (use config from import settings);
-● Fixed STMod for Metin2Remastered (use config from import settings);
-● Fixed STMod for Blaze2 (use config from import settings);
-● Fixed Skillbot for Xhelia2;
+● Fixed STMod for WOM2 (use config from import settings);
+● Remade documentation (now available for Officials and PServers): https://wiki.stmod.net;
 ● Bugfixes.
