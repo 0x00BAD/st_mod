@@ -1,8 +1,13 @@
-Update v210124
+Update v230124
 
 
 Those are the new improvements:
 
-● Fixed STMod for WOM2 (use config from import settings);
-● Remade documentation (now available for Officials and PServers): https://wiki.stmod.net;
+● Fixed STMod for Curse2 (use config from import settings);
+● Fixed STMod for RebornOfSword (use config from import settings);
+● Fixed STMod for Wott2 (use config from import settings);
+● Fixed STMod for OldLife2 (use config from import settings);
+● Fixed STMod for Zarya2 (use config from import settings);
+● Fixed STMod for Misali2 (use config from import settings);
+● Fixed an issue where if first started STMod and used on GF, you weren't allowed to switch to PServers;
 ● Bugfixes.
