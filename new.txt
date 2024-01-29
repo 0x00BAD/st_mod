@@ -1,13 +1,16 @@
-Update v230124
+Update v290124
 
 
 Those are the new improvements:
 
-● Fixed STMod for Curse2 (use config from import settings);
-● Fixed STMod for RebornOfSword (use config from import settings);
-● Fixed STMod for Wott2 (use config from import settings);
-● Fixed STMod for OldLife2 (use config from import settings);
-● Fixed STMod for Zarya2 (use config from import settings);
-● Fixed STMod for Misali2 (use config from import settings);
-● Fixed an issue where if first started STMod and used on GF, you weren't allowed to switch to PServers;
+● Fixed STMod for Metin2Classic / Yeogsa (use config from import settings);
+● Fixed STMod for EmtGen2 (use config from import settings);
+● Fixed STMod for Obsidian2 (use config from import settings);
+● Fixed STMod for Legendary2 (use config from import settings);
+● Fixed STMod for Alaska2 (use config from import settings);
+● Fixed STMod for PvPMT2 (use config from import settings);
+● Fixed STMod for EpicalMT2 (use config from import settings);
+● Fixed STMod for Miyura2 (use config from import settings);
+● Fixed Map teleport for Mt2OldSchool;
+● Fixed a farmbot issue;
 ● Bugfixes.
