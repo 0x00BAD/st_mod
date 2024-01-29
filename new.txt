@@ -10,7 +10,6 @@ Those are the new improvements:
 ● Fixed STMod for Alaska2 (use config from import settings);
 ● Fixed STMod for PvPMT2 (use config from import settings);
 ● Fixed STMod for EpicalMT2 (use config from import settings);
-● Fixed STMod for Miyura2 (use config from import settings);
 ● Fixed Map teleport for Mt2OldSchool;
 ● Fixed a farmbot issue;
 ● Bugfixes.
