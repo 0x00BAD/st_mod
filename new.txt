@@ -1,15 +1,8 @@
-Update v290124
+Update v310124
 
 
 Those are the new improvements:
 
-● Fixed STMod for Metin2Classic / Yeogsa (use config from import settings);
-● Fixed STMod for EmtGen2 (use config from import settings);
-● Fixed STMod for Obsidian2 (use config from import settings);
-● Fixed STMod for Legendary2 (use config from import settings);
-● Fixed STMod for Alaska2 (use config from import settings);
-● Fixed STMod for PvPMT2 (use config from import settings);
-● Fixed STMod for EpicalMT2 (use config from import settings);
-● Fixed Map teleport for Mt2OldSchool;
-● Fixed a farmbot issue;
+● Fixed STMod for LocMT2 (use config from import settings);
+● Fixed STMod for Reflex2 (use config from import settings);
 ● Bugfixes.
