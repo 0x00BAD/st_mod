@@ -1,8 +1,7 @@
-Update v310124
+Update v040224
 
 
 Those are the new improvements:
 
-● Fixed STMod for LocMT2 (use config from import settings);
-● Fixed STMod for Reflex2 (use config from import settings);
-● Bugfixes.
+	● Fixed STMod for Rasyonel (use config from import settings);
+	● Fixed STMod for Sayn2 (use config from import settings).
