@@ -3,5 +3,5 @@ Update v040224
 
 Those are the new improvements:
 
-	● Fixed STMod for Rasyonel (use config from import settings);
-	● Fixed STMod for Sayn2 (use config from import settings).
+● Fixed STMod for Rasyonel (use config from import settings);
+● Fixed STMod for Sayn2 (use config from import settings).
