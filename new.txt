@@ -1,10 +1,8 @@
-Update v050224
+Update v070224
 
 
 Those are the new improvements:
 
-● Fixed the bug where if using Fishbot on GF servers and had 'Change CH if..', fishbot stopped;
-● Fixed STMod for Zenitar (use config from import settings);
-● Fixed STMod for Star2 (use config from import settings);
-● At 'CH Changing options' from Farming tab added: 'Restart Farmbot if nothing to attack';
+● Fixed STMod for EmpireMT2 (use config from import settings);
+● Added 'Camera movement' as moving method;
 ● Bugfixes.
