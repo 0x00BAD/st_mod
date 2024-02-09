@@ -1,8 +1,14 @@
-Update v070224
+Update v090224
 
 
 Those are the new improvements:
 
-● Fixed STMod for EmpireMT2 (use config from import settings);
-● Added 'Camera movement' as moving method;
+● Partially fixed STMod for GF:
+  -> Walking method won't be available anymore;
+  -> Fishbot removed;
+  -> Range pickup bot / filter pickup removed;
+Rest of functions working.
+NOTICE: This will be the last STMod update regarding GF servers!
+
+● Every premium active account got +3 days;
 ● Bugfixes.
