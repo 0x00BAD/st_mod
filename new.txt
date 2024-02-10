@@ -1,14 +1,9 @@
-Update v090224
+Update v100224
 
 
 Those are the new improvements:
 
-● Partially fixed STMod for GF:
-  -> Walking method won't be available anymore;
-  -> Fishbot removed;
-  -> Range pickup bot / filter pickup removed;
-Rest of functions working.
-NOTICE: This will be the last STMod update regarding GF servers!
-
-● Every premium active account got +3 days;
+● Fixed STMod for E3-AquaII;
+● Added at Farm by route: 'Start route from closest position' function;
+● At fishbot, fish delay, you'll now have a 'Randomize' function;
 ● Bugfixes.
