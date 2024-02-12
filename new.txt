@@ -4,4 +4,5 @@ Update v120224
 Those are the new improvements:
 
 ● Fixed all STMod functions for GF servers;
+● Every premium active account got +1 week;
 ● Bugfixes.
