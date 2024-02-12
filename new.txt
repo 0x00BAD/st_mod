@@ -1,9 +1,7 @@
-Update v100224
+Update v120224
 
 
 Those are the new improvements:
 
-● Fixed STMod for E3-AquaII;
-● Added at Farm by route: 'Start route from closest position' function;
-● At fishbot, fish delay, you'll now have a 'Randomize' function;
+● Fixed all STMod functions for GF servers;
 ● Bugfixes.
