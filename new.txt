@@ -1,8 +1,8 @@
-Update v120224
+Update v130224
 
 
 Those are the new improvements:
 
-● Fixed all STMod functions for GF servers;
-● Every premium active account got +1 week;
+● Fixed STMod for Sinners2 (use config from import settings);
+● Removed boxes such as 'Load faster', 'Fix certain servers' etc. now these settings will be automatically set by STMod;
 ● Bugfixes.
