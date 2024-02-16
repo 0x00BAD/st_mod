@@ -1,8 +1,8 @@
-Update v130224
+Update v160224
 
 
 Those are the new improvements:
 
-● Fixed STMod for Sinners2 (use config from import settings);
-● Removed boxes such as 'Load faster', 'Fix certain servers' etc. now these settings will be automatically set by STMod;
-● Bugfixes.
+● Fixed Fishbot for Guabina2;
+● Improved 'Unstuck' function;
+● Added in-game timer, telling you how much time had STMod running (in current instance).
