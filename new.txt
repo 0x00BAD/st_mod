@@ -1,14 +1,8 @@
-Update v200224
+Update v240224
 
 
 Those are the new improvements:
 
-● Fixed STMod for Osiris2;
-● Fixed STMod for Metin2Select;
-● Fixed STMod for Ledania2;
-● Fixed STMod for Valoron;
-● Fixed STMod for ImperiaWorld;
-● Fixed dungeon bot for Zemia2;
-● STMod 90 package days reduced to 34.99€ (Sellix);
-● At general tab, added 'Rotate to target' function, useful in PVP (STMod will rotate your character to your current target, this way, you won't miss your skills anymore;
+● Made the 'start antiban' button to flash, so it won't get confusing anymore;
+● At antiban tab, added 'Notify', enabling this box, when a player/gm detected, STMod will send a windows notification;
 ● Bugfixes.
