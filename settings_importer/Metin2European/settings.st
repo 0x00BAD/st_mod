@@ -1,0 +1,15 @@
+[ST Mod Settings]
+CLIENT PATH=
+SERVER NAME=Metin2European
+ARGUMENT=False
+ARGUMENT KEY=
+CLIENT WITH EXT=Metin2European.exe
+CLIENT WITHOUT EXT=Metin2European
+METHOD_2=True
+GF_METHOD=False
+PATCHER METHOD=False
+PATH2=
+COPY BINARY=False
+[Ingame-settings]
+WH=1
+SELF SCRIPT=1
