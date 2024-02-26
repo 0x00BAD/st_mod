@@ -1,8 +1,9 @@
-Update v240224
+Update v260224
 
 
 Those are the new improvements:
 
-● Made the 'start antiban' button to flash, so it won't get confusing anymore;
-● At antiban tab, added 'Notify', enabling this box, when a player/gm detected, STMod will send a windows notification;
+● Fixed STMod for Emerald2Global (use config from import settings);
+● Fixed STMod for Mt2Odyssey (use config from import settings);
+● Fixed bonus display at Switchbot for Metin2European;
 ● Bugfixes.
