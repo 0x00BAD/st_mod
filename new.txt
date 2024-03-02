@@ -1,9 +1,14 @@
-Update v260224
+Update v020324
 
 
 Those are the new improvements:
 
-● Fixed STMod for Emerald2Global (use config from import settings);
-● Fixed STMod for Mt2Odyssey (use config from import settings);
-● Fixed bonus display at Switchbot for Metin2European;
+● Fixed STMod for HFM2;
+● Fixed STMod for Elion2;
+● Fixed STMod for Lorya2;
+● Fixed STMod for Keynes2;
+● Improved farming route record logic;
+● Fixed updating STMod randomized names (this will only be available since next updates);
+● Added at ingame STMod 'Open wiki' button;
+● Improved bot stability;
 ● Bugfixes.
