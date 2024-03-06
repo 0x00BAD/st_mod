@@ -1,16 +1,9 @@
-Update v020324
+Update v060324
 
 
 Those are the new improvements:
 
-● Fixed STMod for HFM2;
-● Fixed STMod for Elion2;
-● Fixed STMod for Lorya2;
-● Fixed STMod for Keynes2;
-● Improved farming route record logic;
-● Fixed updating STMod randomized names (this will only be available since next updates);
-● Added at ingame STMod 'Open wiki' button;
-● Improved bot stability;
-● Bugfixes.
+● Fixed STMod for Eternal2;
+● Fixed STMod for Linoria2.
 
 Use coupon code SPRING25 at checkout (SELLIX) to get 25% discount for any package! 
