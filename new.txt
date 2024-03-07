@@ -1,9 +1,8 @@
-Update v060324
+Update v070324
 
 
 Those are the new improvements:
 
-● Fixed STMod for Eternal2;
-● Fixed STMod for Linoria2.
+● Fixed STMod for Metin2Galaxy (use config from import settings).
 
 Use coupon code SPRING25 at checkout (SELLIX) to get 25% discount for any package! 
