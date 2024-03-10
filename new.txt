@@ -5,5 +5,3 @@ Those are the new improvements:
 
 ● Fixed STMod for Zeria2;
 ● Fixed STMod for Skyland (use config from import settings).
-
-Use coupon code SPRING25 at checkout (SELLIX) to get 25% discount for any package! 
