@@ -1,9 +1,9 @@
-Update v090324
+Update v100324
 
 
 Those are the new improvements:
 
-● Fixed STMod for Metin2Gemini (use config from import settings);
-● Fixed STMod for GoldenTimes (use config from import settings).
+● Fixed STMod for Zeria2;
+● Fixed STMod for Skyland (use config from import settings).
 
 Use coupon code SPRING25 at checkout (SELLIX) to get 25% discount for any package! 
