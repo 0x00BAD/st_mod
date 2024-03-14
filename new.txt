@@ -1,7 +1,10 @@
-Update v100324
+Update v140324
 
 
 Those are the new improvements:
 
-● Fixed STMod for Zeria2;
-● Fixed STMod for Skyland (use config from import settings).
+● Fixed STMod for Persia2 (use config from import settings);
+● Fixed STMod for Royal2 (use config from import settings);
+● Fixed STMod for RPP2 (use config from import settings);
+● Improved bot stability;
+● Bugfixes.
