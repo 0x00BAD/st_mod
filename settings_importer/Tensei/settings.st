@@ -1,0 +1,15 @@
+[ST Mod Settings]
+CLIENT PATH=
+SERVER NAME=Tensei
+ARGUMENT=True
+ARGUMENT KEY= keywordgow2protect
+CLIENT WITH EXT=metin2client.exe
+CLIENT WITHOUT EXT=metin2client
+METHOD_2=True
+GF_METHOD=False
+PATCHER METHOD=False
+PATH2=
+COPY BINARY=False
+[Ingame-settings]
+SELF SCRIPT=1
+ATTACK AS NINJA=1
