@@ -1,10 +1,11 @@
-Update v140324
-
+Update v180324
 
 Those are the new improvements:
 
-● Fixed STMod for Persia2 (use config from import settings);
-● Fixed STMod for Royal2 (use config from import settings);
-● Fixed STMod for RPP2 (use config from import settings);
-● Improved bot stability;
+● Fixed STMod for Vargos2 (use config from import settings);
+● Fixed STMod for Nerium2 (use config from import settings);
+● Fixed STMod for Verion2 (use config from import settings);
+● Fixed autologin for DDMT2;
+● Fixed Use horse function for HFM2;
+● Fixed still walking if player dead using Hybrid moving method on GF servers;
 ● Bugfixes.
