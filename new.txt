@@ -1,14 +1,6 @@
-Update v180324
+Update v210324
 
 Those are the new improvements:
 
-● Fixed STMod for Mt2MesterNext (use config from import settings);
-● Fixed STMod for CsytMT2 (use config from import settings);
-● Fixed STMod for Vargos2 (use config from import settings);
-● Fixed STMod for Nerium2 (use config from import settings);
-● Fixed STMod for Verion2 (use config from import settings);
-● Fixed autologin for DDMT2;
-● Fixed Use horse function for HFM2;
-● Fixed still walking if player dead using Hybrid moving method on GF servers;
-● Added at 'Use horse' function -> 'Pause attack';
+● Improved 'One hit' function;
 ● Bugfixes.
