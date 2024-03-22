@@ -1,6 +1,5 @@
-Update v210324
+Update v220324
 
 Those are the new improvements:
 
-● Improved 'One hit' function;
-● Bugfixes.
+● Fixed STMod for Land of Heroes.
