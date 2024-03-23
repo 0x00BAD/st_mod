@@ -1,5 +1,5 @@
-Update v220324
+Update v230324
 
 Those are the new improvements:
 
-● Fixed STMod for Land of Heroes.
+● Fixed STMod for LocMT2.
