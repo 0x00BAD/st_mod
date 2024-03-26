@@ -1,5 +1,9 @@
-Update v230324
+Update v260324
 
 Those are the new improvements:
 
-● Fixed STMod for LocMT2.
+● Fixed STMod for Imperium2 (Use config from import settings);
+● Fixed STMod for Avery2 (Use config from import settings);
+● Fixed CH Changer for Nethara2;
+● STMod bot now is able to reset your HWID, command: /hwidreset + your STMod username.
+  -> Example: /hwidreset 0x00BAD
