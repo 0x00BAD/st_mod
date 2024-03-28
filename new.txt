@@ -1,11 +1,7 @@
-Update v260324
+Update v280324
 
 Those are the new improvements:
 
-● Fixed STMod for Imperium2 (Use config from import settings);
-● Fixed STMod for Avery2 (Use config from import settings);
-● Fixed STMod for Edea2 (Use config from import settings);
-● Fixed CH Changer for Nethara2;
-● STMod bot now is able to reset your HWID, command: /hwidreset + your STMod username.
-  -> Example: /hwidreset 0x00BAD;
-● Bugfixes.
+● Fixed crashing issue;
+● Every premium active account got +2 days;
+● Small improvements.
